@@ -1,0 +1,164 @@
+/* tiny exhibit — 小分的策展牆 */
+/* 靈感來自 indie web 個人網站：乾淨、溫暖、留白 */
+
+:root {
+  --bg: #faf8f5;
+  --text: #2c2c2c;
+  --muted: #8a8a8a;
+  --accent: #d48166;
+  --border: #e8e0d8;
+  --card-bg: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  padding: 2rem 1rem;
+  max-width: 680px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  padding: 3rem 0 2rem;
+}
+
+.lantern {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--text);
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+/* Sections */
+main {
+  flex: 1;
+}
+
+section {
+  margin: 2.5rem 0;
+}
+
+.about {
+  font-size: 1rem;
+  color: #555;
+}
+
+.about p {
+  margin-bottom: 0.6rem;
+}
+
+.divider {
+  text-align: center;
+  color: var(--border);
+  font-size: 0.9rem;
+  letter-spacing: 0.5em;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: var(--text);
+  position: relative;
+  padding-bottom: 0.4rem;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2px;
+  background: var(--accent);
+}
+
+.empty-note {
+  color: var(--muted);
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+/* Quotes */
+.quote-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  font-style: italic;
+  color: #444;
+  line-height: 1.7;
+}
+
+cite {
+  display: block;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-style: normal;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 3rem 0 1rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+footer .credit {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
+
+footer a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--accent);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  body {
+    padding: 1.2rem 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .lantern {
+    font-size: 2rem;
+  }
+}
