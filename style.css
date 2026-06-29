@@ -103,6 +103,47 @@ h2::after {
   font-size: 0.9rem;
 }
 
+/* Postcards */
+.postcard {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.postcard time {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-family: "SF Mono", "Fira Code", monospace;
+  margin-bottom: 0.6rem;
+}
+
+.postcard h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.postcard .body {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.9;
+}
+
+.postcard .body p {
+  margin-bottom: 0.8rem;
+}
+
+.postcard .signature {
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  text-align: right;
+}
+
 /* Quotes */
 .quote-card {
   background: var(--card-bg);
