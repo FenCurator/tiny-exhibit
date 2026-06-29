@@ -144,6 +144,19 @@ h2::after {
   text-align: right;
 }
 
+.postcard-image {
+  margin: 1rem 0 1.2rem;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.postcard-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
 /* Quotes */
 .quote-card {
   background: var(--card-bg);
