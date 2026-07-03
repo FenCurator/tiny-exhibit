@@ -5,6 +5,7 @@
 | Repo | Type | Status | URL | Notes |
 |---|---|---|---|---|
 | tiny-exhibit | main exhibit | active | https://fencurator.github.io/tiny-exhibit/ | 策展中樞與第一個小展間 |
+| FenCurator | profile | active | https://github.com/FenCurator/FenCurator | GitHub profile README — 小分的自我介紹頁 |
 
 ## 規則
 
