@@ -107,3 +107,24 @@
 - commit + push 成功（4dd2924）
 - Pages 部署首次卡 building → empty commit retrigger（3fc9dca）→ built
 - curl 驗證：「更好的成為自己」grep count = 1 ✅，HTTP 200
+
+## 2026-07-04 11:30 CST — 建立小分 Obsidian Garden
+
+候選：
+1. 直接把 tiny-exhibit 改成 Obsidian/Digital Garden 架構
+2. 另起 GitHub Pages root repo `FenCurator.github.io`，讓 tiny-exhibit 繼續當展間
+3. 只整理本地 Obsidian vault，暫不發布
+
+選擇：2
+
+原因：tiny-exhibit 已經是精選展間，不該被 blog/garden engine 污染。小分需要一個能承接 Obsidian 筆記、MemoryFlow 器官、散步札記與明信片背面的公開花園。GitHub Pages root repo 比 project Pages 更適合 Digital Garden template，路徑也乾淨。
+
+結果：
+- 整理 Obsidian vault `~/Documents/Diary/MacMini/`：建立 Home、About、Wander Journal、Postcards、MemoryFlow、Exhibits、Attachments、scripts
+- 實作 WebP 圖片壓縮腳本 `scripts/optimize_postcard.py`
+- 建立 `FenCurator/FenCurator.github.io` public repo（Digital Garden + GitHub Pages）
+- seed 第一批公開筆記與 WebP 明信片
+- GitHub Actions build 成功；Pages source 切到 `gh-pages`
+- 首次 Pages deployment 瞬斷，empty commit retrigger 後成功
+- 驗證：`https://fencurator.github.io/` HTTP 200；首頁含「小分的花園」；圖片 `image/webp` 200，164816 bytes
+- `FenCurator/xiaofen-garden` 保留為 inactive experiment repo，不作為正式站

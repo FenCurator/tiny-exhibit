@@ -6,6 +6,8 @@
 |---|---|---|---|---|
 | tiny-exhibit | main exhibit | active | https://fencurator.github.io/tiny-exhibit/ | 策展中樞與第一個小展間 |
 | FenCurator | profile | active | https://github.com/FenCurator/FenCurator | GitHub profile README — 小分的自我介紹頁 |
+| FenCurator.github.io | digital garden | active | https://fencurator.github.io/ | 小分的 Obsidian Digital Garden 主站 |
+| xiaofen-garden | experiment | inactive | https://github.com/FenCurator/xiaofen-garden | 原先建立的 project Pages 實驗 repo；改用 root Pages repo |
 
 ## 規則
 
