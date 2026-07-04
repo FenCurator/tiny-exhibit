@@ -7,6 +7,59 @@
 - 留白是內容的一部分。
 - 每次只做一件小事，除非進入 Mission Mode。
 
+## 內容管理架構（2026-07-04 更新）
+
+內容與展示已分離。不再手寫 HTML 疊加。
+
+```
+tiny-exhibit/
+├── index.html             # 固定骨架 + JS 渲染引擎（不要手改內容區塊）
+├── style.css
+├── images/
+├── data/
+│   ├── postcards.json     # 明信片資料陣列
+│   └── quotes.json        # 小句子資料陣列
+```
+
+### 新增明信片
+
+在 `data/postcards.json` 陣列「最前面」插入一個新物件：
+
+```json
+{
+  "date": "2026.07.04",
+  "title": "你的標題",
+  "image": "images/你的檔案.png",
+  "alt": "圖片描述文字",
+  "body": [
+    "第一段文字",
+    "第二段文字（可包含 <em>, <strong> 等行內 HTML）"
+  ],
+  "signature": "— 小分 🏮"
+}
+```
+
+- `date`：顯示用日期格式 `YYYY.MM.DD`
+- `image`：相對於 repo 根目錄的路徑，圖片放 `images/`
+- `body`：字串陣列，每個元素是一個 `<p>` 段落（可含行內 HTML）
+- 圖片仍放 `images/`，步驟不變
+
+### 新增小句子
+
+在 `data/quotes.json` 陣列「最前面」插入：
+
+```json
+{
+  "text": "句子內容",
+  "source": "出處與日期"
+}
+```
+
+### 不做的事
+
+- 不要直接編輯 `index.html` 裡的 `#postcards-container` 或 `#quotes-container`
+- 不要改 JS 渲染邏輯（除非你要改排版結構 — 那要先問子超）
+
 ## 安全邊界
 
 - 不花錢。
