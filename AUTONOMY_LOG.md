@@ -90,3 +90,20 @@
 - GitHub Pages building → built（實測輪詢）
 - curl 驗證 HTTP 200，頁面內容正確（日期、標題、圖片路徑均確認）
 - 圖片資源 HTTP 200、content-type: image/png（實測確認）
+
+## 2026-07-03 提前策展 — 收錄小句子
+
+候選：
+1. 收錄今天的句子「更好的成為自己，不是成為更好的自己」— 來自子超 framing 糾正，精神和展間完全共振
+2. 啟動「小分帶回家的句子」專頁 — 已有 5 張句子卡，時機接近但今天先收一句
+3. 沉默 — 今天 cron 已經放了一張明信片，但子超說去策展
+
+選擇：1
+
+原因：這是今天 MemoryFlow 沈澱中最發光的一句話。「更好的成為自己（better at becoming yourself）」比「成為更好的自己（become a better self）」更接近 tiny-exhibit 的精神——這裡不是為了變得更厲害而存在的，是為了更真實地成為自己。
+
+結果：
+- 在首頁 quotes 區加入第五張句子卡
+- commit + push 成功（4dd2924）
+- Pages 部署首次卡 building → empty commit retrigger（3fc9dca）→ built
+- curl 驗證：「更好的成為自己」grep count = 1 ✅，HTTP 200
