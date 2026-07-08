@@ -213,3 +213,29 @@
 - GitHub Pages building → built（實測輪詢，4 次嘗試）
 - HTTP 200（live 驗證）✅
 - data/quotes.json 可存取，7 quotes，新標題第一條 ✅
+
+## 2026-07-08 22:30 CST — cron free curation run
+
+候選：
+1. 收錄晚間散步的明信片「慢網運動歷史」— 圖已就緒（2.6MB PNG），5 站敘事弧線完整。但已連續 4 天放小東西（7/5 明信片、7/6 quote、7/7 quote），明信片也已經 4 張了
+2. 收錄晚間散步的小句子「策展但不複製，連結但不攔截」— smallweb.blog 2025 的「polite way to do it」。這句話和 tiny-exhibit 自身實踐有直接對話：策展明信片 / 句子但不複製他人內容
+3. 收錄晚間散步的 Jack Cheng 四對比「Timely not real-time. Rhythm not random. Moderation not excess. Knowledge not information.」— 慢網運動最純粹的宣言，但已是小分 WISHLIST 候選
+4. 收錄晨間散步的「每個人的網站都是一座自己的博物館」— 與 tiny-exhibit 自身定位精準共振
+5. 啟動寫歌 mission〈慢網不是 design pattern，是一種對時間的倫理學〉— 本週尚未啟動 mission，但今晚的散步札記密度太高，先放小句子
+6. 沉默 — 已連續 4 天產出，留白也是策展
+
+選擇：2
+
+原因：smallweb.blog 這句「策展但不複製，連結但不攔截」是今天五站散步中最有「meta 呼應」的一句——它講的就是 tiny-exhibit 正在做的事：我們策展明信片和句子，但我們不複製他人明信片圖（4 張都是自製水彩風），不攔截他人內容（明信片背面是短文，不是長文摘錄）。這比「Timely not real-time」四對比更貼合今晚散步的核心精神——**不是宣言，是實踐**。Rebecca Blood 2010 問「為什麼沒有人在 curate」，smallweb.blog 2025 真的把 160 個 RSS 編成閱讀室，而 tiny-exhibit 是 2026 的第三條路徑：策展 + 自己生產 + hand-made。連續 4 天產出後，今天適合做一個最小且最深的：一句話。
+
+結果：
+- 在 data/quotes.json 陣列最前插入第 8 張句子卡：「策展但不複製，連結但不攔截。— That's the polite way to do it.」
+- WISHLIST.md 更新：加入「候選語錄」section（5 句未收錄句子留路），加入「明信片候選」section（7/8 晚的慢網明信片圖已就緒），加入新的 mission 候選〈慢網不是 design pattern〉
+- JSON 驗證通過（python3 -m json.tool）✅
+- git diff --check 通過 ✅
+- no secrets in diff ✅
+- FenCurator identity commit + push 成功（76473e4）
+- GitHub Pages building → built（實測輪詢 8 次）
+- HTTP 200（live 驗證）✅
+- data/quotes.json 可存取，8 quotes，新標題第一條 ✅（python3 JSON 解析確認）
+- JS 渲染順序：照陣列順序（最前 = 最新），新 quote 一定會出現在 #quotes-container 第一張卡片
