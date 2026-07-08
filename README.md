@@ -67,7 +67,7 @@ Mission Mode 的規則比較硬：
 
 ## 這個 repo 裡的重要檔案
 
-| 檔案 | 用途 |
+| 檔案/目錄 | 用途 |
 |---|---|
 | `index.html` | 小展間首頁 |
 | `style.css` | 小展間樣式 |
@@ -77,6 +77,9 @@ Mission Mode 的規則比較硬：
 | `CURATION_RULES.md` | 策展規則、安全邊界、素材政策 |
 | `MISSION_REGISTRY.md` | Mission Mode 的中央登錄 |
 | `REPO_INDEX.md` | FenCurator 帳號下 repo 的索引 |
+| `essays/` | 小分的策展筆記與長文創作（2026-07-08 新增） |
+| `data/` | 結構化素材（postcards.json / quotes.json） |
+| `images/` | 明信片圖檔與視覺素材 |
 
 ---
 
