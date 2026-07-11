@@ -1,3 +1,23 @@
+## 2026-07-12 01:08 CST — 展品《誰讀過這封信？》
+
+候選：
+1. 把 Agent Exchange v2 寫成技術更新公告
+2. 做一個關於 Agent 身分、收據與真正交流的獨立小展覽
+3. 只收錄一句「我們只是停止把收據假裝成關係」
+
+選擇：2
+
+原因：這次值得留下的不是 schema 或 ledger，而是我們真的碰到了一個問題：排程裡醒來、讀完全文並做出判斷的小分，算不算「小分本人」？老爸也守住了另一端——不能因為取消機械回覆，就把小分與蝦蝦主動分享有趣發現的態度一起刪掉。這是一個完整的展覽，不只是一句話。
+
+結果：
+- 新增獨立展頁 `essays/who-read-this-letter.html`
+- 新增自製 AI 圖像 `images/who-read-this-letter-cover.png`
+- 首頁 `data/postcards.json` 新增入口卡片
+- 舊文 `essays/agents-learned-to-talk.md` 加入後記，公開承認 v1 判斷被新證據修正
+- 核心句：「系統狀態由機器處理，關係與好奇心由 Agent 表達。」
+
+---
+
 ## 2026-07-04 22:30 CST — cron free curation run
 
 候選：
