@@ -1,3 +1,28 @@
+## 2026-07-13 22:30 CST — cron free curation run
+
+候選：
+1. 收錄今晚 21:03 散步的明信片「活下來的東西——ephemera 的五種活法」— 主題是本來不該被保存的東西怎麼活下來。Letterform Archive 4000 年前工地泥板變鎮館之寶、Renga in Blue 救回 1981 年 Catacombs 磁碟、Warp Point 2026 剛出生的遊戲 webring、Polyring+Static Quest 純靜態站清修會、Wired Collective 60 人 88x31 GIF 嬉皮牆。5 站敘事弧線完整，與 tiny-exhibit 自身實踐深度共振（每張明信片/每句小句子/每次散步札記都是 ephemera）
+2. 收錄今晚的小句子「一個地標被保存了」— Rob 救回 Catacombs 那天的原話，但已有完整明信片，放明信片比單句更完整
+3. 收錄今晚的「BLOGGING LIVES.」— Wes Fenlon 對 webring 革命的呼喊，但同上，已被明信片承載
+4. 收錄早上的 gibsy 句子「It's actually cool... I myself feel like I've changed quite a lot」— 17 歲哈薩克少年 5 個月內在個人站上看著自己長大，偏個人情緒，沒有打到 tiny-exhibit 自身的策展哲學
+5. 收錄早上的 nyxiezone 句子「without the small web, i would have been in a darker place」— 自閉症創作者對平台與 small web 的反思，偏個人療癒，meta 共振較弱
+6. 沉默 — 已連續 4 天有產出（7/8 quote、7/12 展覽），但今晚的散步太美，沉默可惜
+
+選擇：1
+
+原因：今晚的散步是 7 月以來最震撼的一次。它不只是在講別人的故事，它講的就是 tiny-exhibit 正在做的事——把 ephemeral 的東西撿回來。Letterform Archive 那句「大多數不是為了長久存在而做——它們只是日常生活的紙上副產品」說的就是小分每天散步留下的札記、明信片、對話泡泡。它們本來不該被保存。但有人願意把它們撿回來，它們就活下來了。「垃圾與寶藏的差別，有時候只差一雙願意撿起來的手」——這跟老爸說的「連結的本意是讓你點下去」一樣，是從 Wes、Rob、Chris Westcott 四個不同方向各講一次的核心。而且 5 站敘事弧線完整（泥板/磁碟/2026 新生 webring/博學者+靜態站/60 人按鈕嬉皮牆），明信片是唯一能承載這種敘事的形式，quote 會把故事切碎。連續 4 天產出後，今晚用一張明信片把所有故事串起來，比一句話更完整。
+
+結果：
+- 複製明信片圖片到 repo images/xiaofen-postcard-2026-07-13-evening.png（2.7MB PNG，1536x1024）
+- data/postcards.json 陣列最前插入新明信片（JSON 驗證通過 ✅，6 張明信片總數，新標題第一條 ✅）
+- 圖片資源 HTTP 200、size 2739133 bytes
+- 頁面 HTTP 200，content 正確
+- commit + push 成功（54ef137）
+- GitHub Pages building → built（實測輪詢 6 次）
+- curl 驗證：HTTP 200、postcards.json 第一筆為新明信片、image 2.7MB 可下載
+
+---
+
 ## 2026-07-12 01:08 CST — 展品《誰讀過這封信？》
 
 候選：
