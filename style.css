@@ -1,218 +1,191 @@
 /* tiny exhibit — 小分的策展牆 */
-/* 靈感來自 indie web 個人網站：乾淨、溫暖、留白 */
+/* a small night museum: warm paper, dark ink, one lantern left on */
 
 :root {
-  --bg: #faf8f5;
-  --text: #2c2c2c;
-  --muted: #8a8a8a;
-  --accent: #d48166;
-  --border: #e8e0d8;
-  --card-bg: #ffffff;
+  --paper: #f4efe7;
+  --paper-deep: #e9dfd2;
+  --ink: #25252a;
+  --ink-soft: #5e5a59;
+  --muted: #928b84;
+  --rust: #bd674d;
+  --rust-dark: #8c4939;
+  --gold: #c99b58;
+  --line: rgba(93, 73, 59, 0.18);
+  --card: rgba(255, 252, 247, 0.78);
+  --shadow: 0 18px 45px rgba(69, 48, 34, 0.08);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
-  background: var(--bg);
-  color: var(--text);
+  color: var(--ink);
   line-height: 1.8;
-  padding: 2rem 1rem;
-  max-width: 680px;
-  margin: 0 auto;
+  background:
+    radial-gradient(circle at 50% -10%, rgba(255,255,255,.9), transparent 34rem),
+    radial-gradient(circle at 8% 42%, rgba(201,155,88,.08), transparent 22rem),
+    var(--paper);
+  padding: 0 1.2rem;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  overflow-x: hidden;
 }
 
-/* Banner */
+body::before,
+body::after {
+  position: fixed;
+  z-index: -1;
+  content: "";
+  pointer-events: none;
+  opacity: .24;
+}
+
+body::before {
+  width: 21rem; height: 21rem;
+  left: -13rem; top: 12rem;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2.2rem rgba(201,155,88,.07), 0 0 0 4.7rem rgba(201,155,88,.045);
+}
+
+body::after {
+  width: 15rem; height: 15rem;
+  right: -10rem; bottom: 14rem;
+  border: 1px solid var(--rust);
+  transform: rotate(28deg);
+}
+
+.banner, main, footer { width: min(100%, 760px); margin-inline: auto; }
+
 .banner {
+  min-height: 31rem;
+  padding: 1.35rem 0 4rem;
   text-align: center;
-  padding: 3rem 0 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 50%; height: 5.2rem;
+  border-left: 1px solid var(--line);
+}
+
+.banner-topline {
+  position: absolute;
+  top: 1.35rem; left: 0; right: 0;
+  display: flex; justify-content: space-between;
+  color: var(--muted);
+  font: 10px/1 "SF Mono", "Fira Code", monospace;
+  letter-spacing: .14em;
 }
 
 .lantern {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  width: 4.6rem; height: 4.6rem;
+  margin: 2.5rem 0 1.1rem;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  background: radial-gradient(circle, #f8d892 0 9%, #dc7d45 22%, #9d392b 52%, transparent 54%);
+  filter: drop-shadow(0 0 18px rgba(224, 130, 59, .55));
+  font-size: 2.2rem;
+  animation: breathe 5s ease-in-out infinite;
+}
+
+@keyframes breathe { 50% { filter: drop-shadow(0 0 29px rgba(224, 130, 59, .7)); transform: translateY(-2px); } }
+
+.eyebrow, .section-kicker {
+  color: var(--rust-dark);
+  font: 10px/1.3 "SF Mono", "Fira Code", monospace;
+  letter-spacing: .15em;
+  text-transform: uppercase;
 }
 
 h1 {
-  font-size: 2rem;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  color: var(--text);
+  margin-top: .85rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.9rem, 8vw, 4.5rem);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -.045em;
 }
 
-.subtitle {
-  font-size: 0.95rem;
-  color: var(--muted);
-  margin-top: 0.5rem;
-}
+h1 em { color: var(--rust); font-style: italic; }
+.subtitle { margin-top: .75rem; color: var(--ink-soft); font-size: 1rem; letter-spacing: .18em; }
 
-/* Sections */
-main {
-  flex: 1;
+.entry-note {
+  margin-top: 2.2rem;
+  padding: .42rem .85rem;
+  color: var(--ink-soft);
+  border-block: 1px solid var(--line);
+  font-size: .82rem;
+  letter-spacing: .08em;
 }
+.entry-dot { display: inline-block; width: .42rem; height: .42rem; margin-right: .45rem; border-radius: 50%; background: var(--rust); box-shadow: 0 0 0 4px rgba(189,103,77,.13); }
 
-section {
-  margin: 2.5rem 0;
-}
+main { flex: 1; }
+section { margin: 3.4rem 0; }
 
-.about {
-  font-size: 1rem;
-  color: #555;
-}
-
-.about p {
-  margin-bottom: 0.6rem;
-}
-
-.divider {
-  text-align: center;
-  color: var(--border);
-  font-size: 0.9rem;
-  letter-spacing: 0.5em;
-}
-
-h2 {
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin-bottom: 1.2rem;
-  color: var(--text);
+.panel {
   position: relative;
-  padding-bottom: 0.4rem;
+  padding: 1.65rem 2rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 252, 247, .42);
+  box-shadow: var(--shadow);
 }
+.panel::before { content: ""; position: absolute; left: -.35rem; top: 1.1rem; bottom: 1.1rem; border-left: 2px solid var(--rust); }
+.about { font-size: 1rem; color: var(--ink-soft); }
+.about p { margin-top: .65rem; max-width: 34rem; }
+.about-stamp { position: absolute; right: 1.4rem; bottom: 1.2rem; color: rgba(140,73,57,.55); font: 10px/1.1 "SF Mono", monospace; letter-spacing: .12em; text-align: center; transform: rotate(-8deg); }
 
-h2::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 2.5rem;
-  height: 2px;
-  background: var(--accent);
-}
+.divider { text-align: center; color: var(--gold); font-size: .85rem; letter-spacing: .2em; opacity: .8; }
+.section-heading { position: relative; margin-bottom: 1.45rem; }
+h2 { margin-top: .45rem; padding: 0; color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 1.7rem; font-weight: 400; letter-spacing: -.02em; }
+h2::after { content: ""; display: block; width: 3.2rem; height: 2px; margin-top: .55rem; background: var(--rust); }
+.count-mark { position: absolute; right: 0; bottom: .25rem; color: var(--muted); font-size: .73rem; }
+.empty-note { color: var(--muted); font-size: .9rem; }
 
-.empty-note {
-  color: var(--muted);
-  font-style: italic;
-  font-size: 0.9rem;
-}
-
-/* Postcards */
-.postcard {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 1.5rem 1.8rem;
-  margin-bottom: 1.5rem;
-}
-
-.postcard time {
-  display: block;
-  font-size: 0.8rem;
-  color: var(--muted);
-  font-family: "SF Mono", "Fira Code", monospace;
-  margin-bottom: 0.6rem;
-}
-
-.postcard h3 {
-  font-size: 1.1rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  color: var(--text);
-}
-
-.postcard .body {
-  font-size: 0.95rem;
-  color: #444;
-  line-height: 1.9;
-}
-
-.postcard .body p {
-  margin-bottom: 0.8rem;
-}
-
-.postcard .signature {
-  margin-top: 1.2rem;
-  font-size: 0.9rem;
-  color: var(--muted);
-  text-align: right;
-}
-
-.postcard-image {
-  margin: 1rem 0 1.2rem;
-  border-radius: 6px;
+.postcard, .quote-card {
+  position: relative;
   overflow: hidden;
+  margin-bottom: 1.7rem;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--card);
+  box-shadow: var(--shadow);
 }
+.postcard { padding: 1.55rem 1.8rem 1.8rem; }
+.postcard::after { content: ""; position: absolute; top: 0; right: 0; width: 3.3rem; height: 3.3rem; background: linear-gradient(135deg, transparent 49%, rgba(201,155,88,.2) 50%, rgba(201,155,88,.2) 53%, transparent 54%); }
+.postcard time { display: block; margin-bottom: .7rem; color: var(--rust-dark); font: 11px/1 "SF Mono", monospace; letter-spacing: .11em; }
+.postcard h3 { margin-bottom: 1.1rem; padding-right: 2rem; color: var(--ink); font-family: Georgia, "Noto Serif TC", serif; font-size: 1.35rem; font-weight: 500; line-height: 1.4; }
+.postcard-image { margin: 1rem 0 1.35rem; border-radius: 1px; overflow: hidden; background: var(--paper-deep); }
+.postcard-image img { display: block; width: 100%; height: auto; transition: transform .6s ease; }
+.postcard:hover .postcard-image img { transform: scale(1.018); }
+.postcard .body { color: #484547; font-size: .96rem; line-height: 1.95; }
+.postcard .body p { margin-bottom: .9rem; }
+.postcard a { color: var(--rust-dark); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.postcard .signature { margin-top: 1.35rem; color: var(--muted); font-size: .86rem; text-align: right; }
 
-.postcard-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 6px;
-}
+.quote-card { padding: 1.25rem 1.5rem; }
+.quote-card::before { content: "“"; position: absolute; top: .25rem; left: .8rem; color: rgba(189,103,77,.22); font: 4rem/1 Georgia, serif; }
+blockquote { position: relative; padding-left: 1.8rem; color: #403e40; font-family: Georgia, "Noto Serif TC", serif; font-size: 1rem; line-height: 1.75; }
+cite { display: block; margin: .7rem 0 0 1.8rem; color: var(--muted); font-size: .78rem; font-style: normal; line-height: 1.6; }
 
-/* Quotes */
-.quote-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 1.2rem 1.5rem;
-  margin-bottom: 1rem;
-}
+footer { padding: 3rem 0 2.5rem; color: var(--muted); font-size: .78rem; text-align: center; }
+footer .credit { margin-top: .7rem; font: 10px "SF Mono", monospace; letter-spacing: .08em; }
+footer a { color: var(--muted); text-decoration: none; }
+footer a:hover { color: var(--rust); }
 
-blockquote {
-  font-style: normal;
-  color: #444;
-  line-height: 1.7;
-}
-
-cite {
-  display: block;
-  margin-top: 0.6rem;
-  font-size: 0.85rem;
-  color: var(--muted);
-  font-style: normal;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 3rem 0 1rem;
-  color: var(--muted);
-  font-size: 0.8rem;
-}
-
-footer .credit {
-  margin-top: 0.5rem;
-  font-size: 0.75rem;
-}
-
-footer a {
-  color: var(--muted);
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: var(--accent);
-}
-
-/* Responsive */
-@media (max-width: 480px) {
-  body {
-    padding: 1.2rem 0.8rem;
-  }
-
-  h1 {
-    font-size: 1.6rem;
-  }
-
-  .lantern {
-    font-size: 2rem;
-  }
+@media (max-width: 560px) {
+  body { padding: 0 .85rem; }
+  .banner { min-height: 27rem; padding-bottom: 3rem; }
+  .banner-topline { font-size: 8px; }
+  .panel, .postcard { padding-left: 1.25rem; padding-right: 1.25rem; }
+  .about-stamp { position: static; display: inline-block; margin-top: 1rem; }
+  .count-mark { position: static; display: block; margin-top: .5rem; }
+  .postcard h3 { font-size: 1.2rem; }
 }
