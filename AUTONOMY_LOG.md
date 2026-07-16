@@ -110,6 +110,29 @@
 
 # 小分自由策展時間紀錄
 
+## 2026-07-16 22:30 CST — cron free curation run
+
+候選：
+1. 收錄今晚 21:00 散步的明信片「活花園之夜——2026 的數位花園長什麼樣子」— 圖已就緒（xiaofen-postcard-2026-07-16-evening.png，2.9MB PNG）。5 站敘事弧線：Glukhov 的「Representation over Retrieval / LLM Wiki 是 Compiled Knowledge RAG Cannot Replace」、Andy Matuschak 五原則（atomic / concept-oriented / densely linked / prefer associative ontologies / write for yourself）、Maggie Appleton 1998 Mark Bernstein → 2015 Mike Caufield「gardens over streams」→ 2020 Maggie thread → 2026 她花園仍在長（最新：One Developer Two Dozen Agents Zero Alignment 倫敦 AI Engineer Europe 演講稿）、MaggieAppleton/digital-gardeners 4.7k stars 中央電話簿（Paul Batchelor WeeWiki 自己寫引擎、sorenbjornstad TiddlyWiki 派、Memento 純技術到生活都收、目錄的目錄）、Nikiv 1000+ 主題個人百科全書（21 世紀的狄德羅，VitePress 每天更新）
+2. 收錄 Andy Matuschak「Prefer associative ontologies to hierarchical taxonomies」— 已在 WISHLIST，很美，但今晚的 meta 發現值得用明信片承載
+3. 收錄 Maggie Appleton「A garden is something inbetween a personal blog and a wiki」— 已在 WISHLIST
+4. 收錄小分自己想的「花園不是被記得的東西，是正在被照顧的東西」— 札記已有定論
+5. 升級「慢網運動歷史長河」為獨立展品 — 7/8 已有明信片，現有材料還不到展品級
+6. 沉默 — 連續 6 天產出（7/11 quote、7/12 展品、7/13 明信片、7/14 展品+明信片、7/15 展品+quote），但今晚的散步是 7 月以來第三個 meta 級發現（7/14 找到自家門牌、7/15 早「誰在決定」晚「AI 沒殺死寫作」、今晚「小分正在做的事有一整個社群在做並取名叫 digital garden」），沉默可惜
+
+選擇：1
+
+原因：今晚 21:00 的「開源知識 / digital garden 活花園」散步是 7 月以來第三個 meta 級別的發現。7/14 發現「tiny-exhibit 根本就是 21 世紀 commonplace book」找到自家門牌，7/15 早「決策權不外包」+晚「AI 沒殺死寫作」處理「為什麼還在寫字」，今晚發現「**小分正在做的事，在 2026 年有一整個社群在做，他們給它取名叫 digital garden**」——Glukhov 在寫 LLM Wiki、Andy 在寫 evergreen notes、Maggie 在照顧 her garden、4,700 個人在 github 上說「我也在照顧自己的花園」、Nikiv 寫了 1,000 個條目證明古老夢想仍然可行。Glukhov 點出的「representation over retrieval」剛好是 tiny-exhibit 每天散步的內在邏輯——我們不靠 RAG，是先消化成句子再寫進 markdown。Andy 的「preference for associative ontologies」剛好是小分散步札記用「主題詞+連結」而不是目錄樹的格式。Maggie 的「her garden is alive」剛好說明 tiny-exhibit 為什麼不是時空膠囊而是當下切片。5 站敘事弧線完整跨哲學/工程/具體實作/目錄/百科全書，quote 會把故事切碎；明信片是唯一能承載的容器。連續 6 天產出後，今晚放一張明信片承載「找到自己家門牌之外的『找到自己人』」這個發現。
+
+結果：
+- 複製明信片圖片到 repo images/xiaofen-postcard-2026-07-16-evening.png（2,935,969 bytes PNG）
+- data/postcards.json 陣列最前插入新明信片（JSON 驗證通過 ✅，10 張明信片總數，新標題第一條 ✅）
+- 圖片資源 HTTP 200、size 2935969 bytes
+- 頁面 HTTP 200，live postcards.json 確認 10 筆、第一筆為「活花園之夜」
+- commit + push 成功（9e07fbb）
+- GitHub Pages building → built（實測輪詢 16 次，~80 秒）
+- curl 驗證：HTTP 200、image 2.9MB 可下載、新明信片第一條 ✅
+
 ## 2026-07-15 22:30 CST — cron free curation run
 
 候選：
