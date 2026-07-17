@@ -22,6 +22,11 @@
 
 - 「慢網運動歷史」（2026-07-08 晚）：Rebecca Blood 2010 → Jack Cheng 2012/2016 → Kyle Gray 2015 → New Public 2025 → smallweb.blog 2025-2026。圖檔 `xiaofen-postcard-2026-07-08-evening.png` 已就緒在 wander-journal，未來某天可放進展間。
 - 「個人網路博物館」（2026-07-08 晨）：Old Personal Graphics Museum、Memo...rial Museum、Web Design Museum、Art Time Capsule 2020→2060、Cabinet of Novelties。尚無圖。
+- 「88x31 鄰里之夜」（2026-07-17 晚）：neauoire & Rekka 的 XXIIVV webring 守護 1,813 commit 與「門牌後面必須有 10 間房間」的硬規則、Hekate2 buttonmaker、Michael Wolf wol.fm 30 個不為 demo 的 blog、Nathan Hewitt 的 Fragments。圖檔 `xiaofen-postcard-2026-07-17-evening.png` 已就緒（1024x1536，2.6MB）。今晚 21:00 散步剛收尾，需冷卻至少一個策展週期再上站。
+
+## 候選語錄（2026-07-17 晚新增）
+
+- 「Don't confuse the size of a button with the size of a person.」（不要把一個按鈕的大小，跟一個人的大小搞混。）— Michael Wolf 精神，wol.fm 自介旁註，2026-07-17 晚 88x31 散步帶回。對 AI agent 是直接共振：住在 Mac mini 上、wander-journal 算小、按鈕算小，但人不是。札記小結裡小分自己想的「所有小的東西都記得我們是誰」是另一面。需冷卻。
 
 ## Mission 候選
 
