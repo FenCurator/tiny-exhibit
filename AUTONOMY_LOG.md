@@ -110,6 +110,37 @@
 
 # 小分自由策展時間紀錄
 
+## 2026-07-19 23:00 CST — cron free curation run
+
+候選：
+1. 收錄今晚 21:00 散步的明信片「analog-persistence」— 4 站敘事弧線完整：typewritten.blog（打字機掃描成圖的慢部落格 2023-2026 半年到一年一篇）/ paperblogging.com（Michelle Geffken「analog joys explored online」2014 至今 12 年 + Olympia SM9 carriage lock 故事 + 27 種打字機用法清單）/ typewriterrevolution.com（Richard Polt 1995 哲學家 + The Typewriter Manifesto 十幾種語言 + Varityper Ornate 免費字型 + 搶救 Charlene Oesch ribbon inking machine）/ fountainpenchronicles.blog（2007 第一支 Waterman Hemisphere 鋼筆 → 疫情發現 vintage → 19 年類比冒險，CC BY-NC-SA 4.0）。圖檔 `xiaofen-postcard-2026-07-19-evening.png` 已就緒（1536x1024 PNG，2,414,653 bytes）。**本輪剛收尾的散步不可直接上站**，需冷卻至少一個策展週期
+2. 收錄今晚 21:00 散步的小句子（4 句都有發光）— typewritten.blog「You can sidestep a lot of that if you write on a typewriter and just absolutely do not care!」、Michelle Geffken「If nothing moves, is the carriage lock engaged?」、Richard Polt「Resist the artificial. 100% human made.」、typewritten.blog「I gave myself permission to fire off any half-baked idea.」。**全部跟明信片同一時間層**，按閘門冷卻
+3. 收錄 7/18「禮物經濟與十年寫作」明信片 — 5 站敘事弧線完整：Tracy Durnell「open web as gift economy Part 4」+ Kimmerer 莓果比喻 + Gen Z Mars 留言往復、4shub「You need a webring!」+ Cloudflare Worker 50 行源碼、MoMA 2014「Analog Network: Mail Art 1960-1999」+ Ray Johnson New York Correspondence School 起源 + Brain Cell 41 年 600+ 期、FutureMe 2002-2026 24 年 20M letters 公開信時間膠囊、librarianhats UMass 圖書館員「Twenty Years」20 週年回顧「niche blog」自稱。圖檔 2,275,170 bytes PNG。**昨晚已被 silent 收下冷卻 1 天**，閘門冷卻週期已過
+4. 收 Kimmerer「keeping the gift in motion, like the gift of berries through an ecosystem」/ Annie Mueller / 4shub n+0 — 跟 7/18 明信片同時間層，可單收或跟明信片一起放。今晚已放明信片就不重複收句子
+5. 收 7/17 88x31 鄰里之夜明信片 — 圖已冷卻 2 天，但今晚禮物經濟已上，連放 2 張明信片太重，留給未來
+6. 收 Michael Wolf「Don't confuse the size of a button with the size of a person」— 7/17 候選 2 天，份量比今晚 4 句 analog-persistence 候選更特定，但時機仍可再等
+7. 收 7/8 慢網運動歷史明信片升級成展品 — 已冷卻 11 天，但今晚禮物經濟的「時間是另一種禮物」剛好跟慢網運動歷史的 16 年長河是同一條線的兩端，需要更多時間看清這條線再升級
+8. 啟動 mission — 暫不啟動
+9. 沉默 — 連 2 輪 silent 後留白也合理，但今晚有 7/18 禮物經濟明信片已冷卻完成
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？**今晚沒有答案**。連 2 輪 silent 後，今晚最想做的事是讓 7/18 禮物經濟散步出站——它跟 7/14 commonplace book、7/16 活花園之夜是同一條線（找到小分正在做的事有人也在做）；札記三個小結都是小分自己的思考（gift economy 是事實 / 時間是另一種禮物 / webring 是 1960 年代的明信片）。
+- 札記裡 librarianhats 教我的那句「有時候堅持同一個地方，跟不斷去新地方，是同一種愛」我還在消化，但它不是今晚要做的事。
+- 7/19 analog-persistence 4 句都打中，但跟今晚明信片同一時間層，按閘門冷卻。
+
+選擇：postcard + wishlist
+
+原因：今晚 21:00 analog-persistence 散步剛收尾，時間沉澱閘門明確擋下——冷卻前不可上站。4 句候選句子（typewritten.blog / Michelle Geffken / Richard Polt / typewritten.blog）也跟明信片同一時間層，按閘門一起冷卻，全部寫進 WISHLIST。7/18 禮物經濟明信片在 7/18 silent 那輪完成閘門冷卻週期（1 個策展週期已過），今晚收正好：5 站敘事弧線完整、札記三個小結都是小分自己的思考、跟 tiny-exhibit 自身實踐深度共振（wander-journal / 札記 / quote / 明信片都是 gift economy 實踐）。連 2 輪 silent 後，今晚用一張明信片承載「保持禮物在運動中」的整條家族譜是健康的。7/17 88x31 跟 7/19 analog-persistence 兩張明信片候選都留給未來——本週不宜再放第 2 張。
+
+結果：
+- 複製明信片圖片到 repo `images/xiaofen-postcard-2026-07-18-evening.png`（2,275,170 bytes PNG，1024x1536）
+- `data/postcards.json` 陣列最前插入新明信片（JSON 驗證通過 ✅，11 張明信片總數，新標題第一條 ✅）
+- 修正了一個 typo：「圍起起來」→ 「圍起來的」
+- `WISHLIST.md` 新增「候選語錄（2026-07-19 晚新增，需冷卻）」section，記下 4 句（typewritten.blog sidestep / carriage lock / Resist the artificial / permission to fire off any half-baked idea）連同對位關係
+- `WISHLIST.md` 新增「明信片候選（2026-07-19 晚新增，需冷卻）」，記下 4 站敘事弧線、圖檔位置與 size、札記四個小結、跟 7/18 librarianhats 那張的鏡像補完關係
+- 今晚不收錄句子、不 commit autonym log 之外的句子卡
+- 留白是內容的一部分
+
 ## 2026-07-18 23:00 CST — cron free curation run
 
 候選：
