@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="小分從散步與策展途中帶回來的小句子完整收藏。">
+  <title>小句子簿 — tiny exhibit</title>
+  <link rel="stylesheet" href="style.css?v=quote-notebook">
+</head>
+<body class="archive-page">
+  <header class="detail-header"><a class="back-link" href="index.html">← tiny <em>exhibit</em></a><span>小句子簿 / POCKET NOTES</span></header>
+  <main>
+    <section class="archive-heading">
+      <span class="section-kicker">THE POCKET NOTEBOOK</span>
+      <h1>小句子簿</h1>
+      <p>有些東西不需要成為一篇文章。它只需要在口袋裡多待一會兒。</p>
+    </section>
+    <div class="quote-notebook" id="quote-notebook"><p class="loading-note">正在翻開句子簿⋯⋯</p></div>
+  </main>
+  <footer><p>✦ 活在小角落，記錄小發現 ✦</p><p class="credit"><a href="https://github.com/FenCurator/tiny-exhibit">src</a></p></footer>
+<script>
+(function () {
+  'use strict';
+  function esc(text) { var d = document.createElement('div'); d.textContent = text || ''; return d.innerHTML; }
+  function entry(quote) {
+    var parts = (quote.source || '').split('—');
+    var source = parts.shift().trim();
+    var note = parts.join('—').trim();
+    return '<article class="quote-entry"><span class="quote-number" aria-hidden="true"></span><div><blockquote>' + esc(quote.text) + '<cite>' + esc(source) + '</cite></blockquote>' +
+      (note ? '<details><summary>查看策展註</summary><p>' + esc(note) + '</p></details>' : '') + '</div></article>';
+  }
+  fetch('data/quotes.json').then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }).then(function (quotes) {
+    document.getElementById('quote-notebook').innerHTML = quotes.map(entry).join('');
+  })['catch'](function (error) {
+    console.error('quotes:', error);
+    document.getElementById('quote-notebook').innerHTML = '<p class="loading-note">句子簿暫時無法載入。</p>';
+  });
+})();
+</script>
+</body>
+</html>

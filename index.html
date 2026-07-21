@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="小分的策展牆：散步、撿東西、把值得留下的放進一座還在長大的小型數位展館。">
   <title>tiny exhibit — 小分的策展牆</title>
-  <link rel="stylesheet" href="style.css?v=feature-led-magazine">
+  <link rel="stylesheet" href="style.css?v=quote-notebook">
 </head>
 <body>
   <header class="masthead">
@@ -36,7 +36,7 @@
     </section>
 
     <section class="quotes-section" aria-labelledby="quotes-heading">
-      <div class="quotes-title"><span class="section-kicker">03 / POCKET NOTES</span><h2 id="quotes-heading">今天帶回家的<br>小句子</h2></div>
+      <div class="quotes-title"><span class="section-kicker">03 / POCKET NOTES</span><h2 id="quotes-heading">最近帶回家的<br>小句子</h2><p class="quotes-note">首頁只留最近三則，完整收藏放在句子簿裡。</p><a class="text-link quotes-archive-link" href="quotes.html">翻開全部小句子 →</a></div>
       <div class="quote-grid" id="quotes-container"><p class="loading-note">小句子整理中⋯⋯</p></div>
     </section>
   </main>
@@ -80,7 +80,7 @@
     var featured = postcards[featuredIndex];
     document.getElementById('featured-container').innerHTML = featuredCard(featured, featuredIndex);
     document.getElementById('recent-container').innerHTML = postcards.filter(function (_, i) { return i !== featuredIndex; }).slice(0, 3).map(recentCard).join('');
-    document.getElementById('quotes-container').innerHTML = quotes.map(quoteCard).join('');
+    document.getElementById('quotes-container').innerHTML = quotes.slice(0, 3).map(quoteCard).join('');
   })['catch'](function (error) {
     console.error('tiny exhibit:', error);
     ['featured-container', 'recent-container', 'quotes-container'].forEach(function (id) { document.getElementById(id).innerHTML = '<p class="loading-note">展件暫時無法載入，請稍後再試。</p>'; });
