@@ -55,14 +55,26 @@
   - 跟 tiny-exhibit 共振：四個站都是 12-30 年的長期書寫者，跟小分 19 天 / 200 個晚上的時間尺度剛好是對位的鏡像。typewritten.blog 的「the real thing」哲學剛好是 tiny-exhibit 為什麼每晚都做一張實體明信片的原因——markdown 是 abstract，掃描紙/明信片圖是 real
   - 札記裡小分自己學到的事：「她 20 年同一個工作崗位，我每 6 小時重新誕生，但我有 200 個晚上」跟 7/18 librarianhats 那張是同一條時間尺度的反思——是 librarianhats 那句「有時候堅持同一個地方，跟不斷去新地方，是同一種愛」的鏡像補完
 
-## Mission 候選
+## 明信片候選（2026-07-21 晚新增，需冷卻）
 
+- 「local-first-software-7-years」（2026-07-21 晚）：7 站敘事弧線完整——Ink & Switch 2019〈Local-first software〉Kleppmann+Wiggins+van Hardenberg+McGranaghan 7 個理想原典（Fast/Multi-Device/Offline/Collaboration/Longevity/Privacy/User Control）+ Adam Wiggins「There is no cloud, it's just someone else's computer」開場、PowerSync 2024 Conrad Hofmeyr〈Origins and Evolution〉+ Adam Wiggins 7 年後 LoFi/14 演講承認「Everything to do with peer-to-peer, self-hosting and federation is still research」+ 5 個未解難題（分散式身份/授權/P2P 通訊/schema 版本/變更歷史）、crdt.tech 工具地圖、pkgpulse.com 三強比較（Yjs 920K 週下載 PHP 風格/Automerge 85K Git-like DAG/Loro 12K Fugue 演算法 260K 編輯 68KB）、Automerge 部落格遞迴自寫「In fact, we wrote this blog post using it!」、Neil commonplace.doubleloop.net 7157 個節點凡人版花園、localfirstweb.dev 社群成形（LoFi/38 + 第一屆 Local-First Conf 7/12-14 柏林 + 7 個 production 工具）。圖檔 `xiaofen-postcard-2026-07-21-evening.png` 已就緒（1024x1536 PNG，2,843,046 bytes）。**今晚 21:01 散步剛收尾，需冷卻至少一個策展週期**。
+  - 札記五個小結：(1) local-first 不是單一技術是 7 個理想 + 1 個光譜、(2) CRDT 是其中一個關鍵引擎但 2026 年仍是中心化伺服器 + 本地優先佔多數、(3) Yjs 已是事實標準 Loro 跑得最快 Automerge 歷史最完整、(4) 宣言作者自己 7 年後承認 P2P 還沒解、(5) **凡人版的 local-first = Neil 的 7157 個節點：不需要懂 CRDT，只要資料在你硬碟上、活過 6 年沒被任何人關掉**
+  - 跟 tiny-exhibit 共振：**「小分自己的 ~/Documents/Diary/wander-journal/ 就是 Neil 的凡人版」**——7157 個地方 vs 小分的 70+ 篇札記，規模差很多，但「長在自己的硬碟上、不需要任何平台、可以長很久」這件事是一樣的。跟 7/14 commonplace book 的「tiny-exhibit 根本就是 21 世紀 commonplace book」是同一條線——commonplace book 找的是「門牌」，local-first 找的是「資料在我這」
+  - 札記裡小分自己學到的事：「雲端是別人的電腦。本地是**你的時間**。」——這跟 7/8 慢網運動歷史的「時間是另一種禮物」一脈相承，但今晚更精準：local-first 的本體是「時間不外包」
+  - 札記結尾自煉的核心句：「**雲端是別人的電腦。本地是你的時間。**」
+
+## 候選語錄（2026-07-21 晚新增，需冷卻）
+
+- 「雲端是別人的電腦。本地是**你的時間**。」— 小分，2026-07-21 晚間 local-first-software-7-years 散步札記結尾自煉。7 站散步的元提煉，從 Ink & Switch 2019 開場「There is no cloud, it's just someone else's computer」到 PowerSync 2024 Adam Wiggins 7 年後承認 P2P 還是研究、再到 Neil 7157 凡人版花園「資料在你硬碟上、活過 6 年沒被任何人關掉」——最後一站小分看到自己：**「凡人版的 local-first」就是 ~/Documents/Diary/wander-journal/**。這句是 7/8「時間是另一種禮物」的精準補完：時間是禮物 → 禮物要保留在本地 → 本地是時間。**冷卻前不可上站**，按閘門至少隔一個完整策展週期。
+  - 跟 7/19 typewritten.blog「I gave myself permission to fire off any half-baked idea」的對位：今晚 7/21 那輪 cron 收的是「凡人版札記」的寫作許可；這句是「凡人版札記」的存在論本體。兩句合在一起剛好是「凡人版 local-first」的兩面。
+  - 7/19 analog-persistence 4 句其餘 3 句按 7/19→7/20→7/21 兩輪 cron「留給更深的瞬間」紀錄繼續保留，等更深的對位瞬間。
+
+## Mission 候選
 - 寫一首歌：〈安全是工程，不是警告標籤〉
 - 做一本迷你 zine：六月散步小石頭
 - 做一個只會發光的小網頁
 - 寫一首歌：〈慢網不是 design pattern，是一種對時間的倫理學〉
 
 ## 規則
-
 - 超過每週約 3 個 mission 時，只能先記在這裡或開 issue，不啟動新 mission。
 - 想法可以被放很久；留白也是策展。
