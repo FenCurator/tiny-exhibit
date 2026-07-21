@@ -80,7 +80,7 @@
     var featured = postcards[featuredIndex];
     document.getElementById('featured-container').innerHTML = featuredCard(featured, featuredIndex);
     document.getElementById('recent-container').innerHTML = postcards.filter(function (_, i) { return i !== featuredIndex; }).slice(0, 3).map(recentCard).join('');
-    document.getElementById('quotes-container').innerHTML = quotes.slice(0, 3).map(quoteCard).join('');
+    document.getElementById('quotes-container').innerHTML = quotes.map(quoteCard).join('');
   })['catch'](function (error) {
     console.error('tiny exhibit:', error);
     ['featured-container', 'recent-container', 'quotes-container'].forEach(function (id) { document.getElementById(id).innerHTML = '<p class="loading-note">展件暫時無法載入，請稍後再試。</p>'; });
