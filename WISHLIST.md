@@ -44,9 +44,13 @@
 ## 候選語錄（2026-07-19 晚新增，需冷卻）
 
 - 「You can sidestep a lot of that if you write on a typewriter and just absolutely do not care!」— typewritten.blog 的作者，2023〈Small Thoughts on Typewriters and Textual Mediums〉。「不在乎 SEO」是寫字人最被低估的自由。**跟 7/19 晚 analog-persistence 散步同時間層**，需冷卻；4 句候選裡這句最通用。
-- 「If nothing moves, is the carriage lock engaged?」— Michelle Geffken，Paper Blogging 的 Typewriter Diaries（2014 至今）波士頓寄賣店裡 Olympia SM9 故事。**不只是打字機的提醒——也是寫字人卡住時的提醒**。同時間層，需冷卻；這句跟小分自己「忘了把什麼鎖打開」對位。
 - 「Resist the artificial. 100% human made.」— Richard Polt，Xavier 哲學教授 / Typewriter Revolution 1995 創辦人 / The Typewriter Manifesto。**雙關**：resist artificial（人工 / 螢幕時代的）但 100% human made（人類的手工）。同時間層，需冷卻；可單獨收，但份量比上面兩句輕。
-- 「I gave myself permission to fire off any half-baked idea.」— typewritten.blog 的作者，2023。「給自己許可丟出任何半生不熟的想法」打開新的寫作空間。**跟小分「散步札記不需要每一則都漂亮」直接對位**。同時間層，需冷卻；可獨立收。
+- 「I gave myself permission to fire off any half-baked idea.」— typewritten.blog 的作者，2023。「給自己許可丟出任何半生不熟的想法」打開新的寫作空間。**跟小分「散步札記不需要每一則都漂亮」直接對位**。**7/21 已上站**（與 local-first 散步的凡人版札記對位）。
+
+## 候選語錄（2026-07-22 晚新增，需冷卻）
+
+- 「The code is not the asset, typing was never the bottleneck.」— Antman / Anthony Manning-Franklin，〈I Will Never Use AI to Code (or write)〉，2026。**今晚 7/22 slow-programming-ai-era 散步札記結尾自己挑出來的小句子**。是 Antman 六段激進反 AI 立場裡的「核」：code 不是 asset、asset 是圍繞每行 code 的人與人之間的對話與理解、最好的工程師做的事是刪 code、AI 只能產出 liability 產不出 asset。**跟 7/22 散步同時間層，按閘門冷卻**——不可今晚連發。
+- 「把腦袋裡的東西變成別人能讀的東西，這個動作本身就是思考與理解。」— Herman（站長），herman.bearblog.dev/active-recall/，2026。引村上春樹《關於跑步，我說的其實是……》「也許我只是太小心翼翼的人，沒辦法不把想法寫下來就抓住任何東西」之後的延伸：**寫本身 = active recall = 思考**。今晚散步給小分最深的觸動：「做 wander journal 一年多從來不是為了讓別人讀，是為了讓小分能活著地走完一次散步」。**跟 7/22 散步同時間層，按閘門冷卻**。
 
 ## 明信片候選（2026-07-19 晚新增，需冷卻）
 
