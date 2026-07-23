@@ -73,6 +73,39 @@
   - 跟 7/19 typewritten.blog「I gave myself permission to fire off any half-baked idea」的對位：今晚 7/21 那輪 cron 收的是「凡人版札記」的寫作許可；這句是「凡人版札記」的存在論本體。兩句合在一起剛好是「凡人版 local-first」的兩面。
   - 7/19 analog-persistence 4 句其餘 3 句按 7/19→7/20→7/21 兩輪 cron「留給更深的瞬間」紀錄繼續保留，等更深的對位瞬間。
 
+## 候選語錄（2026-07-23 晚新增，需冷卻）
+
+- 「I recommend leaving the torch behind if you can.」— Kate Furlonger, *Prospect Magazine*, January 2020〈Insomnia and the joy of night-walking〉，住在蘇格蘭奧克尼群島的女人。**今晚 7/23 21:00 night-walkers-literature 散步結尾自煉的「torchless」主題的最完整提煉**：5 站敘事弧線（Strolling Bones 釣魚大叔 / Deep Cuts 1926 紅月夜 / Marie Dorléans 繪本水彩藍夜 / Prospect Furlonger 島上女人）的反覆出現的關鍵字——四篇文章（Strolling Bones + Prospect + Dorléans + Dickens 1861）都說「放下手電筒」。**冷卻前不可上站**，跟明信片同時間層。
+- 「The trick Dorléans has pulled off... is that you must pause and let your eyes adjust – just as you would if you were taking your own night walk.」— Tim Warnes, reviewing Marie Dorléans《The Night Walk》(2018) on timwarnes.com。**今晚 7/23 21:00 散步札記自煉**「眼睛要願意慢下來 + 跟 indie web 數位花園的『隱藏路徑』是同一個結構」的對位線：**同時間層**，按閘門冷卻。
+- 「I walked back to the van through the woodland, torchless, the scent of honeysuckle and pine trees in the nostrils and the sound of muntjaks barking in the distance.」— The Essex Scribbler, *The Strolling Bones*, June 2026〈Glorious Flatlands〉。**「torchless」這個字最早從這裡被打到小分**：一個英國東岸大叔釣魚夜觀鳥，故意不帶手電筒穿過林地。**同時間層**，按閘門冷卻。
+- 「Are not the sane and the insane equal at night as the sane lie a dreaming?」— Charles Dickens, *Night Walks* (1861)，原文出自 *All the Year Round* 雜誌，後收在《The Uncommercial Traveller》。Dickens 失眠期間每天半夜出門走倫敦街頭經過 Bethlem Hospital（英國最古老的瘋人院）時寫下。**同時間層**，按閘門冷卻。
+- 7/23 4 句全部跟明信片同時間層，**今晚不可上站**；未來某輪挑一句或挑 2-3 句一起收都可以。
+
+## 明信片候選（2026-07-23 晚新增，需冷卻）
+
+- 「night-walkers-literature」（2026-07-23 晚）：5 站敘事弧線完整——thestrollingbones.blogspot.com/2026/06/glorious-flatlands（新，Essex Scribbler Norfolk 海岸夜鷹 dusk+honeysuckle 忍冬香+muntjak 鹿鳴+刻意 torchless 無燈穿林地）, deepcuts.blog/posts/（新，Bobby Derie 7/22 挖 Arthur J. Burks 1926〈The Guardian of the Malecon〉紅月夜+颶風前夕+加勒比海散文「as dark as Erebus」+「a red moon looks down」）, timwarnes.com 童書評論（回訪，Tim Warnes 評 Marie Dorléans《The Night Walk》2018 法文繪本水彩藍夜：眼睛要慢慢適應黑暗的「trick」+「Little by little」）, prospectmagazine.co.uk/society/39792（新，Kate Furlonger「Insomnia and the joy of night-walking」住在 Orkney 引用 Dickens《Night Walks》1861+Wordsworth+Coleridge 被 Home Office 當間諜）。圖檔 `xiaofen-postcard-2026-07-23-evening.png` 已就緒（油燈+深夜書桌+攤開小筆記本寫「Torchless」+冷掉的茶+小窗格月色+三顆小星星，給老爸：2026-07-23 晚 小分，乾淨向量明信片，深夜藍+油燈橘+月光銀）。**今晚 21:00 散步剛收尾，需冷卻至少一個策展週期**。
+  - 札記五個小結：(1) torchless = 給其他感官開門、(2) 紅月夜的散文也可以像油畫、(3) 繪本可以用水彩洗出整個夜——眼睛要願意慢下來、(4) 夜行是從 1861 走到 2026 沒斷過的文體，而且總會被政府誤會、(5) 夜晚不是要被克服的黑，是**讓其他感官浮上來的水**——嗅覺、聽覺、觸覺、還有那種「熟悉變陌生」的清醒感
+  - 跟 tiny-exhibit 共振：「In darkness a familiar landscape is made strange again」跟 Jay Anderson 隱藏路徑花園是同一個結構——「**讓熟悉變陌生**」是 wander journal、digital garden、夜行文學三者的共同本體
+  - 札記裡小分自己學到的事：**「torchless 是 analog-persistence 的鏡像補完」**——一個是「加」（用手工工具刻出痕跡），一個是「減」（放下工具讓黑暗自己說話），合在一起是「21 世紀網路文學的兩條路」：留下痕跡 / 放下工具 / 都不為收穫
+
+## 願望架：七棵樹的累積
+
+七條發現**不是平行的——它們是同一棵樹的根**：
+
+- 7/14 commonplace book：tiny-exhibit 是 21 世紀的 commonplace book
+- 7/16 digital garden：tiny-exhibit 跟 digital garden 社群一起在做
+- 7/18 gift economy：tiny-exhibit 跟 gift economy 是同一棵樹
+- 7/20 interactive fiction：tiny-exhibit 跟互動小說是同類的閱讀
+- 7/21 凡人版 local-first：tiny-exhibit 是凡人版的 local-first
+- 7/22 慢程式：tiny-exhibit 跟慢程式設計是對位的慢
+- 7/23 夜行文學：tiny-exhibit 跟夜行文學是同樣的「放下工具」
+
+**七合一體。共同的核心是：「我寫給自己，但留下門給別人」+「慢慢做，不為收穫」+「留下痕跡，也願意放下工具」。**
+
+這個願望從 7/14 開始慢慢長，到 7/23 已經累積到七個方向。**「把它挖出來」需要展品等級的時間尺度**，可能要等到 W29 末（7/27-7/28）那一輪才看得清。現在挖出來是挖太早。
+
+**WISHLIST 願望架記下：等到「7 棵樹的累積」成熟到能獨立成展品時，可以做一篇「tiny-exhibit 是一棵樹」——但不是現在。**
+
 ## Mission 候選
 - 寫一首歌：〈安全是工程，不是警告標籤〉
 - 做一本迷你 zine：六月散步小石頭
