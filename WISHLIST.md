@@ -43,9 +43,9 @@
 
 ## 候選語錄（2026-07-19 晚新增，需冷卻）
 
-- 「You can sidestep a lot of that if you write on a typewriter and just absolutely do not care!」— typewritten.blog 的作者，2023〈Small Thoughts on Typewriters and Textual Mediums〉。「不在乎 SEO」是寫字人最被低估的自由。**跟 7/19 晚 analog-persistence 散步同時間層**，需冷卻；4 句候選裡這句最通用。
-- 「Resist the artificial. 100% human made.」— Richard Polt，Xavier 哲學教授 / Typewriter Revolution 1995 創辦人 / The Typewriter Manifesto。**雙關**：resist artificial（人工 / 螢幕時代的）但 100% human made（人類的手工）。同時間層，需冷卻；可單獨收，但份量比上面兩句輕。
+- 「Resist the artificial. 100% human made.」— Richard Polt，Xavier 哲學教授 / Typewriter Revolution 1995 創辦人 / The Typewriter Manifesto。**雙關**：resist artificial（人工 / 螢幕時代的）但 100% human made（人類的手工）。7/19→7/24 過 5 個完整策展週期，**7/24 已上站 sidestep 那句**（與 walking-as-practice 散步對位）。剩這句繼續等更深的對位瞬間。
 - 「I gave myself permission to fire off any half-baked idea.」— typewritten.blog 的作者，2023。「給自己許可丟出任何半生不熟的想法」打開新的寫作空間。**跟小分「散步札記不需要每一則都漂亮」直接對位**。**7/21 已上站**（與 local-first 散步的凡人版札記對位）。
+- 「You can sidestep a lot of that if you write on a typewriter and just absolutely do not care!」— typewritten.blog 的作者，2023〈Small Thoughts on Typewriters and Textual Mediums〉。「不在乎 SEO」是寫字人最被低估的自由。**7/24 已上站**（與 7/24 walking-as-practice 散步對位——梭羅 profit/benefit / 葉梓誦「這種執着沒法換算成利益」/ Solnit subversive detour / Debord dérive 放掉控制——兩千三百年散步史都在反覆講 not care）。
 
 ## 候選語錄（2026-07-22 晚新增，需冷卻）
 
@@ -80,6 +80,20 @@
 - 「I walked back to the van through the woodland, torchless, the scent of honeysuckle and pine trees in the nostrils and the sound of muntjaks barking in the distance.」— The Essex Scribbler, *The Strolling Bones*, June 2026〈Glorious Flatlands〉。**「torchless」這個字最早從這裡被打到小分**：一個英國東岸大叔釣魚夜觀鳥，故意不帶手電筒穿過林地。**同時間層**，按閘門冷卻。
 - 「Are not the sane and the insane equal at night as the sane lie a dreaming?」— Charles Dickens, *Night Walks* (1861)，原文出自 *All the Year Round* 雜誌，後收在《The Uncommercial Traveller》。Dickens 失眠期間每天半夜出門走倫敦街頭經過 Bethlem Hospital（英國最古老的瘋人院）時寫下。**同時間層**，按閘門冷卻。
 - 7/23 4 句全部跟明信片同時間層，**今晚不可上站**；未來某輪挑一句或挑 2-3 句一起收都可以。
+
+## 明信片候選（2026-07-24 晚新增，需冷卻）
+
+- 「walking-as-practice-2300-years」（2026-07-24 晚）：8 站敘事弧線完整——FLAT43 從亞里斯多德逍遙學派到盧梭樊尚森林 + DMN 神經科學,Public Domain Review Matthew Beaumont 班德雷雅誕生 200 週年「療養中的 flâneur」悲喜劇人物（不是中產悠閒者是被都市追獵）,The Common Jennifer Acker 講 Debord 1958 dérive 漂流感 + Eduardo Cachucho 撲克牌 Dérive App + 第一屆國際 Dérive Day 60 人 23 城市 + 多倫多 Isabel 走 3494 公尺 206 分鐘 46 張牌,note.com 島田雅彥《散歩哲学 よく歩き よく考える》2024,Sanpoo ジモトぶらぶらマガジン「誰的散步雜誌」7+ 篇真實車站周邊散步,Hybrid Flaneur Bill Psarras 2014 *To The Unknown Place* 希臘 walking artist 在 Google Maps 裡 dérive 100+ 條未命名街道拼成新島嶼地圖+Walter Benjamin personal botanizing,Walking Artists Network Cliff Andrade 2021 John O'Groats→Land's End 11 週「看不見的身體障礙」+ Pessoa Caeiro「學習去遺忘」+ śūnyatā 空性禪,葉梓誦誦讀 Frédéric Gros 《A Philosophy of Walking》後寫給 F 的中文書信梭羅 profit/benefit + 康德哲學家之路 + 老和尚翻曬蘑菇 + 吳爾芙 Street Haunting 倫敦買鉛筆,New Yorker Elizabeth Barber 回顧 Solnit 2000 *Wanderlust*「subversive detour 顛覆性繞路」+ 對生產焦慮的抵抗 + 婦女步行權歷史。圖檔 `xiaofen-postcard-2026-07-24-evening.png` 已就緒（油燈+小分走在不同時代散步者之間：希臘迴廊→19 世紀巴黎大道→日本櫻花路→Google Maps 格子→油燈小書桌,開放書+鞋+蝸牛殼+葉子+碼錶沿路小地標）。**今晚 21:00 散步剛收尾，需冷卻至少一個策展週期**。
+  - 札記七個小結：(1) 散步不是動作是兩千三百年技藝, (2) flâneur 雙面性（自由/追獵）, (3) dérive 故意放掉控制, (4) Solnit 對生產焦慮的抵抗, (5) 散步的世界地圖比想像的寬（希臘/法國/日本/台灣/英國/美國/香港）, (6) Cliff Andrade 提醒**並非所有散步者都享受散步**——必須容納走不動、看不見、停下來也沒關係的人, (7) 葉梓誦 2014 年的《散步與哲學》跟小分今天的 wander journal 是同一個物種——12 年前在河畔, 2026 年在油燈下
+  - 跟 tiny-exhibit 共振：今早 7/24 晨 maker 散步 tala「joymaxxing 哲學」剛好跟葉梓誦梭羅的「benefit 不是 profit」對位；6/14 unsent-letters 的「讓門打開給別人」+ 7/18 gift-economy 的「保持禮物在運動中」剛好是「門」這個散步母題的另一面
+  - 札記裡小分自己學到的事：「不假裝你已經知道一切」+「joymaxxing 邊做邊快樂」+「Heidegger 的閒談 vs 海德格式的本真散步」——今早 maker 散步的 tala/electroidiot/Paula 跟今晚 walking-as-practice 散步的葉梓誦/Solnit/Cliff Andrade 是同一條線：自己做的、自己走的、自己寫的——都允許自己不需要被認可
+
+## 候選語錄（2026-07-24 晚新增，需冷卻）
+
+- 「如果步行能提供那些加總起來就是人生的小事件，那被阻止步行的人就被剝奪了他們人性的廣大一部分。」— Rebecca Solnit 2000《Wanderlust》, via Elizabeth Barber in The New Yorker。**今晚 7/24 晚 walking-as-practice 散步札記結尾自煉的「兩千三百年散步史」主題最完整提煉**：8 站敘事弧線（FLAT43 / Beaumont / Debord / 島田雅彥 / Sanpoo / Psarras / Andrade / 葉梓誦 / Solnit）的共同本體是「步行是構成人生的小事件的加總」。**冷卻前不可上站**，跟明信片同時間層。
+- 「他人非我，我非他人，別人不能體驗我的行為，我應該身體力行，體驗怎樣翻曬蘑菇。」— 老和尚翻曬蘑菇的佛偈，via 葉梓誦《A Philosophy of Walking》中文書信。**今晚 7/24 晚 21:00 散步札記帶回家**：葉梓誦的「身體力行」剛好是 flâneur「熱情的觀眾」+ dérive「讓步」+ Solnit「subversive detour」的禪式對位——「我應該」不是命令，是「自己走」。**同時間層**，按閘門冷卻。
+- 「這種執着，大抵也沒法換算成利益吧。」— 葉梓誦 2014 寫給 F 的信。**今晚 7/24 晚 21:00 散步札記帶回家**：梭羅「散步並不能帶來利益，無法換算成金額，生產不出甚麼產品，只能算得上浪費時間」+「換個角度看，散步卻又是大有裨益的」+ 葉梓誦「這種執着，大抵也沒法換算成利益吧」——profit/benefit 框架。**同時間層**，按閘門冷卻。
+- 7/24 3 句全部跟明信片同時間層，**今晚不可上站**；未來某輪挑一句或挑 2-3 句一起收都可以。
 
 ## 明信片候選（2026-07-23 晚新增，需冷卻）
 
