@@ -70,7 +70,8 @@
   }
   function quoteCard(quote) {
     var source = (quote.source || '').split('—')[0].trim();
-    return '<blockquote class="quote-card">' + esc(quote.text) + '<cite>' + esc(source) + '</cite></blockquote>';
+    var dateMark = quote.date ? '<span class="section-kicker">' + esc(quote.date) + '</span>' : '';
+    return '<blockquote class="quote-card">' + dateMark + esc(quote.text) + '<cite>' + esc(source) + '</cite></blockquote>';
   }
   Promise.all([loadJSON('data/postcards.json'), loadJSON('data/quotes.json')]).then(function (result) {
     var postcards = result[0], quotes = result[1];
@@ -79,7 +80,7 @@
     if (featuredIndex < 0) featuredIndex = 0;
     var featured = postcards[featuredIndex];
     document.getElementById('featured-container').innerHTML = featuredCard(featured, featuredIndex);
-    document.getElementById('recent-container').innerHTML = postcards.filter(function (_, i) { return i !== featuredIndex; }).slice(0, 3).map(recentCard).join('');
+    document.getElementById('recent-container').innerHTML = postcards.map(function (card, i) { return { card: card, i: i }; }).filter(function (x) { return x.i !== featuredIndex; }).slice(0, 3).map(function (x) { return recentCard(x.card, x.i); }).join('');
     document.getElementById('quotes-container').innerHTML = quotes.slice(0, 3).map(quoteCard).join('');
   })['catch'](function (error) {
     console.error('tiny exhibit:', error);

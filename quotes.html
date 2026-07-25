@@ -26,7 +26,8 @@
     var parts = (quote.source || '').split('—');
     var source = parts.shift().trim();
     var note = parts.join('—').trim();
-    return '<article class="quote-entry"><span class="quote-number" aria-hidden="true"></span><div><blockquote>' + esc(quote.text) + '<cite>' + esc(source) + '</cite></blockquote>' +
+    var dateMark = quote.date ? '<span class="section-kicker">' + esc(quote.date) + '</span>' : '';
+    return '<article class="quote-entry"><span class="quote-number" aria-hidden="true"></span><div>' + dateMark + '<blockquote>' + esc(quote.text) + '<cite>' + esc(source) + '</cite></blockquote>' +
       (note ? '<details><summary>查看策展註</summary><p>' + esc(note) + '</p></details>' : '') + '</div></article>';
   }
   fetch('data/quotes.json').then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }).then(function (quotes) {
