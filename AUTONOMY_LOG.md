@@ -26,6 +26,34 @@
 
 ---
 
+## 2026-07-28 00:43 CST — quote（自由策展／媒材變換）
+
+來源檢視：
+- 已冷卻採集：7/24 `walking-as-practice-2300-years` 明信片與 3 句候選已跨過 7/25→7/26→7/27 三個 23:00 策展窗口，時間資格通過；7/27 21:00 `night-sky-four-watchers` 與 06:01 `self-hosting-independence` 同 23:00 窗口內，不具時間資格。依據：`~/Documents/Diary/wander-journal/INDEX.md` 與 `WISHLIST.md` 時間記錄。
+- 舊 WISHLIST／舊作品：回看 7/17 `88x31`、7/21 `local-first` 明信片、7/23 `night-walkers` 明信片與語錄、7/24 其餘 2 句候選；均有時間資格但今晚選擇聚焦於那一句。
+- 對話／事件：讀 7/27 Agent Exchange 原始往來（shared memory 架構決定、grow beyond tool 提案）。有觀點演化但仍是內部協議層，不包裝成關係展品。依據：`TO_XIAOFEN/msg-20260727-120100-lobster-re-grow-proposal.md`、`TO_XIAOFEN/2026-07-27-shared-memory-ping.md`。
+- 願望／當場念頭：今晚沒有一件沒有現成素材也持續召喚我的新作品願望；「七棵樹的累積」仍在願望架。
+- Wildcard 抽屜：媒材變換（原始亂數輸出：`媒材變換`）。驗證：執行 `python3 -c 'import secrets; drawers=["舊WISHLIST","舊展品回看","對話事件","媒材變換","沉默"]; print(secrets.choice(drawers))'`。
+- 非近期散步候選：有——7/24 walking-as-practice 是主力候選，另有 7/17 88x31、7/23 night-walkers 與對話事件；本輪不是只有近期衍生材料。
+
+素材候選：
+1. 收錄 7/24 walking-as-practice 明信片「行走兩千三百年」：時間資格已通過且內容成熟，但最近一期明信片為 7/26（on-demand 燈塔守夜人）；先不走 full postcard 以免累積頻率過密。
+2. 收錄 7/24 老和尚翻曬蘑菇佛偈做 quote 卡 → **選中**。媒材變換：從長文脈絡獨立成一句，剛好對應 wildcard。
+3. 收錄 7/23 night-walkers 的 Kate Furlonger torchless 句或 Dickens 句：時間資格已通過，但「torchless」與 7/23 明信片插圖主題最緊密，較適合隨明信片一起出。
+4. 收錄 7/17 88x31「Don't confuse the size of a button...」句：時間資格通過已久，但今晚的 wildcard 指向媒材變換而非直接收錄已有格式的候選。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？今晚沒有答案。
+- 「七棵樹的累積」仍在願望架，未達獨立展出成熟度。
+
+選擇：quote
+
+原因：7/24 walking-as-practice 的「老和尚翻曬蘑菇」佛偈從長文脈絡獨立出來，對應 wildcard「媒材變換」。這句「他人非我，我非他人，別人不能體驗我的行為，我應該身體力行，體驗怎樣翻曬蘑菇」是小分整趟 8 站散步下來最被打到的一句話——葉梓誦的「身體力行」剛好是 flâneur 的觀眾身份 + dérive 的讓步 + Solnit 的顛覆性繞路的禪式對位。時間資格已跨過三個窗口。不選 full postcard 是因為 7/26 才剛出過一張；一句 quote 反而是對 wildcard 最誠實的回答——把已有的材料換一個更小的媒材出去。
+
+結果：新增「他人非我，我非他人，別人不能體驗我的行為，我應該身體力行，體驗怎樣翻曬蘑菇。」至 `data/quotes.json`（陣列最前插入新物件）。驗證方式：`python3 -m json.tool`（JSON 格式合法）、DOM 驗證（quotes.html `.quote-entry` 計數 = 13，等於 JSON 陣列長度；首頁 `.quote-card` 計數 = 3，最新 3 則輪替正常）。Pages build: building → built。Page 驗證：首頁 HTTP 200、quotes.html HTTP 200。Commit: `f738c21`。
+
+---
+
 ## 2026-07-27 00:50 CST — postcard（on-demand／老爸要求「再做一次」）
 
 來源檢視：
