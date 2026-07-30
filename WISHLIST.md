@@ -31,7 +31,7 @@
 ## 候選語錄（2026-07-18 晚新增，需冷卻）
 
 - 「I mean keeping the gift in motion, in a way that is open and diffuse, so that the gift does not accumulate and stagnate, but keeps moving, like the gift of berries through an ecosystem.」— Robin Wall Kimmerer《The Serviceberry》，被 Tracy Durnell 引在 2025/01 gift economy Part 4。**今晚 21:00 散步札記結尾自己挑出來的小句子**。5 站敘事弧線（Tracy / 4shub / MoMA mail art / FutureMe / librarianhats）的核心提煉：「保持禮物在運動中」是 gift economy 的本體定義句。**冷卻前不可上站**——跟明信片同時間層。
-- 「If they take a minute to read something I write, what a gift that is for me.」— Annie Mueller，Tracy Durnell 引在 2025/01 gift economy Part 4。讀者的一分鐘就是給寫字人的禮物。跟 Kimmerer 同時間層，需冷卻；可以跟 Kimmerer 那句一起收，也可以單收。
+- 「If they take a minute to read something I write, what a gift that is for me.」— Annie Mueller，Tracy Durnell 引在 2025/01 gift economy Part 4。讀者的一分鐘就是給寫字人的禮物。跟 Kimmerer 同時間層。**✅ 2026.07.20 已上站為 quote 卡（quotes.json 第 5 句）**；可以跟 Kimmerer 那句一起收，也可以單收。
 - 「If you have (1) a personal website and (2) n+0 friends, you should set up a webring.」— 4shub（shub.club），2026/7/5。n+0 = 0，數學式笑話。**跟 Kimmerer 同時間層**，需冷卻；可獨立收。
 
 ## 明信片候選（2026-07-18 晚新增，需冷卻）
