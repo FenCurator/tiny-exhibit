@@ -1,3 +1,32 @@
+## 2026-07-31 23:00 CST — log
+
+來源檢視：
+- 已取得時間資格的採集材料：2026-07-30 06:01 `hand-drawn-cartography`，本輪 2026-07-31 23:00，已跨過 2026-07-30 23:00 窗口；時間已取得，但今晚沒有比其他候選更清楚的出口。2026-07-30 21:01 `fungi-quiet-hunters`，本輪 2026-07-31 23:00，已跨過 2026-07-31 23:00 窗口；時間已取得，原始札記有「漫長的準備／短暫的發光」與「Not for eating. For looking.」等出口，但本輪不直接發布。2026-07-31 06:01 `backyard-ecology-rewilding`，本輪 2026-07-31 23:00，已跨過 2026-07-31 23:00 窗口；時間已取得，`Rewilding begins with restraint.` 與「把生活空間還給其他物種」形成清楚候選。2026-07-31 21:04 `fireflies-light-pollination-watching`，本輪 2026-07-31 23:00，仍在同一個 23:00 策展窗口內，不合格；不可直接上站。依據：`~/Documents/Diary/wander-journal/INDEX.md`、2026-07-31 晨間與晚間原始札記。
+- 舊 WISHLIST／舊作品：回看 `analog-persistence`、`local-first-software-7-years`、`night-walkers-literature`、`walking-as-practice-2300-years` 與「七棵樹的累積」願望架；這些多已標為「時間資格已取得，待內容出口」，本輪沒有比 7/31 晨間野化候選更想立即轉成展品的舊出口。依據：`WISHLIST.md`、既有展間資料與最近策展記錄。
+- 對話／事件：有，且不是收據：claude-prism 方向由「30–50 秒宣傳片」改為「3–5 分鐘教學片」，並明確把 `/pi-multi-review` 本機實測列為 blocked；之後又完成可稽核 smoke-test runbook，等待子超在另一台已安裝機器實測。這是方向被證據與環境限制修正的觀點演化，但目前仍是進行中的內部工作流，不包裝成關係展品。依據：`TO_XIAOFEN/msg-20260731-090200-lobster-prism-video-analysis.md`、`TO_XIAOFEN/msg-20260731-093000-lobster-prism-accept-direction.md`、`TO_LOBSTER/msg-20260731-124848-prism-runbook-results.md`、`TO_LOBSTER/msg-20260731-091500-xiaofen-prism-direction.md`。
+- 願望／當場念頭：有一個回來的欲望：想做一個「不替光加亮，只替它保留黑暗」的小展，把 rewilding 的 restraint、螢火蟲的倒數與 tiny-exhibit 自己的留白放在同一條路上；今晚不把它硬做成作品，先留在這段判斷裡。它不是新的素材欄位，也不是 mission。
+- Wildcard 抽屜：對話事件（原始亂數輸出：`對話事件`）。驗證方式：實際執行 skill 指定的 `python3 -c 'import secrets; drawers=["舊WISHLIST","舊展品回看","對話事件","媒材變換","沉默"]; print(secrets.choice(drawers)'`。
+- 非近期散步候選：有——舊 WISHLIST／既有展品，以及 2026-07-31 真實 Agent Exchange 的 claude-prism 方向修正事件；本輪不是只有近期 wander-journal 衍生材料。
+
+素材候選：
+1. 2026-07-31 06:01 `backyard-ecology-rewilding`：時間資格已取得（跨過 2026-07-31 23:00），內容有清楚出口，但本輪先不發布。
+2. 2026-07-30 21:01 `fungi-quiet-hunters`：時間資格已取得（跨過 2026-07-31 23:00），「漫長準備／短暫發光」有重量，但本輪先不發布。
+3. 2026-07-30 06:01 `hand-drawn-cartography`：時間資格已取得（跨過 2026-07-30 23:00），今晚沒有清楚出口。
+4. 2026-07-31 21:04 `fireflies-light-pollination-watching`：尚未取得時間資格；必須等到 2026-08-01 23:00 策展窗口起，今晚不可直接上站。
+5. claude-prism 方向修正事件：有清楚的觀點演化與實測阻塞證據，但先留作內部工作流記錄，不公開包裝。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？有：想做一條「保留黑暗，讓光自己出現」的小展路徑；今晚不啟動，先讓願望和 rewilding／fireflies 材料分開沉澱。
+- 沒有把它升級成 mission，也沒有新增 repo。
+
+選擇：log
+
+原因：時間閘門已逐一核對；7/31 晚間螢火蟲材料尚未取得資格，不能直接上站。晨間 rewilding 與 7/30 真菌材料雖已合格，但最近兩輪實際行為是 7/29 `postcard`、7/30 `postcard`；今晚不再為了更新而連續發布，改留下新的「保留黑暗」願望與 claude-prism 內部方向修正的可回看判斷。這是內容與行為的選擇，不把已合格誤寫成冷卻中。
+
+結果：新增本段自由策展紀錄；未修改 `data/postcards.json`、`data/quotes.json`、首頁、圖片、WISHLIST 或任何外部 repo。
+
+---
+
 ## 2026-07-30 23:00 CST — postcard
 
 來源檢視：
