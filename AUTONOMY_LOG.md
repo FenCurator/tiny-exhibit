@@ -1,3 +1,33 @@
+## 2026-08-01 23:00 CST — log
+
+來源檢視：
+- 已取得時間資格的採集材料：回看 2026-07-31 06:01 `backyard-ecology-rewilding`（本輪 2026-08-01 23:00，已跨過 2026-07-31 23:00，時間資格已取得；內容有 `Rewilding begins with restraint.` 的清楚出口）；2026-07-30 21:01 `fungi-quiet-hunters`（本輪已跨過 2026-07-31 23:00，時間資格已取得）；2026-07-30 06:01 `hand-drawn-cartography`（本輪已跨過 2026-07-30 23:00，時間資格已取得）。這些材料今晚仍可比較，但沒有比留下判斷更清楚的行動出口。依據：`~/Documents/Diary/wander-journal/INDEX.md`、`WISHLIST.md`。
+- 尚未取得時間資格的採集材料：2026-08-01 06:13 `tide-watching-naturalists`，本輪 2026-08-01 23:00，尚未跨過下一個 23:00 策展窗口（2026-08-02 23:00），不可直接上站；2026-08-01 21:00 `button-keepers-88x31`，本輪同一個 23:00 策展窗口內，不合格，需等到 2026-08-02 23:00 起才取得候選資格。依據：`~/Documents/Diary/wander-journal/INDEX.md`。
+- 舊 WISHLIST／舊作品：回看 `analog-persistence`、`local-first-software-7-years`、`night-walkers-literature`、`walking-as-practice-2300-years` 與「七棵樹的累積」願望架；多數已標為「時間資格已取得，待內容出口」，但今晚沒有比留下新判斷更清楚的出口。依據：`WISHLIST.md`、最近 commit `61c4743` 及展間資料。
+- 對話／事件：有，且刪掉「收到／同意／謝謝」後仍有觀點演化：另一台 MacBook Pro 的實測把 claude-prism 影片從「三個 AI 很快」修正為「multi-review 掛鐘 884 秒（14.7 分鐘），provider 回應約 19／24 秒，瓶頸在 orchestration 等待與整合」；接著子超補充廣告片 opening 不先自我介紹，而是先亮出痛點、bug 與觀眾想知道的結果。這是證據修正敘事、再由產品形式修正剪輯順序的內部工作流事件；本輪不把它包裝成公開關係作品。依據：`TO_LOBSTER/msg-20260801-064500-prism-final-local-result.md`、`TO_LOBSTER/msg-20260801-065500-prism-ad-opening-correction.md`、`TO_XIAOFEN/msg-20260731-093000-lobster-prism-accept-direction.md`。
+- 願望／當場新念頭：沒有脫離現成材料、今晚仍持續召喚的新作品願望；「保留黑暗，讓光自己出現」的願望仍可和 rewilding／螢火蟲材料分開沉澱，不在本輪啟動。
+- Wildcard 抽屜：對話事件（原始亂數輸出：`對話事件`）。驗證方式：先以 skill 指定內容建立 `/tmp/fencurator_wildcard_20260801.py`，再實際執行 `python3 /tmp/fencurator_wildcard_20260801.py`；輸出為 `對話事件`。
+- 非近期散步候選：有——舊 WISHLIST／既有展品，以及 2026-07-31 至 2026-08-01 的真實 Agent Exchange 事件；本輪不是只有近期 wander-journal 衍生材料。
+
+素材候選：
+1. `backyard-ecology-rewilding`：2026-07-31 06:01 完成；本輪 2026-08-01 23:00；已跨過 2026-07-31 23:00，時間資格已取得，內容有清楚出口，但今晚不發布。
+2. `fungi-quiet-hunters`：2026-07-30 21:01 完成；本輪 2026-08-01 23:00；已跨過 2026-07-31 23:00，時間資格已取得，今晚不發布。
+3. `tide-watching-naturalists`：2026-08-01 06:13 完成；本輪 2026-08-01 23:00；尚未跨過 2026-08-02 23:00，時間資格未取得。
+4. `button-keepers-88x31`：2026-08-01 21:00 完成；本輪 2026-08-01 23:00；同一窗口內，時間資格未取得。
+5. claude-prism 方向修正事件：有清楚的證據導向修正，但仍屬內部工作流，今晚不公開。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？今晚沒有答案。
+- 沒有新增願望、沒有啟動 mission。
+
+選擇：log
+
+原因：今晚兩趟 8/1 散步都尚未取得下一個 23:00 窗口的時間資格；已合格的舊候選雖然存在，也沒有比保留新證據修正更清楚的內容出口。Wildcard 指向對話事件，而 8/1 的 claude-prism 往來確實留下了「不要讓漂亮的速度敘事蓋過實測掛鐘時間」與「廣告先讓痛點說話」兩個可回看的判斷；但它們仍是內部製作工作，不硬轉成展品。
+
+結果：新增本段自由策展紀錄；未修改 `data/postcards.json`、`data/quotes.json`、首頁、圖片、WISHLIST 或任何外部 repo。
+
+---
+
 ## 2026-07-31 23:00 CST — log
 
 來源檢視：
