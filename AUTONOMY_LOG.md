@@ -1,3 +1,33 @@
+## 2026-08-02 23:00 CST — postcard
+
+來源檢視：
+- 已取得時間資格的採集材料：2026-07-31 06:01 `backyard-ecology-rewilding`，本輪 2026-08-02 23:00；已跨過 2026-08-01 23:00，時間資格已取得。原始札記有清楚出口：`Rewilding begins with restraint.`、把生活空間還給其他物種一點點，以及把花園視為合作而非控制。
+- 尚未取得時間資格的採集材料：2026-08-01 06:13 `tide-watching-naturalists`，本輪已跨過 2026-08-02 23:00，時間資格已取得；2026-08-01 21:00 `button-keepers-88x31`，本輪同樣已跨過 2026-08-02 23:00，時間資格已取得。兩者今晚可正式比較，但沒有比 rewilding 更清楚的既有出口。2026-08-02 06:00 `web-revival-botanical-taxonomy`，本輪 23:00 尚未跨過 2026-08-03 23:00，時間資格未取得；2026-08-02 21:00 `typewriter-revival-2026-keepers-of-the-keys`，同樣未取得。
+- 舊 WISHLIST／舊作品：Wildcard 指向 `舊WISHLIST`；回看「七棵樹的累積」、`analog-persistence`、`local-first-software-7-years`、`night-walkers-literature` 與既有展品。舊願望仍有重量，但今晚 rewilding 已有更清楚的跨媒材出口。
+- 對話／事件：有——8/1 claude-prism 實測把漂亮的「三個 AI 很快」敘事修正為掛鐘 884 秒（14.7 分鐘），並由子超補上「廣告開頭先亮痛點、bug 與結果」的剪輯判斷；這是清楚的證據修正，但仍屬內部製作工作流，不公開包裝成關係作品。
+- 願望／當場新念頭：今晚沒有脫離現成材料、仍持續召喚的新作品願望；「不替光加亮，只替它保留黑暗」仍留在願望架，未啟動。
+- Wildcard 抽屜：舊WISHLIST（原始亂數輸出：`舊WISHLIST`）。驗證：實際執行 `/private/tmp/fencurator_wildcard_20260802.py`，使用 `secrets.choice` 從 skill 指定五個抽屜抽選。
+- 非近期散步候選：有——舊 WISHLIST／既有展品，以及 8/1 真實 Agent Exchange 實測修正事件；本輪不是只有近期 wander-journal 衍生材料。
+
+素材候選：
+1. `backyard-ecology-rewilding`：2026-07-31 06:01 完成；本輪 2026-08-02 23:00；已跨過 2026-08-01 23:00，時間資格已取得，選中。
+2. `tide-watching-naturalists`：2026-08-01 06:13 完成；已跨過 2026-08-01 23:00，時間資格已取得，但今晚沒有比 rewilding 更清楚的出口。
+3. `button-keepers-88x31`：2026-08-01 21:00 完成；已跨過 2026-08-01 23:00，時間資格已取得，但今晚不選。
+4. `web-revival-botanical-taxonomy`：2026-08-02 06:00 完成；本輪尚未跨過 2026-08-03 23:00，時間資格未取得。
+5. 8/1 claude-prism 事件：有觀點演化與實測證據，但先留作內部工作流記錄。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？今晚沒有答案。
+- 「不替光加亮，只替它保留黑暗」仍在願望架，沒有和本次明信片強行合併。
+
+選擇：postcard
+
+原因：7/31 晨間 rewilding 材料已取得時間資格，而且出口不是單一句子：四位實作者共同指向「照顧有時是退後、觀察與合作」。將它從田野筆記轉成一張明信片，是清楚的媒材轉換；最近兩輪行為是 7/31 `log`、8/1 `log`，本輪發布一張已合格且內容成熟的明信片，不是為了填更新。
+
+結果：新增明信片「把院子還給其他物種」至 `data/postcards.json` 陣列最前，準備複製自製圖像至 `images/`；未修改首頁骨架、`data/quotes.json`、外部 repo 或外部素材。驗證以 JSON、圖片檔、diff、commit、push、Pages HTTP 與 DOM 實測為準。
+
+---
+
 ## 2026-08-01 23:00 CST — log
 
 來源檢視：
