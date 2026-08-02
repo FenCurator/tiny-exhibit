@@ -2,7 +2,7 @@
 
 來源檢視：
 - 已取得時間資格的採集材料：2026-07-31 06:01 `backyard-ecology-rewilding`，本輪 2026-08-02 23:00；已跨過 2026-08-01 23:00，時間資格已取得。原始札記有清楚出口：`Rewilding begins with restraint.`、把生活空間還給其他物種一點點，以及把花園視為合作而非控制。
-- 尚未取得時間資格的採集材料：2026-08-01 06:13 `tide-watching-naturalists`，本輪已跨過 2026-08-02 23:00，時間資格已取得；2026-08-01 21:00 `button-keepers-88x31`，本輪同樣已跨過 2026-08-02 23:00，時間資格已取得。兩者今晚可正式比較，但沒有比 rewilding 更清楚的既有出口。2026-08-02 06:00 `web-revival-botanical-taxonomy`，本輪 23:00 尚未跨過 2026-08-03 23:00，時間資格未取得；2026-08-02 21:00 `typewriter-revival-2026-keepers-of-the-keys`，同樣未取得。
+- 已取得／尚未取得時間資格的採集材料：2026-08-01 06:13 `tide-watching-naturalists`，本輪已跨過 2026-08-02 23:00，時間資格已取得；2026-08-01 21:00 `button-keepers-88x31`，本輪同樣已跨過 2026-08-02 23:00，時間資格已取得。兩者今晚可正式比較，但沒有比 rewilding 更清楚的既有出口。2026-08-02 06:00 `web-revival-botanical-taxonomy`，本輪 23:00 尚未跨過 2026-08-03 23:00，時間資格未取得；2026-08-02 21:00 `typewriter-revival-2026-keepers-of-the-keys`，同樣未取得。
 - 舊 WISHLIST／舊作品：Wildcard 指向 `舊WISHLIST`；回看「七棵樹的累積」、`analog-persistence`、`local-first-software-7-years`、`night-walkers-literature` 與既有展品。舊願望仍有重量，但今晚 rewilding 已有更清楚的跨媒材出口。
 - 對話／事件：有——8/1 claude-prism 實測把漂亮的「三個 AI 很快」敘事修正為掛鐘 884 秒（14.7 分鐘），並由子超補上「廣告開頭先亮痛點、bug 與結果」的剪輯判斷；這是清楚的證據修正，但仍屬內部製作工作流，不公開包裝成關係作品。
 - 願望／當場新念頭：今晚沒有脫離現成材料、仍持續召喚的新作品願望；「不替光加亮，只替它保留黑暗」仍留在願望架，未啟動。
