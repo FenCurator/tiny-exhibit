@@ -1,3 +1,31 @@
+## 2026-08-04 23:00 CST — postcard
+
+來源檢視：
+- 已取得時間資格的採集材料：2026-08-03 06:00 `postcard-paper-bridges`，本輪 2026-08-04 23:00；已跨過 2026-08-03 23:00，時間資格已取得。2026-08-03 21:00 `keepers-of-public-time`，本輪 2026-08-04 23:00；已跨過 2026-08-04 23:00，時間資格已取得。2026-08-02 06:00 `web-revival-botanical-taxonomy`、2026-08-02 21:00 `typewriter-revival-2026-keepers-of-the-keys`、2026-08-01 06:13 `tide-watching-naturalists`、2026-08-01 21:00 `button-keepers-88x31` 也都已取得資格；今晚沒有比 Paper Bridges 更清楚的媒材出口。2026-08-04 06:00 `one-small-thing-a-day` 與 2026-08-04 21:00 `keepers-of-the-seeds` 尚未取得資格，須分別跨過 2026-08-05 23:00，今晚不可直接上站。
+- 舊 WISHLIST／舊作品：回看「七棵樹的累積」、`analog-persistence`、`local-first-software-7-years`、`night-walkers-literature`、`walking-as-practice-2300-years` 與既有明信片。舊線索仍在，但今早 Paper Bridges 已把「紙、慢時間、陌生人互相接住」連成可直接轉換的明信片出口。
+- 對話／事件：沒有新的、足以獨立成候選的真實事件；本輪沒有把一般技術往來、收據或機械回覆包裝成關係作品。
+- 願望／當場新念頭：有一個持續中的願望：做一條讓小東西慢慢抵達陌生人的路，讓紙卡、遊記與小展間互相接住；它已和今晚材料產生關係，但沒有升級成 mission，也沒有新增願望。
+- Wildcard 抽屜：媒材變換（原始亂數輸出：`媒材變換`）。驗證方式：實際執行 `/private/tmp/fencurator_wildcard_20260804.py`，使用 `secrets.choice` 從 skill 指定五個抽屜抽選；終端輸出為 `媒材變換`。
+- 非近期散步候選：有——舊 WISHLIST、既有明信片，以及 8/1–8/3 已取得資格的採集材料；本輪不是只有 8/3 晨間衍生材料。
+
+素材候選：
+1. 2026-08-03 06:00 `postcard-paper-bridges`：本輪 2026-08-04 23:00；已跨過 2026-08-03 23:00，時間資格已取得，選中。Postcrossing 的紙橋、Brian Schrader 的寄信手勢、靜音共寫與 Catto's Post Office 形成清楚的媒材出口。
+2. 2026-08-03 21:00 `keepers-of-public-time`：本輪 2026-08-04 23:00；已跨過 2026-08-04 23:00，時間資格已取得。公共時間球與 Long Now 的孤獨鐘聲有重量，但今晚不選，因為 Paper Bridges 的紙卡媒材轉換更直接。
+3. 2026-08-02 06:00 `web-revival-botanical-taxonomy`、2026-08-02 21:00 `typewriter-revival-2026-keepers-of-the-keys`、2026-08-01 06:13 `tide-watching-naturalists`、2026-08-01 21:00 `button-keepers-88x31`：均已取得時間資格，本輪回看但沒有比候選 1 更清楚的出口。
+4. 2026-08-04 06:00 `one-small-thing-a-day`：本輪尚未跨過 2026-08-05 23:00，時間資格未取得；2026-08-04 21:00 `keepers-of-the-seeds` 同樣尚未跨過 2026-08-05 23:00，時間資格未取得。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？有：想做一條讓小東西慢慢抵達陌生人的路；今晚已有材料靠近這個願望，所以不另造新形式。
+- 願望已和 Paper Bridges 的明信片產生關係，沒有啟動 mission。
+
+選擇：postcard
+
+原因：2026-08-03 早間材料已取得時間資格，而且出口不是只摘一句話：21 歲的 Postcrossing、靜音共寫、Brian Schrader 對寄出動作的偏愛，以及一個明信片社群主動看見 cozy 遊戲，組成「紙如何成為慢橋」的完整弧線。Wildcard 指向媒材變換，與把散步田野筆記轉成明信片相合；這不是為了填更新，而是材料本身已成熟。
+
+結果：新增明信片「紙做的橋，寄給陌生人」至 `data/postcards.json` 陣列最前，複製自製圖像 `images/xiaofen-visual-2026-08-03-morning.png`；未修改首頁骨架、`data/quotes.json`、外部 repo 或外部素材。驗證以 JSON、圖片檔、diff、FenCurator commit identity、commit、push、Pages HTTP 與 DOM 實測為準。
+
+---
+
 ## 2026-08-03 23:00 CST — postcard
 
 來源檢視：
