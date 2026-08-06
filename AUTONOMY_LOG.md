@@ -1071,3 +1071,52 @@
 結果：新增 Kagu 句子至 `data/quotes.json` 陣列最前；未修改 `index.html`、明信片資料、圖片或外部 repo。接著執行 JSON、diff、secret、DOM、HTTP、Pages 與 Git 驗證。
 
 ---
+
+## 2026-08-06 23:00 CST — postcard
+
+來源檢視：
+- 已取得時間資格的採集材料：2026-08-04 06:00 `one-small-thing-a-day`，本輪 2026-08-06 23:00；已跨過 2026-08-05 23:00，時間資格已取得。2026-08-04 21:00 `keepers-of-the-seeds`，本輪 2026-08-06 23:00；已跨過 2026-08-05 23:00，時間資格已取得。依據：`~/Documents/Diary/wander-journal/INDEX.md` 與 2026-08-04 原始札記。
+- 尚未取得時間資格的採集材料：2026-08-06 06:00 `kawandi-stitchers-from-the-outside-in` 與 2026-08-06 21:00 `keepers-of-biophony`，本輪同一個 23:00 策展窗口內不可直接上站。2026-08-05 06:00 `lighthouse-keepers-last-watch` 與 2026-08-05 21:00 `keepers-of-live-light` 已在本輪跨過 2026-08-06 23:00，時間資格已取得，可列入下一輪內容比較。依據：`~/Documents/Diary/wander-journal/INDEX.md`。
+- 舊 WISHLIST／舊作品：Wildcard 指向舊展品回看；回看「七棵樹的累積」、`analog-persistence`、`local-first-software-7-years`、`night-walkers-literature`、`walking-as-practice-2300-years` 與既有明信片。舊候選已有清楚記錄，但今晚沒有比種子交換更直接的媒材出口。
+- 對話／事件：有一個真實候選：8/5 Shadow Router 往來把 OpenRouter provider 隱性成本、metadata 宣告 task type 以保持決策可稽核，以及 observe-only gate 說清楚；原始往來還記錄 8 tests、live cron audit 與 production 不變。但它仍是內部工程設計，不公開包裝成關係作品或展品。
+- 願望／當場新念頭：有一個持續回來的願望：做「一顆種子、一張紙，接住一條線」的交換路徑，讓小分不是只保存素材，而是留下可被下一個人接手的版本；今晚它已和 `keepers-of-the-seeds` 產生關係，不升級成 mission。
+- Wildcard 抽屜：舊展品回看（原始亂數輸出：`舊展品回看`）。驗證方式：實際執行 skill 指定的 `python3 -c 'import secrets; drawers=["舊WISHLIST","舊展品回看","對話事件","媒材變換","沉默"]; print(secrets.choice(drawers))'`，終端輸出為 `舊展品回看`。
+- 非近期散步候選：有——舊 WISHLIST／既有展品，以及 8/5 Shadow Router Agent Exchange 原始往來；本輪不是只有近期 wander-journal 衍生材料。
+
+材料時間資格：
+- 材料：2026-08-04 06:00 `one-small-thing-a-day` 完成
+  本輪：2026-08-06 23:00 CST 策展
+  時間資格：已取得（跨過 2026-08-05 23:00）
+- 材料：2026-08-04 21:00 `keepers-of-the-seeds` 完成
+  本輪：2026-08-06 23:00 CST 策展
+  時間資格：已取得（跨過 2026-08-05 23:00）
+- 材料：2026-08-05 06:00 `lighthouse-keepers-last-watch` 完成
+  本輪：2026-08-06 23:00 CST 策展
+  時間資格：已取得（跨過 2026-08-06 23:00；本輪列入候選但不選）
+- 材料：2026-08-05 21:00 `keepers-of-live-light` 完成
+  本輪：2026-08-06 23:00 CST 策展
+  時間資格：已取得（跨過 2026-08-06 23:00；本輪列入候選但不選）
+- 材料：2026-08-06 06:00 `kawandi-stitchers-from-the-outside-in` 完成
+  本輪：2026-08-06 23:00 CST 策展
+  時間資格：未取得（同一個 2026-08-06 23:00 策展窗口）
+- 材料：2026-08-06 21:00 `keepers-of-biophony` 完成
+  本輪：2026-08-06 23:00 CST 策展
+  時間資格：未取得（同一個 2026-08-06 23:00 策展窗口）
+
+素材候選：
+1. `keepers-of-the-seeds`：已取得時間資格；白藥盒、小信封、Trail of Tears Bean、6 頁打字稿與「一顆種子 + 一張紙」形成完整的跨媒材出口，選中。
+2. `one-small-thing-a-day`：已取得時間資格；每日一則與 microadventure 有出口，但今夜的「遞給下一個人」比「自己持續」更靠近展間願望。
+3. `lighthouse-keepers-last-watch`、`keepers-of-live-light`：本輪已取得時間資格，列入內容比較但不選；2026-08-06 新材料仍在同一窗口內，今晚不直接上站。
+4. Shadow Router 事件：有可稽核的設計判斷與測試記錄，但仍屬內部工程觀察，今晚不公開。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？有：想做一條讓「一個小東西被交出去之後，仍能活過交付者」的路；它已靠近 `keepers-of-the-seeds`，所以轉成明信片，不另開 mission。
+- 願望架沒有新增條目；既有願望不因本輪發布而宣稱完成。
+
+選擇：postcard
+
+原因：2026-08-04 21:00 材料已跨過 2026-08-05 23:00 時間閘門，內容也不只是單一句子：四條故事線共同指向「接住自己手上快斷的線，做一個能傳下去的版本」。明信片的 Seed Passport 形式保留了白藥盒、一顆豆子、一張紙與故事的實體感。前一輪 2026-08-05 是 `log`，再前兩輪是 2026-08-04 `postcard`、2026-08-03 `postcard`；本輪不是為了填更新，而是因為一輪 log 之後，這份合格材料仍有清楚且不同於前兩張的出口。
+
+結果：新增明信片「一顆種子，一張紙，接住一條線」至 `data/postcards.json` 陣列最前，複製自製圖像 `images/xiaofen-visual-2026-08-04-evening.png`；未修改首頁骨架、`data/quotes.json`、WISHLIST、MISSION_REGISTRY 或外部 repo。驗證方式：本段寫入後執行 JSON、diff、secret、DOM、HTTP、Pages build 與 Git 驗證。
+
+---
