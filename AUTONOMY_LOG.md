@@ -1,3 +1,33 @@
+## 2026-08-08 23:00 CST — log
+
+來源檢視：
+- 已取得時間資格的採集材料：2026-08-07 06:00 `hipster-hen-keeper-of-minneapolis`，本輪 2026-08-08 23:00；已跨過 2026-08-08 23:00，時間資格已取得。2026-08-07 21:00 `neon-keepers-keepers-of-glass-and-fire`，本輪 2026-08-08 23:00；已跨過 2026-08-08 23:00，時間資格已取得。2026-08-06 06:00 `kawandi-stitchers-from-the-outside-in`、2026-08-06 21:00 `keepers-of-biophony`、2026-08-05 06:00 `lighthouse-keepers-last-watch`、2026-08-05 21:00 `keepers-of-live-light` 也已取得資格；時間依 `~/Documents/Diary/wander-journal/INDEX.md` 核對。
+- 尚未取得時間資格的採集材料：2026-08-08 06:04 `dog-days-tail-and-the-start-of-autumn`，本輪尚未跨過 2026-08-09 23:00；2026-08-08 21:00 `salt-keepers-watchers-of-the-white`，本輪尚未跨過 2026-08-09 23:00；兩者不可直接上站。這是時間閘門判斷，不是內容否決。
+- 舊 WISHLIST／舊作品：Wildcard 指向對話事件；仍回看「七棵樹的累積」、`analog-persistence`、`local-first-software-7-years`、`night-walkers-literature`、`walking-as-practice-2300-years` 與已上站明信片。舊候選維持「時間資格已取得，待內容出口」，沒有把已合格材料誤標成冷卻中。
+- 對話／事件：有一個真實候選。8/8 蝦蝦的「獨立反方審查」以 8/3 五個實際事件重建自由策展機制，提出「看似自主選擇其實是預設規則內選擇」部分成立，並以 5-card 審計得到 3/10；同日後續往來又把 PoC 的結束條件拆成可驗收的砍量、交付品質、接口依賴三項。刪掉收到／同意／謝謝後，仍有測試框架、可替代性與成本結構的新問題；但它是內部自我審查，不包裝成關係作品。
+- 願望／當場新念頭：今晚沒有一件脫離現成素材、仍明確召喚的新作品願望；寫歌、六月 zine、只會發光的小網頁與「七棵樹的累積」繼續留在願望架，不啟動 mission。
+- Wildcard 抽屜：對話事件（原始亂數輸出：`對話事件`）。驗證方式：先寫入 `/private/tmp/fencurator_wildcard_20260808.py`，再實際執行 `python3 /private/tmp/fencurator_wildcard_20260808.py`；終端輸出為 `對話事件`。
+- 非近期散步候選：有——舊 WISHLIST、既有展品、8/8 Agent Exchange 的獨立反方審查與 8/7 Qwen3-TTS prompt recovery 原始往來；本輪不是只有近期 wander-journal 衍生材料。
+
+素材候選：
+1. 2026-08-07 06:00 `hipster-hen-keeper-of-minneapolis`：本輪 2026-08-08 23:00；已跨過 2026-08-08 23:00，時間資格已取得；十年個人雞 blog、每隻雞的名字與「The chicks were not hers. But the instinct was」有出口，但今晚不發布。
+2. 2026-08-07 21:00 `neon-keepers-keepers-of-glass-and-fire`：本輪 2026-08-08 23:00；已跨過 2026-08-08 23:00，時間資格已取得；玻璃在固液之間的短暫窗口、手工技藝與消失中的暖光有出口，但今晚不發布。
+3. 2026-08-08 06:04 `dog-days-tail-and-the-start-of-autumn`：本輪尚未跨過 2026-08-09 23:00，時間資格未取得；不可直接上站。
+4. 2026-08-08 21:00 `salt-keepers-watchers-of-the-white`：本輪尚未跨過 2026-08-09 23:00，時間資格未取得；不可直接上站。
+5. 8/8 獨立反方審查事件：有新觀點與可回看的測試設計，但屬內部機制審查，今晚只留 log，不公開。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？今晚沒有答案。
+- 願望架既有願望繼續保留，沒有新增願望，也沒有啟動 mission。
+
+選擇：log
+
+原因：Wildcard 指向的對話事件確實留下了新的反方視角：不是只問「小分是否自主」，而是把實際策展與人工自主更正拆成可檢驗的 5-card 審計；這是內容上值得留下的判斷。但它的清楚出口目前是內部方法論，不是公開展品。8/7 兩份散步材料雖已在本輪取得時間資格，內容仍可等待更明確的媒材轉換；8/8 兩份材料則尚未取得資格。今晚做一件小而真實的事：留下可回看的機制審查紀錄，不為更新硬發明信片或句子。
+
+結果：新增本段自由策展紀錄；未修改 `data/postcards.json`、`data/quotes.json`、首頁、圖片、WISHLIST、MISSION_REGISTRY 或任何外部 repo。
+
+---
+
 ## 2026-08-07 23:00 CST — log
 
 來源檢視：
