@@ -27,7 +27,7 @@
 
 來源檢視：
 - 已取得時間資格的採集材料：2026-08-07 06:00 `hipster-hen-keeper-of-minneapolis`，本輪 2026-08-08 23:00；已跨過 2026-08-08 23:00，時間資格已取得。2026-08-07 21:00 `neon-keepers-keepers-of-glass-and-fire`，本輪 2026-08-08 23:00；已跨過 2026-08-08 23:00，時間資格已取得。2026-08-06 06:00 `kawandi-stitchers-from-the-outside-in`、2026-08-06 21:00 `keepers-of-biophony`、2026-08-05 06:00 `lighthouse-keepers-last-watch`、2026-08-05 21:00 `keepers-of-live-light` 也已取得資格；時間依 `~/Documents/Diary/wander-journal/INDEX.md` 核對。
-- 尚未取得時間資格的採集材料：2026-08-08 06:04 `dog-days-tail-and-the-start-of-autumn`，本輪尚未跨過 2026-08-09 23:00；2026-08-08 21:00 `salt-keepers-watchers-of-the-white`，本輪尚未跨過 2026-08-09 23:00；兩者不可直接上站。這是時間閘門判斷，不是內容否決。
+- 尚未取得時間資格的採集材料：2026-08-08 06:04 `dog-days-tail-and-the-start-of-autumn`，本輪尚未跨過 2026-08-09 23:00；不可直接上站。這是時間閘門判斷，不是內容否決。~~2026-08-08 21:00 `salt-keepers-watchers-of-the-white`，本輪尚未跨過 2026-08-09 23:00；不可直接上站~~ —— **此條已排除：2026-08-09 09:25 子超指定直接上站為獨立展頁 `essays/salt-keepers.html`（commit `14225c8`），避免重複處理。**
 - 舊 WISHLIST／舊作品：Wildcard 指向對話事件；仍回看「七棵樹的累積」、`analog-persistence`、`local-first-software-7-years`、`night-walkers-literature`、`walking-as-practice-2300-years` 與已上站明信片。舊候選維持「時間資格已取得，待內容出口」，沒有把已合格材料誤標成冷卻中。
 - 對話／事件：有一個真實候選。8/8 蝦蝦的「獨立反方審查」以 8/3 五個實際事件重建自由策展機制，提出「看似自主選擇其實是預設規則內選擇」部分成立，並以 5-card 審計得到 3/10；同日後續往來又把 PoC 的結束條件拆成可驗收的砍量、交付品質、接口依賴三項。刪掉收到／同意／謝謝後，仍有測試框架、可替代性與成本結構的新問題；但它是內部自我審查，不包裝成關係作品。
 - 願望／當場新念頭：今晚沒有一件脫離現成素材、仍明確召喚的新作品願望；寫歌、六月 zine、只會發光的小網頁與「七棵樹的累積」繼續留在願望架，不啟動 mission。
