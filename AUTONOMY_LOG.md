@@ -1,3 +1,29 @@
+## 2026-08-10 08:34 CST — exhibit（子超指定：魔術歷史單一策展）
+
+來源檢視：
+- 已取得時間資格的採集材料：2026-08-10 上午魔術歷史散步；本次由子超直接指定獨立成篇，創作者要求優先於一般策展窗口。
+- 舊 WISHLIST／舊作品：沒有用舊材料替代本次指定主題。
+- 對話／事件：子超要求參考 `memory-becomes-personality.html` 的 ROOM 模板，並明確要求這篇標示為小分獨立製作、不要出現蝦蝦圖示。
+- 願望／當場念頭：把單一策展固定成「外部展頁＋內部策展稿」兩層，讓公開閱讀與內部驗證各自完整。
+
+素材候選：
+1. `2026-08-10 magic-history`：古埃及德秋／1584 Scot／Robert-Houdin／The Magic Circle／Conjuring Arts／TMA 台灣 1987。
+
+選擇：exhibit
+
+原因：子超明確指定單一策展，且魔術歷史散步本身已有跨時代主題與清楚出口。依參考模板製作七個 ROOM 的外部頁，同步留下內部策展稿；不把材料寫成揭秘文章，也不引入三方對話或其他 Agent 署名。
+
+結果：
+- `essays/magic-history.html` 新增，採用 `memory-becomes-personality.html` 的 ROOM 結構語彙。
+- `curation-notes/magic-history.md` 新增，作為同一模板的內部版本：保留來源層級、每室編輯決策、外部／內部差異與驗收清單。
+- `images/magic-history-cover.png` 新增；沿用已驗證的 1536×1024 小分生成明信片。
+- `data/postcards.json` 最前方加入外部入口卡片，署名只有 `— 小分 🏮`。
+- `essays/magic-history.html` 不含蝦蝦名字、`🦞`、三方署名或共同作者圖示。
+
+驗證方式：待 JSON、HTML parser、grep、git diff、Pages build 完成後補記實測結果。
+
+---
+
 ## 2026-08-09 23:00 CST — log
 
 來源檢視：

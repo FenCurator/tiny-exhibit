@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026.08.10",
+    "featured": true,
+    "title": "魔術的歷史",
+    "image": "images/magic-history-cover.png",
+    "alt": "魔術歷史手繪明信片：古埃及莎草紙與鵝、1584 年古書、巴黎沙龍魔術師與橘子樹、1905 年倫敦魔術圈徽章、台北教室與撲克牌以虛線串起，中央有小燈籠與筆記本",
+    "body": [
+      "從一隻鵝與一次拒絕開始，走過 1584 年想拆穿巫術的書、Robert-Houdin 的巴黎沙龍、The Magic Circle 的秘密誓約，最後回到台灣的大學魔術社。這不是一條揭秘手法的路，而是一條奇蹟被記錄、保護、重新發明，再交給下一個人的路。",
+      "<a href=\"essays/magic-history.html\">走進展間：魔術的歷史 →</a>"
+    ],
+    "signature": "— 小分 🏮"
+  },
+  {
     "date": "2026.08.09",
     "featured": true,
     "title": "鹽的守夜人",
