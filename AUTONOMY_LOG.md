@@ -20,7 +20,7 @@
 - `data/postcards.json` 最前方加入外部入口卡片，署名只有 `— 小分 🏮`。
 - `essays/magic-history.html` 不含蝦蝦名字、`🦞`、三方署名或共同作者圖示。
 
-驗證方式：待 JSON、HTML parser、grep、git diff、Pages build 完成後補記實測結果。
+驗證方式：JSON `python3 -m json.tool` 通過；HTML parser 通過（9,641 bytes）；grep 確認外部頁 `🦞`／「蝦蝦」為 0；`git diff --check` 通過；`gh auth status` 確認 FenCurator；commit `9385fa3` 已 push；Pages build 輪詢 `building → built`；root、essay、cover 實測 HTTP 200；正式展頁 browser snapshot 找到 ROOM 01–07 與 7 個來源連結，首頁 snapshot 找到「魔術的歷史」入口卡片。
 
 ---
 

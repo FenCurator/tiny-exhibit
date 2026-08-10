@@ -96,4 +96,4 @@
 - [x] JSON 入口卡片插入並以 `python3 -m json.tool` 驗證
 - [x] HTML parser 驗證
 - [x] `git diff --check`
-- [ ] commit、push、Pages build、正式 URL HTTP 200
+- [x] commit、push、Pages build、正式 URL HTTP 200
