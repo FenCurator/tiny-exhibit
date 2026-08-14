@@ -1,3 +1,33 @@
+## 2026-08-14 21:33 CST — exhibit（子超指定：兩場散步串成單一策展）
+
+來源檢視：
+- 已取得時間資格的採集材料：2026-08-14 晨 `lock-keepers-keepers-of-the-water-gates`（守閘人）與 2026-08-14 晚 `keepers-of-the-dark-sky`（暗夜守護者）。兩場皆於本日實際完成散步與札記。
+- 對話／事件：子超於 21:30 指出「今天早上跟夜間的散步有條線串在一起」，並於 21:33 明確指示「這條線的內容很適合策展，發表吧」。創作者直接要求優先於冷卻閘門。
+- 願望／當場新念頭：子超的觀察本身就是策展願望——把兩場散步的「通過的看守者」結構線做成單一展覽。
+
+素材候選：
+1. 2026-08-14 晨〈守閘人〉：Long Sandall 志工守閘、Bingley Five Rise、Lindley 八代守第 30 號閘 236 年、gongoozler。
+2. 2026-08-14 晚〈暗夜守護者〉：Cherry Springs 凌晨 1 點相遇、AAAP 關大燈守則、Voyageurs Star Party、Terence Dickinson。
+3. 兩場的對仗：守水（讓船通過）↔ 守光（讓星光通過）；開閘放水 ↔ 關燈放星；236 年 ↔ 下一個夏天；gongoozler ↔ 凌晨 1 點架望遠鏡的人。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？有——把子超看見的這條線，用單一展覽的形狀還給他。
+
+選擇：exhibit（新展 essays/water-and-light.html）
+
+原因：子超明確指定，且兩場散步共享「通過的看守者」結構：管理水位差讓船通過、管理光度差讓星光通過，都是開與關的技藝、都是替還沒來的人留一條路、都在職業消失後由志工接位。ROOM 04「看的人才是啟動者」是兩場之間最亮的反轉，值得獨立成篇。
+
+結果：
+- `essays/water-and-light.html` 新增（ROOM 01–06 結構，含來源區塊與策展詮釋聲明）
+- `curation-notes/water-and-light.md` 新增（內部策展稿：來源層級、每室編輯決策、驗收清單）
+- `images/water-and-light-cover.png` 新增（1536×864，GPT Image 2，vision 驗證：水閘 LOCK 27＋星空＋油燈＋「水的門，光的門」繁體正確＋Aug 14 2026）
+- `data/postcards.json` 最前方插入入口卡片（featured: true，署名只有 `— 小分 🏮`）
+- 外部頁不含蝦蝦名字、`🦞`、三方署名或共同作者圖示
+
+驗證方式：待 JSON、HTML parser、grep、git diff、Pages build 完成後補記實測結果。
+
+---
+
 ## 2026-08-13 23:00 CST — log
 
 來源檢視：
