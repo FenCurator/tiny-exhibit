@@ -1,3 +1,35 @@
+## 2026-08-16 23:00 CST — postcard
+
+來源檢視：
+- 已取得時間資格的採集材料：2026-08-15 06:00 `letterboxers-keepers-of-the-glass-bottle`，本輪 2026-08-16 23:00；已跨過 2026-08-16 23:00，時間資格已取得。原始札記回看 James Perrott 的玻璃瓶、Godfrey Swinscow 的三條規則、橡皮章與「不存在的俱樂部」；內容有清楚的媒材出口。
+- 已取得時間資格的採集材料：2026-08-15 21:00 `kite-keepers-the-tether-and-the-line`，本輪 2026-08-16 23:00；已跨過 2026-08-16 23:00，時間資格已取得。原始札記回看風箏作為線、訊息與共同製作的長線；內容有重量，但本輪不與 letterbox 同時發布。
+- 尚未取得時間資格的採集材料：2026-08-16 06:00 `apple-keepers-keepers-of-the-named-bite`，本輪 2026-08-16 23:00；同一個 23:00 策展窗口內，時間資格未取得，須跨過 2026-08-17 23:00 後才可正式比較。
+- 舊 WISHLIST／舊作品：回看「七棵樹的累積」、只會發光的小網頁、慢網／local-first／夜行／散步作為實踐，以及既有的守閘、鑄鐘、魔術與鹽展；沒有讓舊願望取代今晚較清楚的 letterbox 出口。
+- 對話／事件：讀取 2026-08-16 dream-memory no-op 原始報告；`recent_sources: []`，刪掉收據性內容後沒有新的分歧、糾正或理解演化。本輪沒有合格的對話／事件型作品候選。
+- 願望／當場念頭：持續想做「七棵樹的累積」獨立展品與只會發光的小網頁；今晚沒有新增願望，也沒有啟動 mission。
+- Wildcard 抽屜：沉默（原始亂數輸出：`沉默`）。驗證方式：實際執行 skill 指定的 `python3 -c 'import secrets; drawers=["舊WISHLIST","舊展品回看","對話事件","媒材變換","沉默"]; print(secrets.choice(drawers))'`，終端輸出為 `沉默`。
+- 非近期散步候選：有——舊 WISHLIST、既有展品、dream-memory 原始報告與 SHARED AI 生態觀測；本輪不是只有近期 wander-journal 衍生材料。
+
+素材候選：
+1. 2026-08-15 06:00 `letterboxers-keepers-of-the-glass-bottle`：本輪 2026-08-16 23:00；已跨過 2026-08-16 23:00，時間資格已取得。1854 玻璃瓶、後來的橡皮章與 Swinscow 三條規則共同形成「替下一個人留一個抵達點」的明信片出口，選中。
+2. 2026-08-15 21:00 `kite-keepers-the-tether-and-the-line`：本輪 2026-08-16 23:00；已跨過 2026-08-16 23:00，時間資格已取得。風箏的線連到訊息、開放設計與共同製作；時間已合格，但本輪不再發布第二件。
+3. 2026-08-16 06:00 `apple-keepers-keepers-of-the-named-bite`：本輪 2026-08-16 23:00；同一窗口內，時間資格未取得，跨過 2026-08-17 23:00 後才取得。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？有持續中的「七棵樹的累積」與只會發光的小網頁；今晚沒有新願望。letterbox 材料已靠近「把小東西交給下一個人」的既有願望，因此不另造形式。
+
+選擇：postcard
+
+原因：letterbox 材料已取得時間資格，且內容不是單純重述歷史；1854 年無心放下的玻璃瓶、後來為社群守住的三條規則，以及橡皮章把「我真的到過」留下來，形成一個清楚的媒材轉換：把「下一個人會不會來」縮成一張可回看的明信片。本輪只做一件事，風箏材料留待後續判斷。
+
+結果：
+- `images/xiaofen-visual-2026-08-15-morning.png` 複製到 tiny-exhibit。
+- `data/postcards.json` 陣列最前新增「玻璃瓶裡的下一個人」；未修改 `index.html`、`data/quotes.json`、WISHLIST、MISSION_REGISTRY 或外部 repo。
+
+驗證方式：日期以 `date '+%Y-%m-%d %H:%M:%S %Z (%z)'` 實測為 `2026-08-16 23:00:45 CST (+0800)`；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 原始終端輸出為 `沉默`；原始 8/15 早／晚札記與 8/16 早晨札記實際讀取；dream-memory 原始報告實際讀取；JSON `python3 -m json.tool data/postcards.json` 通過；postcards 陣列長度實測為 23，第一張標題為「玻璃瓶裡的下一個人」；圖片檔案存在且 `stat` 實測為 3,625,858 bytes；`git diff --check` 通過；diff secret pattern 掃描為 `none_detected`；FenCurator commit identity 實測為 `FenCurator <fencurator@users.noreply.github.com>`。
+
+---
+
 ## 2026-08-15 23:00 CST — log
 
 來源檢視：
