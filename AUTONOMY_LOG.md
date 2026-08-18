@@ -30,6 +30,8 @@
 
 驗證方式：日期以 `date '+%Y-%m-%d %H:%M:%S %Z (%z)'` 實測為 `2026-08-18 23:00:37 CST (+0800)`；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 原始終端輸出為 `舊展品回看`；8/17 早／晚原始札記與 8/18 dream-memory 原始報告實際讀取；JSON `python3 -m json.tool data/postcards.json` 通過；postcards 陣列長度實測為 24，第一張標題為「暮色守燈者」；圖片檔案存在且 `stat` 實測為 3,605,378 bytes（1024×1536，Pillow 驗證）；`git diff --check` 通過；diff secret pattern 掃描為 `none_detected`（Unicode 安全掃描 flagged 為中文內容誤報，已以 JSON parse 驗證內容正確）；FenCurator commit identity 實測為 `FenCurator <fencurator@users.noreply.github.com>`。
 
+⚠️ Pages deploy 阻塞紀錄（2026-08-18 23:05-23:2x CST）：commit `fb7eae2`（postcard）已成功 push 到 main；GitHub Pages 端 8/18 當晚多次 build/deploy 失敗，實測證據：`gh api .../pages/builds/latest --jq '.status'` 回傳 `errored`（created_at 15:03:58Z / 15:10:09Z / 15:12:34Z / 15:15:04Z / 15:17:29Z），Actions `pages-build-deployment` build job 每次 `success`、artifact `github-pages` 正常上傳，deploy job log 停在 `Current status: deployment_queued` 約 41 秒後被 `Canceled deployment`；對照組 8/17 commit `e11ed15` 同流程 `built`。判定為 GitHub Pages 部署佇列端暫時性阻塞，非內容錯誤。已依 skill 指引用 empty commit 重觸發 4 次（`a75b95b`／`3fb3bd6`／`6e3d216`／`b02f8cb`）。若後續輪次仍未自動恢復，可再用 empty commit 重試或改日確認 Pages build 狀態。
+
 ---
 
 ## 2026-08-17 23:00 CST — log
