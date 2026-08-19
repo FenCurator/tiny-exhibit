@@ -83,9 +83,21 @@
 
 ## 明信片候選（2026-08-17 蒐集，2026-08-18 晚狀態對齊）
 
-- 「密碼守護者」（2026-08-17 早，on-demand 老爸指定主題）：4 站敘事弧線——Crypto Museum（Paul Reuvers & Marc Simons 2003 起全志工修復 Enigma/Fialka/Hagelin「If we don't act now, we might lose this part of our history forever」）/ Kryptos（Jim Sanborn 1990 CIA 銅屏四段密文，K1-K3 已解 K4 97 字元未解，2025/11 最後線索 2026/6 近百萬美元買解法）/ 數字電台（Priyom 短波 one-time pad 不可破解，Lincolnshire Poacher、Swedish Rhapsody 音樂命名，2010s 中期後殘存電台活動反增）/ Phil Zimmermann PGP（Senate Bill 266 後門條款→免費釋出→被當軍火查三年→1995 印書繞出口管制→1999 解禁「If privacy is outlawed, only outlaws will have privacy」）。圖檔 `xiaofen-visual-2026-08-17-morning-cryptography.png` 已就緒（1536×1024）。核心句：「密碼不是把話藏起來，是對全世界說話，只讓一個人聽得懂。」**時間資格已取得，待內容出口**（跨過 2026-08-18 23:00）。
+- 「密碼守護者」（2026-08-17 早，on-demand 老爸指定主題）：4 站敘事弧線——Crypto Museum（Paul Reuvers & Marc Simons 2003 起全志工修復 Enigma/Fialka/Hagelin「If we don't act now, we might lose this part of our history forever」）/ Kryptos（Jim Sanborn 1990 CIA 銅屏四段密文，K1-K3 已解 K4 97 字元未解，2025/11 最後線索 2026/6 近百萬美元買解法）/ 數字電台（Priyom 短波 one-time pad 不可破解，Lincolnshire Poacher、Swedish Rhapsody 音樂命名，2010s 中期後殘存電台活動反增）/ Phil Zimmermann PGP（Senate Bill 266 後門條款→免費釋出→被當軍火查三年→1995 印書繞出口管制→1999 解禁「If privacy is outlawed, only outlaws will have privacy」）。圖檔 `xiaofen-visual-2026-08-17-morning-cryptography.png` 已就緒（1536×1024）。核心句：「密碼不是把話藏起來，是對全世界說話，只讓一個人聽得懂。」**✅ 2026.08.19 已上站（postcards.json 第 1 張）**。
 
 - 「暮色守燈者」（2026-08-17 晚）：3 站敘事弧線——布拉格 Jan Žákovec 1847 起 200 盞→5 個點燈人→今 Advent 穿第一共和制服 2 米竹竿點 46 盞「火焰 puffing 零下 hiss 它是活的 不像電力」/ 倫敦 British Gas 5 人小隊 1,100 盞（1812 Gas Light and Coke 起）Horstmann 機械時鐘兩週手動上弦，2023 加冕金箔皇冠燈頭國王感謝信 / 香港都爹利街 1875-89 花崗石階 4 支 William Sugg two-light Rochester，1967 全面電氣化後唯一還會亮，2018 山竹折斷一支修 400 萬港元 15 個月，今自動點亮仍 gas+fire。Woolf 1927〈Street Haunting〉「islands of light, and its long groves of darkness」。札記自煉：「所有『守』的工作守的不是物件，是時間的那個切點——守密碼的人守明文變密文的瞬間，守燈的人守天色變暗的瞬間。」**✅ 2026.08.18 已上站為明信片（postcards.json 第 1 張，commit 待記）**。
+
+## 明信片候選（2026-08-18 蒐集，2026-08-19 晚狀態對齊）
+
+- 「守風者：磨坊主」（2026-08-18 早）：4 站敘事弧線——UNESCO 01265（2017/12 入非物質文化遺產，全國只剩約 40 位全職磨坊主，Guild of Volunteer Millers 1972 起訓練 2000+ 位志工、11 位 Master Miller）/ Tom Kreuning（Alkmaar Strijkmolen D 1627-1630 的醫生磨坊主「During the week I was a doctor, and on Saturdays I was trying to become a miller」四年週末考證書「三個老傢伙考你」比醫師考試難）/ De Kat 顏料磨坊（Zaandam 最忙磨坊，每小時 80 公斤 terracotta/Umber/Sienna/Ochre，17:00 上頂踩煞車捲帆布收避雷針綁翼板「磨坊主下班要看氣象」）/ Kinderdijk（Cornelis van den Berg 守 40+ 年 19 座風車「The millers never leave their windmills while they are pumping water」+「I'm happiest when the windmill is pumping well... my wife with the grandchildren swimming together」）。圖檔 `xiaofen-visual-2026-08-18-morning.png` 已就緒（1536×1024）。核心句：「守的是會自己跑掉的東西——風、潮、水，磨坊主不能下班；看氣象決定明天，是職業內建的。」**✅ 時間資格已取得（跨過 2026-08-19 23:00），待內容出口**——今晚已上密碼守護者，本輪一次只做一件。
+
+- 「山頂名冊」（2026-08-18 晚）：5 站敘事弧線——Mountaineers 登頂罐百年史（1915 十八個鑄青銅筒→REI 共同創辦人 Lloyd Anderson 水管材料手打鋼印→1982 Don Goodman 儲物櫃頂找到 1915 鑄模→Fay Pullen 自製 PVC 管 200+ 個「找到登頂罐你才知道自己真的在山頂」）/ Washburn 登頂簿（Meaghen Brown 2025 追父母 1984 訂婚簽名→1989 兒子 370 天大第一次上山→2024 帶兩個月大 Henry 上山簿子已不在「registers are like public diaries」）/ Walter Starr Jr. 1929 沒帶筆用血簽名，1933 失蹤搜救隊靠登頂簿推路線（「Forced to summit by bears」）/ Langenbacher 一人網站管 Sierra Peaks 247 座山「沒有 Facebook 的 1890 年代，登頂簿就是社群網站」/ 台灣三角點（日治 1900 起 1,176 顆花崗石柱，羅明原 67 歲爬完全部陸地測量部三角點「沒什麼特別的意義，就只是替自己找一個繼續登山的目標」）。圖檔 `xiaofen-visual-2026-08-18-evening.png` 已就緒（1536×1024）。核心句：「在沒有 Facebook 的 1890 年，山頂的鉛筆就是社群網站。」**✅ 時間資格已取得（跨過 2026-08-19 23:00），待內容出口**。
+
+## 明信片候選（2026-08-19 蒐集，2026-08-19 晚狀態對齊）
+
+- 「號誌樓守護者」（2026-08-19 早）：signalbox.org 個人號誌資料站（Rule 55 簽到本+「information... previously only been stored in my head」）/ Token 令牌（1849 Henry Woodhouse 首提，One Engine in Steam）/ 英國最後臂木號誌（Norton South 2021 最後一班 22:47，BBC 報 Manea 拆最後臂木 Ely–Peterborough 線）/ 狄更斯 1866〈The Signal-Man〉（Staplehurst 事故隔年「Halloa! Below there!」結尾司機警告與鬼語一字不差）。圖檔 `xiaofen-visual-2026-08-19-morning.png` 已就緒。核心句：號誌員守的是「這條軌道上現在只有你」的證明。**冷卻中**（同一 23:00 窗口內，跨過 2026-08-20 23:00 後取得候選資格）。
+
+- 「鴿郵守護者」（2026-08-19 晚）：RPRA 1896 成立+ Ramses III 尼羅河洪水情報 / Te Papa 大屏障島鴿郵（1897 Pigeongram Agency 紐西蘭第一個正規空郵，1908 海底電纜完成退役）/ 二戰近 25 萬隻鴿+ Dickin Medal 53 面 32 面給鴿子（Cher Ami 胸部中彈右腿斷左眼失明 25 英里約半小時送到）/ 台灣賽鴿百年（1968 中日越洋鴿賽東京→台北，產值據傳 700 億）/ 今日常態（Spartan 鴿舍「我們偉大的運動正在腳邊死去」）。圖檔 `xiaofen-visual-2026-08-19-evening.png` 已就緒。核心句：鴿子是會飛的信封——「最快的連線是四小時，不是四毫秒」。**冷卻中**（同一 23:00 窗口內，跨過 2026-08-20 23:00 後取得候選資格）。
 
 ## 明信片候選（2026-07-24 晚新增，時間資格已取得，待內容出口）
 
