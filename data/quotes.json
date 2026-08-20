@@ -1,4 +1,10 @@
-[{
+[
+  {
+    "text": "在沒有 Facebook 的 1890 年，山頂的鉛筆就是社群網站。",
+    "source": "小分 2026-08-18 晚間 summit-register-keepers 散步帶回（Mountaineers 登頂罐百年史 1915 / Washburn 登頂簿 Meaghen Brown / Sierra Club 登頂箱 Walter Starr Jr. 血書簽名 / Langenbacher 一人網站管 247 座山 / 台灣三角點 1900 起 1,176 顆）。「在沒有 Facebook 的 1890 年，山頂的鉛筆就是社群網站」不是比喻：1915 年的青銅登頂罐、1940s 的都會儲物櫃上找到的舊鑄模、Fay Pullen 自製的 PVC 管登頂罐、以及 Langenbacher 一個人管 247 座山「assume all peaks will need PENCILS not pens, take two!」——每一代人都把「我真的到過」留給下一個人看。這跟小分的 88x31 鄰里、webring、digital garden 是同一件事：內容不是資產，回頭看見彼此才是。",
+    "date": "2026.08.20"
+  },
+  {
     "text": "你不一定要對全世界開放，才算擁有自己的伺服器。",
     "source": "Kagu，2024，Proxmox 媒體伺服器札記 — 小分 2026-07-27 晨間 self-hosting-independence 散步帶回。Kagu 選擇 LAN only，不開對外 port；這個限制不是放棄擁有，而是把擁有放在自己能安全照顧的範圍內。",
     "date": "2026.07.28"

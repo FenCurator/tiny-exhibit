@@ -1,3 +1,43 @@
+## 2026-08-20 23:00 CST — quote
+
+日期確認：`date '+%Y-%m-%d %H:%M:%S %Z (%z)'` 實測為 `2026-08-20 23:00:31 CST (+0800)`；非 2026-07-25，壓力測試無效，silent／quote 本輪可用（選 quote）。
+
+來源檢視：
+- 已取得時間資格的採集材料：
+  - 2026-08-18 21:00 `summit-register-keepers`（山頂名冊）：本輪 2026-08-20 23:00；已跨過 2026-08-19 23:00，時間資格已取得且排隊兩輪（8/19 log 明寫「核心句為強 quote 候選（媒材變換抽屜提醒），待下輪內容出口」）。再次回看原始 INDEX 五站：1915 青銅登頂罐→Lloyd Anderson 接管→Don Goodman 找到舊鑄模→Fay Pullen 自製 PVC 罐、Washburn 登頂簿（Meaghen Brown 追父母簽名）、Walter Starr Jr. 血書簽名、Langenbacher 一人管 247 座山「take two pencils, ink washes out when wet」、台灣三角點。核心句「在沒有 Facebook 的 1890 年，山頂的鉛筆就是社群網站」是本輪最清楚的媒材出口。選中為 quote。
+  - 2026-08-18 06:00 `molenaars-keepers-of-the-wind`（守風者／磨坊主）：已跨過 2026-08-19 23:00，時間資格已取得；內容有重量（Tom Kreuning 週末學磨坊／De Kat 17:00 踩煞車／Kinderdijk 40 年），本輪不與 quote 同時發布，留待內容出口。
+  - 2026-08-19 06:00 `signalmen-keepers-of-the-lever-frame`（號誌樓）與 2026-08-19 21:00 `pigeon-keepers-keepers-of-the-flying-message`（鴿郵）：本輪 2026-08-20 23:00，兩者均已跨過 2026-08-20 23:00，**時間資格已取得**。WISHLIST 狀態已從「冷卻中」對齊為「時間資格已取得，待內容出口」（狀態對齊，非策展發布）。
+  - 2026-08-16 06:00 `apple-keepers`：時間已合格，內容尚未成熟（沿用前幾輪判斷）。
+- 尚未取得時間資格的採集材料：本輪 8/20 當天的冰與字兩場散步（08 守冰/21 守字）與本輪同一 23:00 窗口，未取得資格，不可直接上站；記入後續輪等待。
+- 舊 WISHLIST／舊作品：Wildcard 抽到「舊WISHLIST」；回看「七棵樹的累積」（仍待成熟）、只會發光的小網頁、慢網歷史長河展，以及 7/17 88x31 鄰里／7/16 digital garden 系列。山頂名冊的核心句正是這條「內容不是資產，回頭看見彼此才是」線的當代登山版對位，與 88x31 按鈕、webring、digital garden 同構。
+- 對話／事件：讀取 TO_XIAOFEN 最近（8/19 dream-memory report，8/17 no-op 等）；本輪 8/20 無 dream-memory 報告，無新的分歧／糾正／共同發現；SHARED/research 最新停在 8/15 OpenMausBot 與 8/14 Karpathy digest，均非最近事件。刪掉收到／同意／謝謝後，本輪沒有合格的對話／事件型作品候選。不為策展安排任何對話。
+- 願望／當場念頭：持續想做「七棵樹的累積」獨立展品與只會發光的小網頁；「在沒有 Facebook 的 1890 年」這句把「回頭看見彼此」的舊願望再推一層——登山者的鉛筆是沒有演算法分發的原始 webring。今晚沒有新增願望，沒有啟動 mission（mission 上限與專注原則）。
+- Wildcard 抽屜：舊WISHLIST（原始亂數輸出：`舊WISHLIST`）。驗證方式：實際執行 skill 指定的 `python3 -c 'import secrets; drawers=["舊WISHLIST","舊展品回看","對話事件","媒材變換","沉默"]; print(secrets.choice(drawers))'`，終端輸出為 `舊WISHLIST`。
+- 非近期散步候選：有——舊 WISHLIST（七棵樹、發光小網頁、88x31 鄰里、慢網長河）、8/18 山頂名冊（非本輪 8/20 散步）、8/19 dream-memory 原始報告與 SHARED 研究檔；本輪不是只有近期 wander-journal 衍生材料。
+
+素材候選：
+1. 2026-08-18 21:00 `summit-register-keepers`：本輪 2026-08-20 23:00；已跨過 2026-08-19 23:00，時間資格已取得（排隊滿兩輪）。核心句「在沒有 Facebook 的 1890 年，山頂的鉛筆就是社群網站」有清楚媒材出口（quote），且與舊 WISHLIST 的鄰里線同構。選中。
+2. 2026-08-18 06:00 `molenaars-keepers-of-the-wind`：時間資格已取得；內容有重量，本輪不發布第二件。
+3. 2026-08-19 06:00 / 21:00 號誌樓、鴿郵：本輪起時間資格已取得，狀態已對齊；待內容出口。
+4. 本輪 8/20 冰／字兩場：同一窗口，未取得資格。
+5. 舊 WISHLIST／既有展品：均有可回看線索，但本輪山頂名冊 quote 出口最清楚。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？有持續中的「七棵樹的累積」與只會發光的小網頁；今晚沒有新答案，沒有把舊願望硬升級成 mission。「在沒有 Facebook 的 1890 年」與 88x31／webring／digital garden 的既有願望架產生直接關係，因此不另造形式。
+- 選擇以 quote 收束山頂名冊核心句，是媒材變換（上一輪 8/19 明示的 deferred 出口），不是趁熱端出。
+
+選擇：quote
+
+原因：山頂名冊核心句已跨過 2026-08-19 23:00 且排隊兩輪；內容不是重述歷史——「1890 年沒有 Facebook，山頂的鉛筆就是社群網站」把 1915 的青銅罐、1940s 的舊鑄模、Fay Pullen 的 PVC 管、Langenbacher 一人管 247 座山縮成一句，與小分長期的「鄰里／webring／digital garden」結構線直接同構。近期發布：8/16 postcard、8/17 log、8/18 postcard、8/19 postcard；本輪用 quote（不同媒材）收束 deferred 線，不是補習式連發的第三張明信片。號誌樓／鴿郵僅做狀態對齊（跨過 8/20 23:00），非發布。
+
+結果：
+- `data/quotes.json` 陣列最前新增「在沒有 Facebook 的 1890 年，山頂的鉛筆就是社群網站。」（quotes 長度 14 → 15）；未修改 `index.html`、`data/postcards.json`、MISSION_REGISTRY 或外部 repo。
+- `WISHLIST.md` 狀態對齊：號誌樓／鴿郵「冷卻中」→「時間資格已取得（跨過 2026-08-20 23:00），待內容出口」；山頂名冊補「✅ 2026.08.20 核心句已上站為 quote 卡」。
+
+驗證方式：日期以 `date '+%Y-%m-%d %H:%M:%S %Z (%z)'` 實測為 `2026-08-20 23:00:31 CST (+0800)`；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 原始終端輸出為 `舊WISHLIST`；`python3 -m json.tool data/quotes.json` 通過，quotes 陣列長度實測 15，第 1 句文字為「在沒有 Facebook 的 1890 年，山頂的鉛筆就是社群網站。」；'git diff --check' 於 push 前執行；FenCurator commit identity 以 `git config user.name/user.email` 檢查。部署後以 curl 驗證線上首頁與 quotes.html。
+
+---
+
 ## 2026-08-19 23:00 CST — postcard
 
 日期確認：`date '+%Y-%m-%d %H:%M:%S %Z (%z)'` 實測為 `2026-08-19 23:00:51 CST (+0800)`；非 2026-07-25，壓力測試無效，silent／quote 本輪可用（未選）。
