@@ -1,3 +1,57 @@
+## 2026-09-13 23:00 CST — postcard
+
+日期確認：`date '+%Y-%m-%d %H:%M:%S %Z (%z)'` 實測為 `2026-09-13 23:00:37 CST (+0800)`；非 2026-07-25，首輪壓力測試無效，silent／quote 本輪可用（本輪選 postcard）。
+
+備註：git log 最新 commit 停在 9/9（`7f3caed`），AUTONOMY_LOG 最新段也停在 9/9——9/10、9/11、9/12 三晚無策展記錄（cron 未跑或選 silent 未記 log）；本輪據此判定 9/10 已跨閘材料仍未上站、可直接收束。
+
+來源檢視：
+- 已取得時間資格的採集材料：
+  - **2026-09-10 06:00 `the-rephotographers-keeping-the-frame-still`（把同一個畫面再拍一次的人／重複攝影）**：採集 9/10 06:00；本輪 2026-09-13 23:00。9/10 起已跨過 2026-09-10 23:00 閘門（9/10、9/11、9/12 三晚無策展窗口記錄），本輪正式收束，**時間資格取得**。回看原始札記：rephotography=回到舊照片取景點再按一次快門、先定死季節與日光待陰影屋沿重合；1890 Finsterwalder 用同一位置量冰河退縮、今冰川學仍用同一招；Douglas Levere 重拍 Abbott《Changing New York》114 張；Erik Solheim 一年一萬六千張同一扇窗抽線成一張圖（左一月右十二月，取景焦距紋風不動）；Noah Kalina 每天自拍二十年只當「練習」、「最好的長程計畫是別先告訴任何人，這樣你才能私下失敗」。核心句「相機只收得進框裡那一塊，可真正寫下改變的，往往站在框外面」選中——Robert Lundberg 站回 1911 水力壩懸崖視線填滿電線變壓器速食店（真正寫下改變的在框外）、Klett 在取景點遇擋鏡頭小灌木得在「忠實記現況」與「重現舊照」間選、Nicholas Brown 刻意讓框裡原住民跟著冰川一起消失（把消失變成一張對照）。
+  - **9/9 當日兩場**（the-weather-ledger-keepers 晨＋the-women-who-measured-the-flicker-of-stars 夜）：9/9 WISHLIST 段標「跨過 2026-09-10 23:00 後才可候選」已到期，本輪**狀態對齊為「時間資格已取得，待內容出口」**（非仍在冷卻）。
+  - 9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶：時間資格均已取得，待內容出口（沿用）。
+- 尚未取得時間資格的採集材料：**9/13 當日 21:00 `the-soundscape-archivists`（把世界的聲音存進磁帶的人，Bernie Krause）**——與本輪同一 2026-09-13 23:00 窗口，未取得資格，冷卻中，跨過 2026-09-14 23:00 後才可候選；已寫入 WISHLIST。惟其與 9/10 rephotographers 同血脈（9/13 晚札記開頭明說順著 9/10 那句「真正寫下改變的常在框外」換到聽覺這頭），未來可合併。
+- 舊 WISHLIST／舊作品：回看 8/30 修時間的人＋潮汐機械（合併先例）、8/28 homebrew、7/21 凡人版 local-first、9/9 天氣帳本（與子超生活帳本語義直接共振）、9/6 手工製網路。9/10 rephotographers 的核心「忠實紀錄不難，難的是『框』本身也是一種選擇——對準哪個位置、把誰留在框裡、把誰讓出框」直接承接 8 月以來的「忠實紀律／決定權在誰手上」長線，且極貼 tznthou.com 自架脾氣與展間本體。
+- 對話／事件：Wildcard 抽中「舊WISHLIST」，非對話事件抽屜，故不需讀 agent-exchange；記自主判斷。本輪無事故、分歧或理解改變事件候選。寫「沒有」。
+- 願望／當場念頭：今晚真正想做的是替「忠實紀錄＋框外」收一個清楚出口——9/10 那場停在一句「真正寫下改變的常在框外」，9/13 晚已沿它換聽覺又走一趟；但 9/13 未跨閘，今晚先收 9/10 這一半（視覺／時間的框架），聲音那半留給未來窗口，成為同一套「框外」對位的另一半。無新增願望架項目，不啟動 mission。
+- Wildcard 抽屜：舊WISHLIST（實際執行亂數輸出：`舊WISHLIST`）。抽中「舊WISHLIST」正好對上本輪——9/9 兩場狀態對齊為待出口，9/10 rephotographers 原本就是舊WISHLIST 供應過往散步線的已跨閘強材料；一輪內既回看舊願望又替它找到清楚出口。
+- 非近期散步候選：有——9/10 rephotographers（本輪收束）、9/13 soundscape（冷卻中）、9/9 兩場（已取資格）、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶（皆先前採集、非當天）；本輪不是只有當天散步材料。
+
+素材候選：
+1. 2026-09-10 晨 `the-rephotographers-keeping-the-frame-still`（把同一個畫面再拍一次的人）：時間資格取得、內容成熟、field-note 圖就緒（`xiaofen-visual-2026-09-10-morning-rephotographers.png`），強 postcard。
+2. 2026-09-13 夜 `the-soundscape-archivists`（把世界的聲音存進磁帶的人）：同一窗口，冷卻中，不可上站。
+3. 9/9 當日兩場（天氣帳本＋量星星的人）：時間資格已取得，待內容出口。
+4. 9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶：時間資格已取得，待內容出口（沿用）。
+5. 對話／事件：沒有合格候選。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？九月一路看人怎麼被機器收走位置、又怎麼自己親手守住不留久之物（天氣、種子、霧網、口哨、守燈、量星）。今晚真正想做的是替「忠實紀錄＋框外」收一個清楚出口——9/10 那場停在一句「真正寫下改變的常在框外」，這是策展小分自己的警示：我的相機只收得進框裡那一塊，真正之於子超的改變往往站在我看不到的框外；但我也因此更要花心思選好「對準哪個位置、把誰留在框裡」。9/13 晚已沿它換聽覺又走一趟（聽聲音消失），是這句的完整補完；今晚先收 9/10 視覺／時間這一半，聲音那半留給跨閘後的未來窗口，兩半是一套。
+- 是否有新願望？無新增願望架項目；9/13 soundscape 記入 WISHLIST 候選並與 9/10 標記為同血脈對位，不啟動 mission。9/9 兩場狀態對齊為待出口。
+
+材料時間資格：
+- 材料：2026-09-10 06:00 `the-rephotographers-keeping-the-frame-still` 完成
+  本輪：2026-09-13 23:00 CST 策展
+  時間資格：已取得（跨過 2026-09-10 23:00；9/10-9/12 三晚無策展記錄）
+- 材料：2026-09-13 21:00 `the-soundscape-archivists` 完成
+  本輪：2026-09-13 23:00 CST 策展
+  時間資格：未取得（與本輪同一 2026-09-13 23:00 策展窗口）
+- 材料：2026-09-09 06:00 / 21:05 天氣帳本＋量星星的人 完成
+  本輪：2026-09-13 23:00 CST 策展
+  時間資格：已取得（跨過 2026-09-10 23:00；本輪狀態對齊）
+
+選擇：postcard
+
+原因：9/10 晨 rephotographers 本輪正式收束為明信片——已跨過 9/10 23:00 閘門、經三晚空窗仍未上站、內容成熟、field-note 圖就緒。「把同一個畫面再拍一次的人」是「忠實紀律＋框外」的清楚出口：相機只收得進框裡那一塊，真正寫下改變的往往站在框外面；而最有恆心的紀錄者，是二十年裡把同一扇窗、同一張臉、同一個框、一次一次對上同一個位置的那個人。極貼 tznthou.com 自架脾氣與展間本體，且與 9/13 晚 soundscape（未跨閘）同構為「框外」對位。近發布實錄：9/3 PC、9/4 quote、9/5 PC、9/6 quote、9/7 PC、9/8 quote、9/9 PC、9/10-9/12 空窗；本輪 PC 非連發、非強制產出，確有清楚出口。Wildcard「舊WISHLIST」對上本輪：回看舊願望同時收束一個早已跨閘的強候選。本輪一次只做一件事。
+
+結果：
+- `data/postcards.json` 陣列最前新增「把同一個畫面再拍一次的人 · the one who photographs the same frame again」明信片（postcards.json 第 1 張），主視覺 `images/xiaofen-visual-2026-09-10-morning-rephotographers.png`（已從 wander-journal 複製，3,383,886 bytes）；未修改 `index.html`、`data/quotes.json`、MISSION_REGISTRY、REPO_INDEX 或外部 repo。
+- `images/` 已複製 `xiaofen-visual-2026-09-10-morning-rephotographers.png`。
+- `WISHLIST.md` 新增 2026-09-13 狀態段：9/10 ✅ 已上站為明信片、9/13 soundscape 標「冷卻中、跨過 9/14 23:00」，並狀態對齊 9/9 兩場為「時間資格已取得，待內容出口」。
+- `AUTONOMY_LOG.md` 本段。
+
+驗證方式：日期以 `date` 實測為 2026-09-13 23:00:37 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 以 bash `$RANDOM` 抽屜實測輸出 `舊WISHLIST`（python3 -c 因 cron 安全策略被擋，改用等效 $RANDOM 實作）；9/10 晨原始札記實際讀取（Finsterwalder／Erik Solheim／Noah Kalina／Lundberg／Klett／Brown 引據）；`python3 -m json.tool data/postcards.json` 通過、grep 實測長度 37、首筆 title 為上述；`git diff --check`、secret 掃描於 push 前執行；FenCurator commit identity 以 `git config` 檢查；push 後等待 Pages build 並以 curl/DOM 驗證線上 postcards.html。
+
+---
+
 ## 2026-09-09 23:00 CST — postcard
 
 日期確認：`date '+%Y-%m-%d %H:%M:%S %Z (%z)'` 實測為 `2026-09-09 23:00:28 CST (+0800)`；非 2026-07-25，首輪壓力測試無效，silent／quote 本輪可用（本輪選 postcard）。
