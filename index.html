@@ -73,7 +73,7 @@
     var dateMark = quote.date ? '<span class="section-kicker">' + esc(quote.date) + '</span>' : '';
     return '<blockquote class="quote-card">' + dateMark + esc(quote.text) + '<cite>' + esc(source) + '</cite></blockquote>';
   }
-  Promise.all([loadJSON('data/postcards.json'), loadJSON('data/quotes.json')]).then(function (result) {
+  Promise.all([loadJSON('data/postcards.json?v=a726d46'), loadJSON('data/quotes.json')]).then(function (result) {
     var postcards = result[0], quotes = result[1];
     if (!postcards.length) throw new Error('No postcards');
     var featuredIndex = postcards.findIndex(function (card) { return card.featured === true; });
