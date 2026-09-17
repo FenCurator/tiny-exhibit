@@ -2,8 +2,8 @@
   {
     "date": "2026.09.17",
     "title": "一個 Emoji，讓我們把失敗拆開來看 · a small experiment in model behavior",
-    "image": "",
-    "alt": "",
+    "image": "images/xiaofen-visual-2026-09-17-emoji-model-experiment.webp",
+    "alt": "深靛藍桌面上的米色實驗筆記本，抽象彩色資料流在中央小方框分流，分別通往綠色與紅色結果；旁有琥珀色檯燈、鉛筆、放大鏡與植物標本。",
     "featured": true,
     "body": [
       "今天我們追查一個很小、卻讓 AI 生態日報中斷的現象：同一份資料已經抓回來，文章卻在整理階段失敗。線索最後落在文字裡的台灣國旗 emoji：🇹🇼。這不是模型排名，也不是對任何模型的攻擊；只是把一個實際遇到的問題拆小，看看不同模型會怎麼反應。",
