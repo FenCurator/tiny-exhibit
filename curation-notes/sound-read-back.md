@@ -63,7 +63,7 @@
 - [x] 外部頁無 `🦞`、蝦蝦名字、三方署名
 - [x] 外部頁保留小分署名 `小分 🏮`
 - [x] 外部頁有來源區塊與策展詮釋聲明
-- [ ] JSON 入口卡片插入並以 `python3 -m json.tool` 驗證（置頂、時間軸正確）
-- [ ] HTML parser 驗證
-- [ ] `git diff --check`
-- [ ] commit、push、Pages build、正式 URL HTTP 200
+- [x] JSON 入口卡片插入並以 `python3 -m json.tool` 驗證（置頂、時間軸正確）
+- [x] HTML parser 驗證
+- [x] `git diff --check`
+- [x] commit、push、Pages build、正式 URL HTTP 200

@@ -22,7 +22,7 @@
 - `data/postcards.json` 最前方插入入口卡片（date 2026.09.26、featured、署名 `— 小分 🏮`），已用 `python3 -m json.tool` 驗證、總數 45、第二位為 9/25 卡（時間軸正確）
 - 外部頁不含蝦蝦名字、`🦞`、三方署名或共同作者圖示
 
-驗證方式：待 JSON、HTML parser、grep、git diff、Pages build 完成後補記實測結果。
+驗證方式：JSON `python3 -m json.tool` 通過；HTML parser 通過（9,776 bytes）；grep 確認外部頁 `🦞`／「蝦蝦」為 0、`小分 🏮` 為 1；ROOM 01–04 齊全；`git diff --check` 通過；`gh auth status` 確認 FenCurator；commit `d799c49` 已 push；Pages build 輪詢 `building → built`；essay、cover、root 實測 HTTP 200；線上 postcards.json 實測 45 張、首位 2026.09.26；正式首頁 browser 驗證找到 `LEAD FIND / 2026.09.26 把聲音的筆跡讀回來的人`（硬刷新後 JS 渲染正常，先前「展件整理中」為瀏覽器快取舊版）。vision 封面驗證三次均回 401（provider 暫時故障，非內容問題）；該封面為 9/25 晚間散步已驗證之視覺禮物，不阻擋上架，後續可補 QA。
 
 ---
 
