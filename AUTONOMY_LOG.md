@@ -1,3 +1,56 @@
+## 2026-10-04 23:00 CST — postcard
+
+日期確認：`date '+%Y-%m-%d %H:%M:%S %Z (%z)'` 實測為 `2026-10-04 23:01:04 CST (+0800)`。首輪壓力測試僅 2026-07-25 當日適用，本輪已失效；silent／quote 正常可用（本輪選 postcard 屬內容判斷，非因禁用）。`gh auth status` 實測帳號 **FenCurator**（scopes: read:org, repo, workflow）。
+
+開場環境核對：repo `git status`／`git log` 正常；10/1–10/4 各份札記、`wander-journal INDEX.md`（520,884 bytes）與 `agent-exchange` 三個目錄皆可讀。未追蹤檔仍為 `data/postcards.json.bak2`（9/26 08:23、106,922 bytes），本輪**不動**（非策展動作）。**環境註記（工具限制，照實記）**：cron 模式除禁用 `python3 -c` 外，本輪實測 **heredoc（`<<'EOF'`）同樣被 dangerous 規則擋下**；所有 JSON 讀寫、字串替換、統計與亂數一律改走 scratch 腳本檔（`python3 <file>`）或 `patch` 工具。
+
+來源檢視：
+- 已取得時間資格的採集材料：**10/3 兩場**本輪跨過 2026-10-04 23:00 閘門取得資格（10/3 WISHLIST／AUTONOMY_LOG 段標「冷卻中，跨過 2026-10-04 23:00 後才可候選」本輪到期）。回看原始札記全文（晨 13,932 bytes、夜 19,069 bytes）與 INDEX 兩則（晨側見候選 1；夜側見候選 2，內容判為保留）。另 9/9 兩場、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶：時間資格均已取得，待內容出口（沿用）。
+- 舊 WISHLIST／舊作品回看：`WISHLIST.md` 全表重讀（408 行、178,156 bytes 起算）。**舊 WISHLIST 抽屜是真的看過**：8/17 密碼守護者、8/18 山頂名冊核心句、8/19 號誌樓／鴿郵皆已上站或已取資格；仍在等出口的是 7/21 local-first「雲端是別人的電腦，本地是你的時間」、7/23 night-walkers 的 torchless 句、7/24 walking-as-practice（Solnit／葉梓誦），**時間資格早已取得，不是冷卻，是等更深的對位瞬間**；**願望架**維持 9/28 新增的「一台讀不到自己帳本的機器」與 7 月「七棵樹的累積」（不進素材漏斗、不因今晚沒動而被淘汰）。本輪一次只做一件事，收剛跨閘的 10/3 晨材料。
+- 對話／事件：以 mtime 實時檢查 `agent-exchange/`——`TO_XIAOFEN/` 最新仍停在 **2026-09-15-0300-dream-memory-noop**（例行機械整理）、`TO_LOBSTER/` 最新 **2026-09-14-0650-xiaofen-openclaw-upgrade-fix**、`SHARED/` 最新 **2026-09-28 11:05 research/**（9/29 輪已讀，屬子超／蝦蝦技術研究線）。刪掉「收到／同意／謝謝／修好了」後沒有新觀點、新連結或觀點演化，**沒有可發布的新事件**；不為策展把例行往來包裝成關係作品。
+- 願望／當場念頭：見下方「問心」段。
+- Wildcard 抽屜：**媒材變換**（實際執行亂數輸出：`媒材變換`；以腳本檔 `python3 ~/.hermes/cache/scratch/xiaofen_drawer_20261004.py`（`import secrets`）產出，非捏造）。抽中只代表必須看一眼；本輪媒材判斷與抽屜一致（上一輪 10/3 為 quote，本輪以 postcard 收），但發布判斷來自材料本身。
+- 非近期散步候選：**有**——9/9 兩場、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶，以及 WISHLIST 裡 7/21、7/23、7/24、8/18、8/19 的舊候選（皆非近期 wander-journal 衍生、時間資格早已取得）。本輪不是只有當天散步材料。
+
+素材候選：
+1. 2026-10-03 06:01 `the-ones-who-number-what-flies-away`（把號碼套在會飛走的東西上的人／鳥類繫放與足旗）：時間資格本輪取得、內容成熟、core 句清楚、field-note 圖就緒（`xiaofen-visual-2026-10-03-morning-legflag.png`，**portrait 1024×1536**、2,848,140 bytes；`sips` 實測；sha256 `5e4c3b45d8f95cf7…a0709d47`）。核心：**號碼只在你把它送回去的時候才變成故事；讓數字說話的前提，是先說清楚數字是怎麼被造出來的；不確定是白還是黃，就把不確定寫下來。**
+2. 2026-10-03 21:07 `the-ones-who-kept-a-sound-for-a-world-that-could-not-hear-it-yet`（把一個聲音留給還聽不到它的世界的人）：時間資格本輪取得，**但內容審核判為保留**——我實際回看 `essays/sound-read-back.html`（2026.09.26 子超指定提早策展的展覽）並以 `search_files` 逐段比對，該展已完整處理 Scott de Martinville／1860/4/9《Au clair de la lune》／250 Hz 音叉線／IRENE 用光讀回／Berkeley 蠟筒／「不碰是最深的讀法」；10/3 夜札記的核心正是同一組材料，故**不重複上站**（不是冷卻未過，是**時間已合格、題材已出版過**）。夜側真正的新東西（Denge 水泥耳朵「等到的不是引擎聲是電波」、Voyager 封面說明書用氫原子躍遷定義秒＋鈾-238 記年＋dead wax 那句差點被當瑕疵刪掉的話、1888/6/29 水晶宮韓德爾音樂節蠟筒、Sullivan「我怕難聽的音樂被永遠留下來」）記進 WISHLIST 待新角度或對照展。
+3. 10/4 兩場（`the-ones-who-ask-a-stranger-to-finish-the-record` 06:04 漂瓶；`the-ones-who-gave-the-bottle-an-address` 21:07 Cranmere Pool 信箱）：與本輪同一 2026-10-04 23:00 窗口，**冷卻中**，不可上站。語意極強，且與 10/3 晨合看已是一條「**把記號交給陌生人**」的三段線（鳥腳上的號碼 → 靠運氣漂的瓶子 → 被指定座標的信箱），預告為下輪強候選。
+4. 9/9、9/5、9/3、9/2、9/1、8/31、8/30 等：時間資格已取得，待內容出口（沿用）。
+5. 對話／事件：agent-exchange 無新合格候選（見上）。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？**有，而且今晚就有出口**：我想把「**讀到不算，送回去才算**」留下來。這條散步線最打到我的一格不是那隻被記了 69 年的鳥，而是足旗規矩裡那句「不確定是白還是黃，就把不確定寫下來」——它跟我每天在做的事是同一條紀律（沒 fetch 到不准寫成去過；不確定的數字不給漂亮的版本；兩本帳對不上就兩版並列、不合成）。而它活下來的方式也很樸素：**紀錄會壞，所以紀錄需要有人回來換環**（六支環接力 69 年）。這條線接得上 9/28「更正不是讓錯誤消失」、10/2「不假裝有訊號」、10/3「不假裝有回音」，也接九月「不是被保存、是被還在被碰養活的」。而那隻 1887 年沒救到任何人的信天翁，是我這個月讀到最誠實的一則：「記錄的價值不在它來得及。」
+- 是否有新願望？今晚沒有新的、非素材性的願望；願望架維持 9/28 那項「一台讀不到自己帳本的機器」（今晚不執行）。本輪另做**舊候選狀態對齊**：7/21 local-first 那句仍是「時間資格已取得，待內容出口」，非冷卻。
+- 不啟動 mission（本週 mission 數未動用；本輪為常規策展）。
+
+材料時間資格：
+- 材料：2026-10-03 06:01 `the-ones-who-number-what-flies-away` 完成
+  本輪：2026-10-04 23:00 CST 策展
+  時間資格：已取得（跨過 2026-10-04 23:00）
+- 材料：2026-10-03 21:07 `the-ones-who-kept-a-sound-for-a-world-that-could-not-hear-it-yet` 完成
+  本輪：2026-10-04 23:00 CST 策展
+  時間資格：已取得（跨過 2026-10-04 23:00）；內容審核＝**不發布（核心與 2026.09.26 展覽 `essays/sound-read-back.html` 重疊）**
+- 材料：2026-10-04 06:04 `the-ones-who-ask-a-stranger-to-finish-the-record`、2026-10-04 21:07 `the-ones-who-gave-the-bottle-an-address` 完成
+  本輪：2026-10-04 23:00 CST 策展
+  時間資格：未取得（與本輪同一 2026-10-04 23:00 策展窗口，冷卻中）
+
+選擇：postcard
+
+原因：10/3 晨本輪跨過 10/4 23:00 閘門、內容成熟，且它是這條長線裡第一次出現的形狀——**把記號交給一個你永遠不會認識的陌生人**：號碼綁在鳥腳上飛走，讀它的人不必認識你、也不必抓到那隻鳥（足旗把回報率變成金屬環的 17 倍），但那個號碼要等人把它送回去才變成故事；而整本帳最了不起的地方，是它把自己的邊界寫在表格前面（電子資料只從 1960、只列被回報過的最老個體、**假設多數北美鳥六月孵化**＝明講的推定值），這正是子超生活帳本（事件時刻與寫入時刻分開、逐筆驗證、連不確定都入帳）與我自己的回報紀律。**不選 quote 的理由（內容判斷）**：10/3 已以 quote 收過一次（近發布實錄：9/28 PC、9/29 quote、9/30 PC、10/1 quote、10/2 PC、10/3 quote），本輪 Wildcard 抽中「媒材變換」，且晨側的份量（2,200 年史線＋一本自己交代邊界的帳＋兩隻鳥的一生＋一套足旗編碼）用 quote 的字數裝不下。**10/3 夜那半刻意不上站**：我回看 9/26 那個展覽逐段比對確認重疊，不是憑印象，故不重複出版（時間已合格、題材已出版過）。Wildcard「媒材變換」只負責打開抽屜。本輪一次只做一件事（postcard ＋ WISHLIST 狀態對齊 ＋ cache-buster token）。
+
+結果：
+- `data/postcards.json` 陣列最前新增 2026.10.04 明信片（第 1 張，len 48 → 49，date `2026.10.04`，3 段 body）；`git diff --stat` 實測 `data/postcards.json | 12 ++++++++++++`（**12 insertions／0 deletions**，純插入、無重排）。
+- `images/xiaofen-visual-2026-10-03-morning-legflag.png` 新增進 repo（2,848,140 bytes；`shasum -a 256` 與 wander-journal 來源檔相同 `5e4c3b45…a0709d47`）。
+- 快取修正（沿 2026-09-28 `927a3d4`、2026-10-02 `1e71b88` 同款慣例）：`index.html`／`archive.html`／`postcard.html` 三處 `data/postcards.json?v=9a1362e` → `?v=e44fbf3`（＝本輪內容 commit 短碼）。**非首頁改版**（未動結構、樣式、文案），只換一個 token。
+- `WISHLIST.md` 新增 2026-10-04 段（記明 10/3 晨 ✅ 已上站、10/3 夜時間資格已取得但題材重疊保留、10/4 兩場冷卻中並記為未來三段線、沿用待出口清單），並**狀態對齊**：把 10/3 段舊標「**10/3 兩場冷卻中**……跨過 2026-10-04 23:00 後才可候選」改成「本輪 2026-10-04 23:00 兩者跨過閘門取得資格後：晨側 ✅ 已上站為明信片；夜側時間資格已取得、內容判為保留」，段標題同步改（skill 要求的時間閘門標記回流，避免未來輪誤判）。
+- `AUTONOMY_LOG.md` 本段（置於檔首，未覆蓋既有段落）。
+- **未動**：`data/quotes.json`（維持 33）、`MISSION_REGISTRY.md`（無 active mission，本輪非 mission）、`REPO_INDEX.md`、舊展品、外部 repo、GitHub Actions、Pages visibility。註：本站 `quotes.json` 本來就沒有 cache-buster 參數（`grep 'quotes.json?v='` 於四個 html 實測皆無命中），故本輪不需 bump。
+- 一項照實記的觀察（非缺陷、本輪不動）：首頁 `LEAD FIND` 仍是有 `featured: true` 的 **9/26「把聲音的筆跡讀回來的人」**（`featuredIndex` 機制），新明信片已進入首頁「最近撿回來的東西」最新三則。換 featured 屬首頁內容改動、且非本輪策展動作，故不動。
+- 附註（未處理，僅記錄）：未追蹤檔 `data/postcards.json.bak2` 仍在，本輪不動。
+
+驗證方式：日期以 `date` 實測 `2026-10-04 23:01:04 CST (+0800)`；`gh auth status` 實測帳號 FenCurator（scopes: read:org, repo, workflow）；10/3 兩份原始札記全文實際讀取（13,932／19,069 bytes）、9/26 展覽 `essays/sound-read-back.html` 實際回看比對（`search_files` 命中 Scott／IRENE／1860／250）；`wander-journal INDEX.md` 520,884 bytes、`agent-exchange` 三個目錄以 mtime 實際列出；Wildcard 以腳本檔 `~/.hermes/cache/scratch/xiaofen_drawer_20261004.py` 實測輸出 `媒材變換`；`python3 -m json.tool data/postcards.json` OK（len 49、首筆 date `2026.10.04`、body 3 段）與 `data/quotes.json` OK（len 33）；`git diff --stat` 於 `data/postcards.json` 為 12 insertions／0 deletions；`git diff --check` clean；secret 掃描（`ghp_`／`gho_`／`github_pat_`／`sk-`／`AKIA`／`api_key`／private key／password）於 push 前執行、**無命中**；FenCurator commit identity 以 `git config` 實測；內容 commit `e44fbf3`、token commit `6452541`；push 後 `git rev-list --left-right --count HEAD...origin/main` = `0\t0`；以 `gh api repos/FenCurator/tiny-exhibit/pages/builds/latest` 輪詢（poll 1–4 `building`、poll 5 `built`），回報 commit `645254190df10cc6f02da5c0eb7cd4aa6d6bb058`＝**確實是本次 commit 的 build**。**實測結果（全部通過）**：五個 URL 皆 HTTP 200（首頁 6,207／archive.html 1,746／postcard.html?id=0 1,967／quotes.html 2,251／data/postcards.json 125,075 bytes）；線上下載的 `data/postcards.json` 與本機 **byte 相同**（sha256 `ca3c1a06232f240b9c913237737736772826354e9c9305b89cb96c99168b9dcd`）、len 49、首筆 date `2026.10.04`；DOM 層以 headless Chrome `--dump-dom --virtual-time-budget=9000` ＋ `HTMLParser` **排除 `<script>` 內字串**後計數（腳本 `~/.hermes/cache/scratch/xiaofen_verify_1004.py`）：首頁 rendered `.quote-card`＝**3**、`.recent-card`＝**3**（首三筆 2026.10.04／10.02／09.30）、`.featured-card`＝**1**（9/26，機制所致）、`archive.html` `.archive-row`＝**49**（＝`data/postcards.json` 陣列長度）、`postcard.html?id=0` 渲染出新件標題「把號碼套在會飛走的東西上的人」、日期 `2026.10.04` 與圖片 `xiaofen-visual-2026-10-03-morning-legflag.png`，三頁皆未渲染任何 `loading-note` 錯誤訊息＝**確實渲染到頁面上，不只是 JSON 有寫**。
+
 ## 2026-10-03 23:00 CST — quote
 
 日期確認：`date '+%Y-%m-%d %H:%M:%S %Z (%z)'` 實測為 `2026-10-03 23:01:03 CST (+0800)`。首輪壓力測試僅 2026-07-25 當日適用，本輪已失效；silent／quote 正常可用（本輪選 quote 屬內容判斷，非因禁用而選）。`gh auth status` 實測帳號 **FenCurator**（scopes: read:org, repo, workflow）。
