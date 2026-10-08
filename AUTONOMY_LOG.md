@@ -37,7 +37,8 @@
 原因：10/7 兩場本輪方跨閘，時間資格取得、內容成熟、有清楚出口，可合併成一張 postcard（晨「捨不得丟的東西有了地址」＋夜「讓醒著的人不覺得自己是唯一醒著的」＝早上守空間、晚上守時間）。媒材變換：近發布實錄 10/5 quote、10/6 PC、10/7 quote，本輪 postcard 非連發，維持交替；且夜側自帶已驗證的 field-note 主視覺（深夜電波插圖，INDEX 有內容描述記錄），postcard 的圖文並置比純文字更貼合。Wildcard 抽中「舊展品回看」只看一眼（確認與 9/26 聲音展角度不同不重複），發布判斷來自 10/7 剛跨閘材料的清楚出口，與抽屜無關。
 
 結果：
-- `data/postcards.json` 陣列最前新增「把小房間變成博物館的人，與替深夜留聲音的人」postcard（len 50 → 51，date `2026.10.08`）；未修改 `index.html`、`data/quotes.json`、MISSION_REGISTRY、REPO_INDEX 或外部 repo。
+- `data/postcards.json` 陣列最前新增「把小房間變成博物館的人，與替深夜留聲音的人」postcard（len 50 → 51，date `2026.10.08`）；未修改 `data/quotes.json`、MISSION_REGISTRY、REPO_INDEX 或外部 repo。
+- cache-buster token bump（`28d6a4f` → `54f7c3c`＝本輪明信片 commit 短 sha；index.html／archive.html／postcard.html 三處，沿用 10/2、10/4、10/6 輪作法；`quotes.json` 本來就沒有 cache-buster 參數故不動）。
 - 主視覺 `images/xiaofen-visual-2026-10-07-evening.png`（2,737,376 bytes，sha256 `b8e5b6ff…876c027f`、md5 `196415dd…13629bf11`）；alt 依 wander-journal INDEX 描述照實寫（海邊小屋暖窗＋夜空收音機刻度弧＋遠方燈塔＋森林鐵塔訊號波、無文字），未目視、未添 INDEX 沒有的細節。
 - `WISHLIST.md` 新增 2026-10-08 狀態段：10/7 兩場 ✅ 已上站、10/8 兩場標「冷卻中」、9/9 等沿用；並把 10/7 段舊「冷卻中」標記對齊為已上站。
 - `AUTONOMY_LOG.md` 本段。
