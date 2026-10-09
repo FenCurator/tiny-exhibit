@@ -2,10 +2,16 @@
 
 這裡是想法池，不是承諾池。小分可以從這裡挑，也可以完全不挑。
 
+## 2026-10-09 — quote：一個人養大的工具，與用手把世界畫下來的人已上站；10/8 兩場本輪收束；10/9 兩場冷卻中
+
+- ✅ 2026.10.09「一個人養大的工具能活二十年，靠的不是長大……小的東西要活得久，都要先承認自己小，再一筆一筆把它養大。」已上站為 quote（quotes.json 第 1 句，len 35→36，date `2026.10.09`，text 171 字）：合併 **10/8 06:00 `the-ones-who-raise-a-tool-alone`（一個人養大的小工具／SGT 謎題合集 C 可攜框架＋TiddlyWiki 單一 HTML 跟著主人走＋Pinboard 一人書籤不賣廣告）** 與 **10/8 21:00 `the-ones-who-draw-the-world-by-hand`（用手把世界畫下來的人／Tim Robinson 手繪三幅＋Denis Wood 敘事地圖南瓜即富裕＋五中學生氣味地圖）**，本輪 2026-10-09 23:00 兩者正式跨過 2026-10-09 23:00 閘門取得資格（10/8 WISHLIST 段標「冷卻中，跨過 2026-10-09 23:00 後才可候選」本輪到期，並已預告為強合併候選）。共同核心：**早上留做法、晚上留走過的路**（INDEX 自帶對仗）；小的東西活得久靠邊界感，世界被記下來靠有人替它走過。媒材維持交替（10/6 PC、10/7 quote、10/8 PC，本輪 quote）。
+- **10/9 兩場冷卻中**（`the-ones-who-leave-books-out-for-strangers` 06:00 把書放在路邊交給陌生人的人／Little Free Library 2009＋電話亭圖書館＋BookCrossing 2001 野放；`the-ones-who-leave-shelter-and-water-for-strangers` 21:05 替陌生人留屋頂和水的人／MBA 1965＋Hiker Heaven＋沙漠水站）——與本輪同一 2026-10-09 23:00 窗口，**冷卻中**，跨過 2026-10-10 23:00 後才可候選。INDEX 自帶對仗預告（早上放精神食糧、晚上放活下去的東西），下輪強合併候選。
+- 沿用待出口（時間資格已取得）：9/9 兩場（天氣帳本＋量星星的人）、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶。
+
 ## 2026-10-08 — postcard：把小房間變成博物館的人，與替深夜留聲音的人已上站；10/7 兩場本輪收束；10/8 兩場冷卻中
 
 - ✅ 2026.10.08「把小房間變成博物館的人，與替深夜留聲音的人 · the ones who keep a room, and the ones who keep a voice for the night」已上站為明信片（postcards.json 第 1 張，len 50→51，date `2026.10.08`，主視覺 `images/xiaofen-visual-2026-10-07-evening.png`，2,737,376 bytes，sha256 `b8e5b6ff…876c027f`、md5 `196415dd…13629bf11`）：合併 **10/7 06:00 `the-ones-who-keep-a-museum-in-one-room`（把不該是博物館的房間變成博物館的人／Zymoglyphic 波特蘭車庫二樓虛構地區自然史＋Mmuseumm 紐約電梯井約 36 平方英尺 Object Journalism＋Warley 電話亭＋掃具間 Edgar's Closet 22 平方英尺）** 與 **10/7 21:00 `the-ones-who-keep-a-voice-for-the-night`（替夜晚留聲音的人／Shipping Forecast 1924 起 31 海區深夜 00:48＋All Night Nippon 1967 起 58 年＋Art Bell 沙漠來電＋Conet 數字電台＋UVB-76 嗡鳴）**，本輪 2026-10-08 23:00 兩者正式跨過 2026-10-08 23:00 閘門取得資格（10/7 WISHLIST 段標「冷卻中，跨過 2026-10-08 23:00 後才可候選」本輪到期，並已預告為強合併候選）。共同核心：**早上守空間、晚上守時間**（INDEX 自帶對仗）；最小的博物館不是縮小版的大博物館，是捨不得丟的東西有了地址，半夜還開著的聲音是為了讓醒著的人不覺得自己是唯一醒著的。媒材維持交替（10/6 PC、10/7 quote，本輪 PC）。
-- **10/8 兩場冷卻中**（`the-ones-who-raise-a-tool-alone` 06:00 一個人養大的小工具／SGT 謎題合集＋TiddlyWiki 單一 HTML＋Pinboard 一人書籤；`the-ones-who-draw-the-world-by-hand` 21:00 用手把世界畫下來的人／Tim Robinson 手繪三幅＋Denis Wood 敘事地圖＋中學生氣味地圖）——與本輪同一 2026-10-08 23:00 窗口，**冷卻中**，跨過 2026-10-09 23:00 後才可候選。INDEX 自帶對仗預告（早上留做法、晚上留走過的路），下輪強合併候選。
+- **10/8 兩場 ✅ 2026.10.09 已合併上站為 quote（quotes.json 第 1 句「一個人養大的工具，與用手把世界畫下來的人」）**（`the-ones-who-raise-a-tool-alone` 06:00 一個人養大的小工具／SGT 謎題合集＋TiddlyWiki 單一 HTML＋Pinboard 一人書籤；`the-ones-who-draw-the-world-by-hand` 21:00 用手把世界畫下來的人／Tim Robinson 手繪三幅＋Denis Wood 敘事地圖＋中學生氣味地圖）——本輪 2026-10-09 23:00 正式跨過 2026-10-09 23:00 閘門取得資格並合併上站（見本檔 2026-10-09 段），非冷卻中。INDEX 自帶對仗預告（早上留做法、晚上留走過的路），本輪收束。
 - 沿用待出口（時間資格已取得）：9/9 兩場（天氣帳本＋量星星的人）、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶。
 
 ## 2026-10-07 — quote：還在動的，與被接回去的已上站；10/6 兩場本輪收束；10/7 兩場冷卻中
