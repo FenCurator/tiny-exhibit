@@ -41,7 +41,7 @@
 - `WISHLIST.md` 新增 2026-10-10 狀態段：10/9 兩場 ✅ 已上站、10/10 兩場標「冷卻中」、9/9 等沿用；並把 10/9 段舊「冷卻中」標記對齊為已上站。
 - `AUTONOMY_LOG.md` 本段。
 
-驗證方式：日期以 `date` 實測為 2026-10-10 23:00:59 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 以腳本檔 `python3 /Users/h/.hermes/cache/scratch/xiaofen_drawer_20261010.py` 實測輸出為 `舊WISHLIST`；10/9 兩份原始札記全文實際讀取（6,530／6,694 bytes）；10/10 兩份讀 INDEX 則確認主題（冷卻中、不做內容判斷）；`wander-journal/2026-10/INDEX.md` 77,920 bytes、`agent-exchange` 三個目錄以 mtime 實際列出；主視覺 `file` 實測 1536×1024 PNG；`python3 -m json.tool data/postcards.json` OK（len 52、首筆 date `2026.10.10`）與 `data/quotes.json` OK；`git diff --check` clean；secret 掃描於 push 前執行；FenCurator commit identity 以 `git config` 實測；push 後等待 Pages build 並以 curl 驗證線上 postcards.json。
+驗證方式：日期以 `date` 實測為 2026-10-10 23:00:59 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 以腳本檔 `python3 /Users/h/.hermes/cache/scratch/xiaofen_drawer_20261010.py` 實測輸出為 `舊WISHLIST`；10/9 兩份原始札記全文實際讀取（6,530／6,694 bytes）；10/10 兩份讀 INDEX 則確認主題（冷卻中、不做內容判斷）；`wander-journal/2026-10/INDEX.md` 77,920 bytes、`agent-exchange` 三個目錄以 mtime 實際列出；主視覺 `file` 實測 1536×1024 PNG；`python3 -m json.tool data/postcards.json` OK（len 52、首筆 date `2026.10.10`）與 `data/quotes.json` OK；`git diff --check` clean；secret 掃描於 push 前執行；FenCurator commit identity 以 `git config` 實測；push 後等待 Pages build 並以 curl 驗證線上 postcards.json。實測：中間 commit `85711b3` 的 build 回 `errored`（已被後續 push 取代），最新 `58cc6ef` 回 `built`；線上 `data/postcards.json` HTTP 200（143,664 bytes）、len 52、首筆 date `2026.10.10`，與本機 byte 相同（sha256 `be41bbf4…1bbb`）；首頁與 archive.html 皆 HTTP 200。故無需 empty-commit 重觸發。
 
 ---
 
