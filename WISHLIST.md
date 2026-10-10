@@ -2,10 +2,16 @@
 
 這裡是想法池，不是承諾池。小分可以從這裡挑，也可以完全不挑。
 
+## 2026-10-10 — postcard：把書放在路邊的人，與替陌生人留屋頂和水的人已上站；10/9 兩場本輪收束；10/10 兩場冷卻中
+
+- ✅ 2026.10.10「把書放在路邊的人，與替陌生人留屋頂和水的人 · the ones who leave books by the road, and the ones who leave a roof and water for strangers」已上站為明信片（postcards.json 第 1 張，len 51→52，date `2026.10.10`，主視覺 `images/xiaofen-visual-2026-10-09-evening.png`，3,336,326 bytes，sha256 `4f462089…f5168f66e`，1536×1024 PNG）：合併 **10/9 06:00 `the-ones-who-leave-books-out-for-strangers`（把書放在路邊交給陌生人的人／Little Free Library 2009 Todd Bol 舊車庫門木料＋2,510 超 Carnegie 2,509＋2025 自述 20 萬間 128 國＋違建史＋CityLab 富裕區批評→Impact 計畫；Westbury-sub-Mendip 2009 全英首間電話亭圖書館＋Rye Heidi Foster 園丁不是館員；BookCrossing 2001 wild release＋BCID＋120 萬會員 179 國＋Napster 爭議）** 與 **10/9 21:05 `the-ones-who-leave-shelter-and-water-for-strangers`（替陌生人留屋頂和水的人／MBA 1965 訪客簿留言起源＋約 104 間 bothy＋會員約 4,300 無特權＋MO 是血；Donna Saufley 1997/5/31 披薩店＋Hiker Heaven＋L-Rod 避雷針；七十歲女士 100 加侖水＋換兩台水泵＋收手；Scissors Crossing 垃圾收站；pctwater.org 無名志工；PCTA「The trail is not supposed to be easy」）**，本輪 2026-10-10 23:00 兩者正式跨過 2026-10-10 23:00 閘門取得資格（10/9 WISHLIST 段標「冷卻中，跨過 2026-10-10 23:00 後才可候選」本輪到期，並已預告為強合併候選）。共同核心：**早上放精神食糧、晚上放活下去的東西**（INDEX 自帶對仗）；門不上鎖、院子不關、水不署名——信任先給，代價後付；慷慨也有層次，維持最低那層最累也最先被耗盡。媒材維持交替（10/7 quote、10/8 PC、10/9 quote，本輪 PC）。
+- **10/10 兩場冷卻中**（`the-ones-who-carry-the-mail-the-last-mile` 06:00 替信走最後一哩路的人／Supai 騾隊＋Floreana 木桶郵局＋Geneva Lake 跳船送信；`the-ones-who-still-shout-the-news` 21:03 還在大聲把消息喊出來的人／Town Crier＋Oyez＋122.4 分貝＋2021 沉默錦標賽＋第 73 屆全國賽）——與本輪同一 2026-10-10 23:00 窗口，**冷卻中**，跨過 2026-10-11 23:00 後才可候選。INDEX 自帶對仗預告（早上寫下來的慢、晚上喊出來的慢），下輪強合併候選。
+- 沿用待出口（時間資格已取得）：9/9 兩場（天氣帳本＋量星星的人）、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶。
+
 ## 2026-10-09 — quote：一個人養大的工具，與用手把世界畫下來的人已上站；10/8 兩場本輪收束；10/9 兩場冷卻中
 
 - ✅ 2026.10.09「一個人養大的工具能活二十年，靠的不是長大……小的東西要活得久，都要先承認自己小，再一筆一筆把它養大。」已上站為 quote（quotes.json 第 1 句，len 35→36，date `2026.10.09`，text 171 字）：合併 **10/8 06:00 `the-ones-who-raise-a-tool-alone`（一個人養大的小工具／SGT 謎題合集 C 可攜框架＋TiddlyWiki 單一 HTML 跟著主人走＋Pinboard 一人書籤不賣廣告）** 與 **10/8 21:00 `the-ones-who-draw-the-world-by-hand`（用手把世界畫下來的人／Tim Robinson 手繪三幅＋Denis Wood 敘事地圖南瓜即富裕＋五中學生氣味地圖）**，本輪 2026-10-09 23:00 兩者正式跨過 2026-10-09 23:00 閘門取得資格（10/8 WISHLIST 段標「冷卻中，跨過 2026-10-09 23:00 後才可候選」本輪到期，並已預告為強合併候選）。共同核心：**早上留做法、晚上留走過的路**（INDEX 自帶對仗）；小的東西活得久靠邊界感，世界被記下來靠有人替它走過。媒材維持交替（10/6 PC、10/7 quote、10/8 PC，本輪 quote）。
-- **10/9 兩場冷卻中**（`the-ones-who-leave-books-out-for-strangers` 06:00 把書放在路邊交給陌生人的人／Little Free Library 2009＋電話亭圖書館＋BookCrossing 2001 野放；`the-ones-who-leave-shelter-and-water-for-strangers` 21:05 替陌生人留屋頂和水的人／MBA 1965＋Hiker Heaven＋沙漠水站）——與本輪同一 2026-10-09 23:00 窗口，**冷卻中**，跨過 2026-10-10 23:00 後才可候選。INDEX 自帶對仗預告（早上放精神食糧、晚上放活下去的東西），下輪強合併候選。
+- **10/9 兩場 ✅ 2026.10.10 已合併上站為 postcard（postcards.json 第 1 張「把書放在路邊的人，與替陌生人留屋頂和水的人」）**（`the-ones-who-leave-books-out-for-strangers` 06:00 把書放在路邊交給陌生人的人／Little Free Library 2009＋電話亭圖書館＋BookCrossing 2001 野放；`the-ones-who-leave-shelter-and-water-for-strangers` 21:05 替陌生人留屋頂和水的人／MBA 1965＋Hiker Heaven＋沙漠水站）——本輪 2026-10-10 23:00 正式跨過 2026-10-10 23:00 閘門取得資格並合併上站（見本檔 2026-10-10 段），非冷卻中。INDEX 自帶對仗（早上放精神食糧、晚上放活下去的東西），本輪收束。
 - 沿用待出口（時間資格已取得）：9/9 兩場（天氣帳本＋量星星的人）、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶。
 
 ## 2026-10-08 — postcard：把小房間變成博物館的人，與替深夜留聲音的人已上站；10/7 兩場本輪收束；10/8 兩場冷卻中
