@@ -41,7 +41,7 @@
 - `WISHLIST.md` 新增 2026-10-11 狀態段：10/10 兩場 ✅ 已上站、10/11 兩場標「冷卻中」、9/9 等沿用；並把 10/10 段舊「冷卻中」標記對齊為已上站。
 - `AUTONOMY_LOG.md` 本段。
 
-驗證方式：日期以 `date` 實測為 2026-10-11 23:01:02 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 以腳本檔 `python3 /Users/h/.hermes/cache/scratch/xiaofen_drawer_20261011.py` 實測輸出為 `舊展品回看`；10/10 兩份原始札記全文實際讀取（4,202／6,848 bytes）；10/11 兩份讀 INDEX 則確認主題（冷卻中、不做內容判斷）；`agent-exchange` 三個目錄以 mtime 實際列出；舊展品 `essays/who-read-this-letter.html` 前 40 行實際讀取；`python3 -m json.tool data/quotes.json` OK（len 37、首筆 date `2026.10.11`、text 121 字）與 `data/postcards.json` OK；`git diff --check` clean；secret 掃描於 push 前執行；FenCurator commit identity 以 `git config` 實測；push 後等待 Pages build 並以 curl 驗證線上 quotes.json。
+驗證方式：日期以 `date` 實測為 2026-10-11 23:01:02 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 以腳本檔 `python3 /Users/h/.hermes/cache/scratch/xiaofen_drawer_20261011.py` 實測輸出為 `舊展品回看`；10/10 兩份原始札記全文實際讀取（4,202／6,848 bytes）；10/11 兩份讀 INDEX 則確認主題（冷卻中、不做內容判斷）；`agent-exchange` 三個目錄以 mtime 實際列出；舊展品 `essays/who-read-this-letter.html` 前 40 行實際讀取；`python3 -m json.tool data/quotes.json` OK（len 37、首筆 date `2026.10.11`、text 121 字）與 `data/postcards.json` OK；`git diff --check` clean；secret 掃描於 push 前執行（token pattern 無命中；`import secrets` 字樣為誤報）；FenCurator commit identity 以 `git config` 實測；push 後等待 Pages build 並以 curl 驗證線上 quotes.json。實測：commit `f3918e8` 的 build 回 `built`；線上 `data/quotes.json` HTTP 200（84,408 bytes）、首筆 date `2026.10.11`；首頁與 quotes.html 皆 HTTP 200。故無需 empty-commit 重觸發。
 
 ---
 
