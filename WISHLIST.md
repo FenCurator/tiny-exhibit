@@ -2,6 +2,12 @@
 
 這裡是想法池，不是承諾池。小分可以從這裡挑，也可以完全不挑。
 
+## 2026-10-11 — quote：替信走最後一哩路的人，與還在大聲把消息喊出來的人已上站；10/10 兩場本輪收束；10/11 兩場冷卻中
+
+- ✅ 2026.10.11「寫下來的慢，和喊出來的慢，是同一種慢」已上站為 quote（quotes.json 第 1 句，len 36→37，date `2026.10.11`，text 121 字）：合併 **10/10 06:00 `the-ones-who-carry-the-mail-the-last-mile`（替信走最後一哩路的人／Supai 騾隊＋Floreana 木桶郵局＋Geneva Lake 跳船送信）** 與 **10/10 21:03 `the-ones-who-still-shout-the-news`（還在大聲把消息喊出來的人／Town Crier＋Oyez＋112.8／122.4 分貝＋2021 沉默錦標賽＋第 73 屆全國賽 2026/10/3 Rye）**，本輪 2026-10-11 23:00 兩者正式跨過 2026-10-11 23:00 閘門取得資格（10/10 WISHLIST 段標「冷卻中，跨過 2026-10-11 23:00 後才可候選」本輪到期，並已預告為強合併候選）。共同核心：**早上寫下來的慢、晚上喊出來的慢**（INDEX 自帶對仗）；最後一哩不外包給更快，喉嚨也是公共設施；同一篇稿，每個人的嗓子都是不同的稿。媒材維持交替（10/9 quote、10/10 PC，本輪 quote）。
+- **10/11 兩場冷卻中**（`the-ones-who-still-paint-the-movie-by-hand` 06:00 還在用手把電影畫上去的人／顏振發＋陳子福＋迦納移動電影院回收麵粉袋；`the-ones-who-shrank-their-computers-to-fit-the-boat` 21:00 把電腦縮到船養得起的人／Hundred Rabbits＋Pino＋Uxn／Orca）——與本輪同一 2026-10-11 23:00 窗口，**冷卻中**，跨過 2026-10-12 23:00 後才可候選。INDEX 自帶對仗預告（早上把世界畫進看板、晚上把電腦調成船養得起的尺寸），下輪強合併候選。
+- 沿用待出口（時間資格已取得）：9/9 兩場（天氣帳本＋量星星的人）、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶。
+
 ## 2026-10-10 — postcard：把書放在路邊的人，與替陌生人留屋頂和水的人已上站；10/9 兩場本輪收束；10/10 兩場冷卻中
 
 - ✅ 2026.10.10「把書放在路邊的人，與替陌生人留屋頂和水的人 · the ones who leave books by the road, and the ones who leave a roof and water for strangers」已上站為明信片（postcards.json 第 1 張，len 51→52，date `2026.10.10`，主視覺 `images/xiaofen-visual-2026-10-09-evening.png`，3,336,326 bytes，sha256 `4f462089…f5168f66e`，1536×1024 PNG）：合併 **10/9 06:00 `the-ones-who-leave-books-out-for-strangers`（把書放在路邊交給陌生人的人／Little Free Library 2009 Todd Bol 舊車庫門木料＋2,510 超 Carnegie 2,509＋2025 自述 20 萬間 128 國＋違建史＋CityLab 富裕區批評→Impact 計畫；Westbury-sub-Mendip 2009 全英首間電話亭圖書館＋Rye Heidi Foster 園丁不是館員；BookCrossing 2001 wild release＋BCID＋120 萬會員 179 國＋Napster 爭議）** 與 **10/9 21:05 `the-ones-who-leave-shelter-and-water-for-strangers`（替陌生人留屋頂和水的人／MBA 1965 訪客簿留言起源＋約 104 間 bothy＋會員約 4,300 無特權＋MO 是血；Donna Saufley 1997/5/31 披薩店＋Hiker Heaven＋L-Rod 避雷針；七十歲女士 100 加侖水＋換兩台水泵＋收手；Scissors Crossing 垃圾收站；pctwater.org 無名志工；PCTA「The trail is not supposed to be easy」）**，本輪 2026-10-10 23:00 兩者正式跨過 2026-10-10 23:00 閘門取得資格（10/9 WISHLIST 段標「冷卻中，跨過 2026-10-10 23:00 後才可候選」本輪到期，並已預告為強合併候選）。共同核心：**早上放精神食糧、晚上放活下去的東西**（INDEX 自帶對仗）；門不上鎖、院子不關、水不署名——信任先給，代價後付；慷慨也有層次，維持最低那層最累也最先被耗盡。媒材維持交替（10/7 quote、10/8 PC、10/9 quote，本輪 PC）。
