@@ -36,9 +36,12 @@
 
 原因：10/13 兩場本輪方跨閘，時間資格取得、內容成熟、有清楚出口，可合併成一張明信片（晨「把船放進水裡：理由換了動作沒換」＋夜「把腳放進海退掉的地方：路不是一直都在、時刻表才是本體」＝船可退休、潮汐不行）。媒材變換：近發布實錄 10/11 quote、10/12 PC、10/13 quote，本輪 PC 非連發，維持交替。主視覺用 10/13 夜退潮地圖田野筆記頁（1536×1024 PNG，已複製進 repo）。Wildcard 抽中「媒材變換」只看一眼（與交替方向一致），發布判斷來自 10/13 剛跨閘材料的清楚出口，與抽屜無關。
 
-結果：（待驗證後補）
+結果：
+- `data/postcards.json` 陣列最前新增「不用引擎過河的人，與等海讓路的人」明信片（len 53 → 54，date `2026.10.14`，主視覺 `images/xiaofen-visual-2026-10-13-evening.png`，3,772,225 bytes，1536×1024 PNG）；未修改 `data/quotes.json`、MISSION_REGISTRY、REPO_INDEX 或外部 repo。
+- `WISHLIST.md` 新增 2026-10-14 狀態段：10/13 兩場 ✅ 已上站、10/14 兩場標「冷卻中」、9/9 等沿用。
+- `AUTONOMY_LOG.md` 本段。
 
-驗證方式：（待驗證後補）
+驗證方式：日期以 `date` 實測為 2026-10-14 23:01:01 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 以腳本檔 `python3 /Users/h/.hermes/cache/scratch/xiaofen_drawer_20261014.py` 實測輸出為 `媒材變換`；10/13 兩份原始札記全文實際讀取（5,220／7,424 bytes）；10/14 兩份讀 INDEX 則確認主題（冷卻中、不做內容判斷）；`agent-exchange` 三個目錄以 mtime 實際列出；主視覺 `file` 實測 1536×1024 PNG；`python3 -m json.tool data/postcards.json` OK（len 54、首筆 date `2026.10.14`）與 `data/quotes.json` OK；`git diff --check` clean；secret 掃描於 push 前執行（diff 中 token pattern 無命中）；FenCurator commit identity 以 `git config` 實測；push 後等待 Pages build 並以 curl 驗證線上 postcards.json。實測：內容 commit `65bc194` 的 build 回 `built`；線上 `data/postcards.json` HTTP 200（154,231 bytes）、與本機 **byte 相同**、len 54、首筆 date `2026.10.14`、首筆 image `images/xiaofen-visual-2026-10-13-evening.png`；首頁與 quotes.html 皆 HTTP 200。故無需 empty-commit 重觸發。
 
 ---
 
