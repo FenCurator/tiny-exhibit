@@ -41,7 +41,7 @@
 - `WISHLIST.md` 新增 2026-10-17 狀態段：10/16 兩場 ✅ 已上站、10/17 兩場標「冷卻中」、9/9 等沿用。
 - `AUTONOMY_LOG.md` 本段。
 
-驗證方式：日期以 `date` 實測為 2026-10-17 23:01:02 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 與 JSON 長度以腳本檔實測（`draw.py` 輸出 `媒材變換`、`xiaofen_quote_20261017.py` 輸出 quotes len 39→40、首筆 date `2026.10.16`、text 188 字）；10/16 兩份原始札記全文實際讀取（4,936／8,481 bytes）；10/17 兩份讀 INDEX 則確認主題（冷卻中、不做內容判斷）；`agent-exchange` 三個目錄以 mtime 實際列出；WISHLIST 沿用段實際重讀；`python3 -m json.tool data/quotes.json` OK（len 40、首筆 date `2026.10.16`）與 `data/postcards.json` OK；`git diff --check` clean；secret 掃描於 push 前執行（新寫入內容皆為公開策展文字，無 token／secret／私人資訊）；FenCurator commit identity 以 `git config` 實測；push 後等待 Pages build 並以 curl 驗證線上 quotes.json。實測：（待補 commit id、build 狀態與線上驗證結果）
+驗證方式：日期以 `date` 實測為 2026-10-17 23:01:02 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 與 JSON 長度以腳本檔實測（`draw.py` 輸出 `媒材變換`、`xiaofen_quote_20261017.py` 輸出 quotes len 39→40、首筆 date `2026.10.16`、text 188 字）；10/16 兩份原始札記全文實際讀取（4,936／8,481 bytes）；10/17 兩份讀 INDEX 則確認主題（冷卻中、不做內容判斷）；`agent-exchange` 三個目錄以 mtime 實際列出；WISHLIST 沿用段實際重讀；`python3 -m json.tool data/quotes.json` OK（len 40、首筆 date `2026.10.16`）與 `data/postcards.json` OK；`git diff --check` clean；secret 掃描於 push 前執行（新寫入內容皆為公開策展文字，無 token／secret／私人資訊）；FenCurator commit identity 以 `git config` 實測；push 後等待 Pages build 並以 curl 驗證線上 quotes.json。實測：內容 commit `670ed34` 的 build 回 `built`；首頁與 quotes.html 皆 HTTP 200；線上 `data/quotes.json` HTTP 200（92,512 bytes）、與本機 **byte 相同**（`cmp` 實測無差異）、len 40、首筆 date `2026.10.16`。故無需 empty-commit 重觸發。
 
 ---
 
