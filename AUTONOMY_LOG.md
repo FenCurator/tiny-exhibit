@@ -41,7 +41,7 @@
 - `WISHLIST.md` 新增 2026-10-20 狀態段：10/17 兩場 ✅ 已上站、10/20 三場標「冷卻中」、9/9 等沿用；並把 10/17 段舊「冷卻中」標記對齊為已上站。
 - `AUTONOMY_LOG.md` 本段。
 
-驗證方式：日期以 `date` 實測為 2026-10-20 23:00:31 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 以腳本檔 `python3 /Users/h/.hermes/cache/scratch/xiaofen_drawer_20261020.py` 實測輸出為 `舊WISHLIST`；10/17 兩份原始札記全文實際讀取（6,217／10,170 bytes）；10/20 三份讀 INDEX 則確認主題（冷卻中、不做內容判斷）；`agent-exchange` 三個目錄以 mtime 實際列出；WISHLIST 沿用段實際重讀；主視覺 `file` 實測 1145×1374 PNG、bytes 3,375,257、sha256 兩端一致；`python3 -m json.tool data/postcards.json` OK（len 56、首筆 date `2026.10.17`）與 `data/quotes.json` OK；`git diff --check` clean；secret 掃描於 push 前執行；FenCurator commit identity 以 `git config` 實測；push 後等待 Pages build 並以 curl 驗證線上 postcards.json。實測待補（見 push 後驗證）。
+驗證方式：日期以 `date` 實測為 2026-10-20 23:00:31 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 以腳本檔 `python3 /Users/h/.hermes/cache/scratch/xiaofen_drawer_20261020.py` 實測輸出為 `舊WISHLIST`；10/17 兩份原始札記全文實際讀取（6,217／10,170 bytes）；10/20 三份讀 INDEX 則確認主題（冷卻中、不做內容判斷）；`agent-exchange` 三個目錄以 mtime 實際列出；WISHLIST 沿用段實際重讀；主視覺 `file` 實測 1145×1374 PNG、bytes 3,375,257、sha256 兩端一致；`python3 -m json.tool data/postcards.json` OK（len 56、首筆 date `2026.10.17`）與 `data/quotes.json` OK；`git diff --check` clean；secret 掃描於 push 前執行（diff 中 token pattern 無命中）；FenCurator commit identity 以 `git config` 實測；push 後等待 Pages build 並以 curl 驗證線上 postcards.json。實測：內容 commit `6396d4b`＋token commit `822e53f` 的 build 回 `built`（commit `822e53f`）；線上 `data/postcards.json` HTTP 200（161,667 bytes）、與本機 **byte 相同**（`cmp` 實測無差異）、len 56、首筆 date `2026.10.17`、首筆 title「替腳下的路開路的人，與替路點燈的人」；主視覺圖線上 HTTP 200（3,375,257 bytes，與本機一致）；首頁、archive.html、`postcard.html?id=0`、quotes.html 皆 HTTP 200。故無需 empty-commit 重觸發。
 
 ---
 
