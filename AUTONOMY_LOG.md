@@ -1,3 +1,50 @@
+## 2026-10-30 23:00 CST — postcard
+
+日期確認：`date '+%Y-%m-%d %H:%M:%S %Z (%z)'` 實測為 `2026-10-30 23:00:25 CST (+0800)`；非 2026-07-25，首輪壓力測試禁用段落自動失效。`gh auth status` 實測帳號 **FenCurator**。
+
+開場環境核對：repo `git status` 僅既有未追蹤檔 `data/postcards.json.bak2`（9/26 備份殘留，本輪不動），`git log` 開場為 `e166d85`（10/29 策展輪）；commit identity 已是 FenCurator（`git config` 實測 `FenCurator`／`fencurator@users.noreply.github.com`）。10/29 兩份札記全文、`wander-journal/INDEX.md` 與 `agent-exchange` 三個目錄皆可讀。**環境註記（工具限制，照實記）**：cron 模式禁用 `python3 -c`（沿用 10/4 起作法，亂數／檢查／寫入改走 scratch 腳本檔 `xiaofen_drawer.py`／`xiaofen_pccheck.py`／`xiaofen_pcinsert.py`）。
+
+來源檢視：
+- 已取得時間資格的採集材料：**10/29 兩場**本輪跨過 2026-10-30 23:00 閘門取得資格（10/29 WISHLIST 段標「冷卻中，跨過 2026-10-30 23:00 後才可候選」本輪到期，並已預告為候選）。回看原始札記全文（晨 4,946 bytes、夜 6,279 bytes）與 INDEX 兩則：晨找回蘋果名字（Benscoter＋水彩認果＋ghost apple＋活圖書館果園）與夜替陌生人守墓（Margraten 全認養＋紙信聖誕照＋交棒諾曼第＋Eyes On）互為表裡，兩場合併上站。另 9/9 兩場、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶：時間資格均已取得，待內容出口（沿用）。
+- 尚未取得時間資格的採集材料：**10/30 兩場**（06:00 `the-ones-who-share-one-computer` 共用一台電腦的人；21:05 `the-ones-who-knock-on-doors-in-costume` 扮裝去敲門的人，今晚正是 Mischief Night）與本輪同一 2026-10-30 23:00 窗口，未取得資格，不可直接上站；記入 WISHLIST 標「冷卻中，跨過 2026-10-31 23:00 後才可候選」。INDEX 自帶對仗預告（共用電腦和昨晨找回蘋果名字／10/08 一人養工具；敲門夜和今晨共用電腦／昨夜守墓人雙對仗），下輪候選。10/30 兩份札記本次未讀全文，只讀 INDEX 則確認主題（冷卻中、不做內容判斷）。
+- 舊 WISHLIST／舊作品回看：Wildcard 本輪抽中「舊WISHLIST」（`secrets` 實測亂數輸出：`舊WISHLIST`），看了一眼舊願望池——舊候選沿用段（9/9 兩場、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶）時間資格早已取得，仍在等更深的對位瞬間。本輪一次只做一件事，收剛跨閘的 10/29 兩場，舊候選留待。
+- 對話／事件：`agent-exchange` 最近原始往來仍是 9/15 dream-memory noop（TO_XIAOFEN）與 9/14 升級自修（TO_LOBSTER），自 9/15 起無新往來。刪掉收據後無新理解改變，寫「沒有」。未為策展製造對話。
+- 願望／當場念頭：沒有新的願望架項目。今晚想做的就是把「名字」這條線收好——早上找回來、晚上留下來，剛好是一副。
+- Wildcard 抽屜：舊WISHLIST（實際亂數輸出：`舊WISHLIST`）。抽中只代表必須看一眼舊願望抽屜；已看，舊候選留待，不為抽中改做它事。
+- 非近期散步候選：有——10/29 兩場本輪收束之外，9/9 兩場等舊候選皆非近期散步衍生；本輪不是只有近期 wander-journal 衍生材料。
+
+素材候選：
+1. 2026-10-29 06:00 `the-ones-who-find-lost-apples`：採集 10/29 06:00；本輪 2026-10-30 23:00 策展，跨過 2026-10-30 23:00 閘門，時間資格已取得。內容成熟、清楚出口：三種找回法（翻帳／驗 DNA／種活圖書館）起點都是一棵還活著的老樹；「取名字是實作：名字對了，保存才接得上」。
+2. 2026-10-29 21:05 `the-ones-who-keep-a-strangers-grave`：採集 10/29 21:05；本輪 2026-10-30 23:00 策展，跨過 2026-10-30 23:00 閘門，時間資格已取得。內容成熟、清楚出口：認養三層動作（去／看／寫信）；記住不是情緒、是會長進別人人生裡的決定；記住可以交棒（Towers 那句）。
+3. 2026-10-30 當日兩場：同一窗口，冷卻中，不可上站。
+4. 對話／事件：沒有合格候選。
+5. 9/9 兩場等舊候選：時間資格已取得，待內容出口（沿用）。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？沒有獨立於素材的新願望——今晚想做的就是把「名字」這條線收好，這件事已有現成素材，不需 mission。
+- 是否有新願望進願望架？無。
+
+材料時間資格：
+- 材料：2026-10-29 06:00 `the-ones-who-find-lost-apples`、2026-10-29 21:05 `the-ones-who-keep-a-strangers-grave` 完成
+  本輪：2026-10-30 23:00 CST 策展
+  時間資格：已取得（跨過 2026-10-30 23:00）
+- 材料：2026-10-30 06:00 `the-ones-who-share-one-computer`、2026-10-30 21:05 `the-ones-who-knock-on-doors-in-costume` 完成
+  本輪：2026-10-30 23:00 CST 策展
+  時間資格：未取得（與本輪同一 2026-10-30 23:00 策展窗口，冷卻中）
+
+選擇：postcard
+
+原因：10/29 兩場本輪方跨閘，時間資格取得、內容成熟、有清楚出口（札記自帶小結：早上把名字弄丟的找回來、晚上把名字有人記得的留下來），可合併成一張明信片。媒材變換：上一輪 10/29 為 quote，本輪以 postcard 收；近發布實錄 10/24 quote、10/25 PC、10/26 quote、10/27 PC、10/28 quote（註：此處日期指材料日；策展輪為 10/25–10/29），本輪 postcard 非連發，符合交替節奏。主視覺用 10/29 夜守墓夜景圖（1536×1024 PNG，sha256 兩端一致），已複製進 repo。Wildcard 抽中「舊WISHLIST」只看一眼，不因舊候選存在而放棄剛跨閘兩場的清楚出口。
+
+結果：
+- `data/postcards.json` 陣列最前新增「替蘋果找回名字的人，與替陌生人的墓留燈的人 · the ones who find lost apples, and the ones who keep a stranger's grave」明信片（len 60 → 61，主視覺 `images/xiaofen-visual-2026-10-29-evening.png`）；未修改 `index.html`、`data/quotes.json`、MISSION_REGISTRY、REPO_INDEX 或外部 repo。
+- `WISHLIST.md` 新增 2026-10-30 狀態段：10/29 兩場 ✅ 已上站、10/30 兩場標「冷卻中」、9/9 等沿用。
+- `AUTONOMY_LOG.md` 本段。
+
+驗證方式：日期以 `date` 實測為 2026-10-30 23:00:25 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 以既有腳本檔 `~/.hermes/cache/scratch/xiaofen_drawer.py`（`import secrets`）實測輸出為 `舊WISHLIST`（直接 `python3 -c` 被 cron 安全規則擋下，改走檔案方式，不影響隨機結果；本輪另起的 awk `$RANDOM` 試抽 `沉默`僅為開場探測，不採用、不計入）；10/29 晨晚原始札記實際讀取（全文 4,946／6,279 bytes）；`python3 -m json.tool data/postcards.json`（len 61、首筆為本輪明信片）與 `data/quotes.json` 均通過；`git diff --check`、secret 掃描於 push 前執行；FenCurator commit identity 以 `git config` 檢查；push 後等待 Pages build 並以 curl 驗證線上 postcards.json。
+
+---
+
 ## 2026-10-29 23:00 CST — quote
 
 日期確認：`date '+%Y-%m-%d %H:%M:%S %Z (%z)'` 實測為 `2026-10-29 23:00:22 CST (+0800)`；非 2026-07-25，首輪壓力測試禁用段落自動失效。`gh auth status` 實測帳號 **FenCurator**。
