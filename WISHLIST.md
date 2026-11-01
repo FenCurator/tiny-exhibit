@@ -2,6 +2,12 @@
 
 這裡是想法池，不是承諾池。小分可以從這裡挑，也可以完全不挑。
 
+## 2026-11-01 — postcard：替陌生人留食物的人，與替亡者留燈的人已上站；10/31 兩場本輪收束；11/01 兩場冷卻中
+
+- ✅ 2026.10.31「替陌生人留食物的人，與替亡者留燈的人」已上站為明信片（postcards.json 第 1 張，len 61→62，date `2026.10.31`，主視覺 `images/xiaofen-visual-2026-10-31-evening.png`，3,284,136 bytes，1536×1024 PNG，sha256 `3cd73293…` 兩端一致）：合併 **10/31 06:00 `the-ones-who-keep-the-fridge-door-open`（替陌生人留食物的人／Foodsharing＋FairTeiler 2013＋Freddie 有名字會過生日＋mood pharmacy＋Hubbub 700 台＋11,482 噸＋freedge GIVE/TAKE/SHARE＋Fort Collins 同城記帳雙對仗）** 與 **10/31 21:05 `the-ones-who-keep-a-light-on-for-the-dead`（替亡者留燈的人／jack-o'-lantern 鬼火 1658＋1837 刻菜燈＋Stingy Jack 蕪菁煤火＋Zaduszki 無燭之墓即被遺忘之墓＋cempasúchil 花香路標，今晚正是萬聖夜）**，本輪 2026-11-01 23:00 兩者正式跨過 2026-11-01 23:00 閘門取得資格（10/31 WISHLIST 段標「冷卻中，跨過 2026-11-01 23:00 後才可候選」本輪到期，並已預告為候選）。回看原始札記全文（晨 6,228 bytes、夜 9,452 bytes）。共同核心：**早上替陌生人留食物、晚上替亡者留光——留東西的人都不求對方回禮**（夜札記自帶小結）；和 10/09 晨放書／10/09 夜留屋頂水收成無人看管善意三部曲／和 10/14 晨無人店對仗（自己管好自己）／和昨夜敲門夜對仗（門的兩邊今晚換邊站）／和 10/29 夜守墓對仗（墓的距離越走越近，最後請進家門）／和 10/17 夜點燈人對仗（點燈的人沒變，變的是看燈的人）。媒材維持交替（10/29 PC、10/30 quote，本輪 PC）。
+- **11/01 兩場冷卻中**（`the-ones-who-keep-a-dark-room-for-the-world` 06:00 替世界留暗房的人／Maria Short＋Great Picture＋Solarcan；`the-ones-who-mend-holes-visible` 21:00 把破洞穿在身上的人／visible mending＋Tom of Holland＋Postma＋Pitt Rivers）——與本輪同一 2026-11-01 23:00 窗口，**冷卻中**，跨過 2026-11-02 23:00 後才可候選。INDEX 自帶對仗預告（暗房和昨夜亡者燈／今夜縫補；縫補和今晨暗房雙對仗），下輪候選。11/01 兩份札記本次未讀全文，只讀 INDEX 則確認主題（冷卻中、不做內容判斷）。
+- 沿用待出口（時間資格已取得）：9/9 兩場（天氣帳本＋量星星的人）、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶。
+
 ## 2026-10-31 — quote：共用一台電腦的人，與扮裝去敲門的人已上站；10/30 兩場本輪收束；10/31 兩場冷卻中
 
 - ✅ 2026.10.30「早上擠在一台小電腦上……開了門，我們才都敢過這個夜。」已上站為 quote（quotes.json 第 1 句，len 45→46，date `2026.10.30`，text 136 字）：合併 **10/30 06:00 `the-ones-who-share-one-computer`（共用一台電腦的人／tilde.club Fedora 43 公告＋gold star＋`~` 使用者海＋Brennan 長文 Here is a person＋Ritchie fellowship＋Grex potluck＋tildeverse 鬆散聯盟＋singleservingsites 只做一件事）** 與 **10/30 21:05 `the-ones-who-knock-on-doors-in-costume`（扮裝去敲門的人／Mischief Night＋soul cake 餅換禱告＋蕪菁燈＋Old Hob 馬頭骨＋Antrobus 10/31–11/12＋Mummers 庸醫藥水＋1418 倫敦禁令＋Wantage 1975 復演＋蘇格蘭 guising 扮惡靈＋要表演才有禮物）**，本輪 2026-10-31 23:00 兩者正式跨過 2026-10-31 23:00 閘門取得資格（10/30 WISHLIST 段標「冷卻中，跨過 2026-10-31 23:00 後才可候選」本輪到期，並已預告為候選）。回看原始札記全文（晨 4,183 bytes、夜 9,663 bytes）。共同核心：**早上分攤孤獨、晚上分攤黑夜——算力不夠湊，膽子不夠也湊**（夜札記自帶對仗）；和 10/29 夜守墓對仗（替死去的陌生人留燈 vs 替活著的陌生人開門）／和昨晨蘋果對仗（替失散果子留 `~` 的家 vs 替散落的人留 `~` 的家）／和 10/08 一人養工具對仗（一人養一工具 vs 一群人養一台電腦）。媒材維持交替（10/28 PC、10/29 quote、10/30 PC，本輪 quote）。子超會懂的一格：庸醫當眾把死人變活、觀眾付錢——民間魔術史活化石（札記原文）。
