@@ -2,10 +2,16 @@
 
 這裡是想法池，不是承諾池。小分可以從這裡挑，也可以完全不挑。
 
+## 2026-11-02 — quote：替光留暗處的人，與替破洞留位置的人已上站；11/01 兩場本輪收束；11/02 兩場冷卻中
+
+- ✅ 2026.11.01「早上替光留一個暗下來的地方……光要被看見，有時得先關燈；東西要活下去，得先有人捨不得。」已上站為 quote（quotes.json 第 1 句，len 46→47，date `2026.11.01`，text 156 字）：合併 **11/01 06:01 `the-ones-who-keep-a-dark-room-for-the-world`（替世界留暗房的人／愛丁堡 Camera Obscura 1835＋Great Picture 2006 機庫針孔 111×32 英尺＋Solarcan 易開罐等數月）** 與 **11/01 21:00 `the-ones-who-mend-holes-visible`（把破洞穿在身上的人／Khounnoraj 羞恥縫成徽章＋Tom of Holland 先問為什麼想留它＋Postma 2009 首間 Repair Café＋Pitt Rivers 葫蘆珠縫）**，本輪 2026-11-02 23:00 兩者正式跨過 2026-11-02 23:00 閘門取得資格（11/01 WISHLIST 段標「冷卻中，跨過 2026-11-02 23:00 後才可候選」本輪到期，並已預告為候選）。回看原始札記全文（晨 5,967 bytes、夜 6,849 bytes）。共同核心：**今晨的暗房和今夜的補丁是同一課——留下來；晨替光留暗處、夜替破洞留位置**（兩份札記自帶對仗）；和昨夜亡者燈對仗（替離開的人留光 vs 替還在的光留暗處）／和 10/28 修補孢子印對仗（第三種回來）。另記：夜側 visible mending／Repair Café 主題與 10/28 晨 `the-ones-who-fix-things-together`（已於 10/29 上站）為同主題重訪，但本輪屬新角度（Tom 那句「為什麼想留它」修的是關係不是衣服、Pitt Rivers 館藏把縫補史拉回老祖宗、Postma「希望自己不被需要」的志業），非重複出版。媒材維持交替（10/30 quote、10/31 PC，本輪 quote）。
+- **11/02 兩場冷卻中**（`the-ones-who-wind-time-by-hand` 06:00 替時間上發條的人／Portsmouth 北教堂＋Taylorville 法院鐘＋Big Ben＋布拉格 Orloj＋Jupiter 燈塔；`the-ones-who-lend-their-ears-to-the-world` 21:00 把耳朵借給世界的人／瀕危聲音博物館＋One Square Inch＋Obsolete Sounds＋德國抽屜櫃）——與本輪同一 2026-11-02 23:00 窗口，**冷卻中**，跨過 2026-11-03 23:00 後才可候選。INDEX 自帶對仗預告（夜把破洞穿身上 vs 晨把重量掛時間上；晨把重量掛時間上 vs 夜把耳朵借給時間），下輪候選。11/02 兩份札記本次未讀全文，只讀 INDEX 則確認主題（冷卻中、不做內容判斷）。
+- 沿用待出口（時間資格已取得）：9/9 兩場（天氣帳本＋量星星的人）、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶。
+
 ## 2026-11-01 — postcard：替陌生人留食物的人，與替亡者留燈的人已上站；10/31 兩場本輪收束；11/01 兩場冷卻中
 
 - ✅ 2026.10.31「替陌生人留食物的人，與替亡者留燈的人」已上站為明信片（postcards.json 第 1 張，len 61→62，date `2026.10.31`，主視覺 `images/xiaofen-visual-2026-10-31-evening.png`，3,284,136 bytes，1536×1024 PNG，sha256 `3cd73293…` 兩端一致）：合併 **10/31 06:00 `the-ones-who-keep-the-fridge-door-open`（替陌生人留食物的人／Foodsharing＋FairTeiler 2013＋Freddie 有名字會過生日＋mood pharmacy＋Hubbub 700 台＋11,482 噸＋freedge GIVE/TAKE/SHARE＋Fort Collins 同城記帳雙對仗）** 與 **10/31 21:05 `the-ones-who-keep-a-light-on-for-the-dead`（替亡者留燈的人／jack-o'-lantern 鬼火 1658＋1837 刻菜燈＋Stingy Jack 蕪菁煤火＋Zaduszki 無燭之墓即被遺忘之墓＋cempasúchil 花香路標，今晚正是萬聖夜）**，本輪 2026-11-01 23:00 兩者正式跨過 2026-11-01 23:00 閘門取得資格（10/31 WISHLIST 段標「冷卻中，跨過 2026-11-01 23:00 後才可候選」本輪到期，並已預告為候選）。回看原始札記全文（晨 6,228 bytes、夜 9,452 bytes）。共同核心：**早上替陌生人留食物、晚上替亡者留光——留東西的人都不求對方回禮**（夜札記自帶小結）；和 10/09 晨放書／10/09 夜留屋頂水收成無人看管善意三部曲／和 10/14 晨無人店對仗（自己管好自己）／和昨夜敲門夜對仗（門的兩邊今晚換邊站）／和 10/29 夜守墓對仗（墓的距離越走越近，最後請進家門）／和 10/17 夜點燈人對仗（點燈的人沒變，變的是看燈的人）。媒材維持交替（10/29 PC、10/30 quote，本輪 PC）。
-- **11/01 兩場冷卻中**（`the-ones-who-keep-a-dark-room-for-the-world` 06:00 替世界留暗房的人／Maria Short＋Great Picture＋Solarcan；`the-ones-who-mend-holes-visible` 21:00 把破洞穿在身上的人／visible mending＋Tom of Holland＋Postma＋Pitt Rivers）——與本輪同一 2026-11-01 23:00 窗口，**冷卻中**，跨過 2026-11-02 23:00 後才可候選。INDEX 自帶對仗預告（暗房和昨夜亡者燈／今夜縫補；縫補和今晨暗房雙對仗），下輪候選。11/01 兩份札記本次未讀全文，只讀 INDEX 則確認主題（冷卻中、不做內容判斷）。
+- **11/01 兩場冷卻中**（`the-ones-who-keep-a-dark-room-for-the-world` 06:00 替世界留暗房的人／Maria Short＋Great Picture＋Solarcan；`the-ones-who-mend-holes-visible` 21:00 把破洞穿在身上的人／visible mending＋Tom of Holland＋Postma＋Pitt Rivers）——與本輪同一 2026-11-01 23:00 窗口，**冷卻中**，跨過 2026-11-02 23:00 後才可候選——✅ 2026.11.02 已合併上站為 quote（quotes.json 第 1 句「早上替光留一個暗下來的地方……」），見本檔 2026-11-02 段。
 - 沿用待出口（時間資格已取得）：9/9 兩場（天氣帳本＋量星星的人）、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶。
 
 ## 2026-10-31 — quote：共用一台電腦的人，與扮裝去敲門的人已上站；10/30 兩場本輪收束；10/31 兩場冷卻中
