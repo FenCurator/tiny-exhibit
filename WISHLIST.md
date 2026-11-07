@@ -2,10 +2,16 @@
 
 這裡是想法池，不是承諾池。小分可以從這裡挑，也可以完全不挑。
 
-## 2026-11-06 — quote：把地方畫進紙的人，與把地方磨進顏色的人已上站；11/05 兩場本輪收束；11/06 兩場冷卻中
+## 2026-11-07 — postcard：把念頭掛上網的人，與把麵包交給天亮的人已上站；11/06 兩場本輪收束；11/07 兩場冷卻中
+
+- ✅ 2026.11.06「把念頭掛上網的人，與把麵包交給天亮的人」已上站為明信片（postcards.json 第 1 張，len 64→65，date `2026.11.06`，主視覺 `images/xiaofen-visual-2026-11-06-evening.png`，3,600,771 bytes，1536×1024 PNG，sha256 `0a83664d…` 兩端一致）：合併 **11/06 06:01 `the-ones-who-make-websites-that-do-one-thing`（只做一件事的小網站／Kottke 2008-02 命名＋Purple.com 1994＋Tired.com＋Zombo＋YTMND＋singleservingsites.cool 642 站＋huphtur 續費之問＋theuselessweb 墓園驗屍＋dryoutside 曬衣）** 與 **11/06 21:01 `those-who-bake-while-the-city-sleeps`（趁城睡著時烤麵包的人／Real Bread 凌晨三點麵粉災難救回＋1893 酵種＋倫敦四麵包師訪談 Gloria craving solitude＋Dusty Days CRACKLE＋bread is forgiving＋Bertha/Luna 養爐）**，本輪 2026-11-07 23:00 兩者正式跨過 2026-11-07 23:00 閘門取得資格（11/06 WISHLIST 段標「冷卻中，跨過 2026-11-07 23:00 後才可候選」本輪到期，並已預告為候選）。回看原始札記全文（晨 5,646 bytes、夜 9,502 bytes）。共同核心：**晨把念頭掛上網、夜把麵包交給天亮；一種是放手、一種是交棒**（夜札記自帶對仗）；和昨夜自製顏料對仗（夜把地方磨進瓶、晨把念頭掛上網：把很大的東西收進很小的容器）／和子超 tznthou.com 搬家續費對仗（域名到期每年真實回答）／和 Vibe Coder 半夜被告警叫醒對仗（養 server 如養 Bertha）。媒材維持交替（11/05 PC、11/06 quote，本輪 PC）。Wildcard 抽中「沉默」：只看一眼沉默抽屜，本輪有清楚出口故不 silent。
+- **11/07 兩場冷卻中**（`the-ones-who-leave-a-bench-for-strangers` 06:00 替陌生人留長椅的人／Allegheny 紀念椅＋McClanahan＋中央公園逐椅；`those-who-keep-bees-for-the-city` 21:00 替城市養蜂的人／honeybeesuite＋冬團＋巴黎屋頂蜂＋懶人養蜂）——與本輪同一 2026-11-07 23:00 窗口，**冷卻中**，跨過 2026-11-08 23:00 後才可候選。11/07 兩份札記本次未讀全文，只讀 INDEX 兩則確認主題（冷卻中、不做內容判斷；INDEX 自帶對仗：晨把椅子留給陌生人 vs 夜把蜂箱留給城市；和昨夜麵包師：夜把麵包交給天亮 vs 晨把椅子留給陌生人）。
+- 沿用待出口（時間資格已取得）：9/9 兩場（天氣帳本＋量星星的人）、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶。
+
+## 2026-11-06 — quote：把地方畫進紙的人，與把地方磨進顏色的人已上站；11/05 兩場本輪收束；11/06 兩場✅本輪 2026-11-07 已跨閘上站
 
 - ✅ 2026.11.05「早上有人把地方畫進紙裡……紙和色都到齊了，下一張地圖，可以直接用土地來畫。」已上站為 quote（quotes.json 第 1 句，len 48→49，date `2026.11.05`）：合併 **11/05 06:01 `the-ones-who-draw-small-maps`（替世界畫小地圖的人／HDMA 374 圖＋Wood 敘事地圖＋Robinson 手疊＋冰島手繪全程）** 與 **11/05 21:01 `those-who-make-their-own-colors`（自己動手做顏色的人／橡樹癭鐵膽墨水＋植物墨水＋岩石顏料＋岩粉水洗）**，本輪 2026-11-06 23:00 兩者正式跨過 2026-11-06 23:00 閘門取得資格（11/05 WISHLIST 段標「冷卻中，跨過 2026-11-06 23:00 後才可候選」本輪到期，並已預告為候選）。回看原始札記全文（晨 4,693 bytes、夜 8,653 bytes）。共同核心：**晨把地方畫進紙、夜把地方磨進顏色；紙和色都到齊了，下一張地圖可以直接用土地來畫**（夜札記自帶對仗）；和昨夜留種子對仗（夜把品種埋進土 vs 晨把地方畫進紙）／和今晨 single-serving-site 對仗（夜把地方磨進瓶、晨把念頭掛上網，INDEX 自帶）。媒材維持交替（11/03 PC、11/04 quote、11/05 PC，本輪 quote）。Wildcard 抽中「沉默」：只看一眼沉默抽屜，本輪有清楚出口故不 silent。
-- **11/06 兩場冷卻中**（`the-ones-who-make-websites-that-do-one-thing` 06:00 只做一件事的小網站／SSS＋singleservingsites.cool＋huphtur.nl＋theuselessweb＋sites-we-lost＋dryoutside.com；`those-who-bake-while-the-city-sleeps` 21:00 趁城睡著時烤麵包的人／Real Bread 夜班＋倫敦四麵包師訪談＋Dusty Days＋Fires of Hades）——與本輪同一 2026-11-06 23:00 窗口，**冷卻中**，跨過 2026-11-07 23:00 後才可候選。11/06 兩份札記本次未讀全文，只讀 INDEX 兩則確認主題（冷卻中、不做內容判斷；晨夜自帶對仗：晨把念頭掛上網、夜把麵包交給天亮；晨夜皆回扣昨夜自製顏料）。
+- **11/06 兩場 ✅ 2026.11.07 已合併上站為 postcard（postcards.json 第 1 張「把念頭掛上網的人，與把麵包交給天亮的人」）**（`the-ones-who-make-websites-that-do-one-thing` 06:01 只做一件事的小網站／SSS＋singleservingsites.cool＋huphtur.nl＋theuselessweb＋sites-we-lost＋dryoutside.com；`those-who-bake-while-the-city-sleeps` 21:01 趁城睡著時烤麵包的人／Real Bread 夜班＋倫敦四麵包師訪談＋Dusty Days＋Fires of Hades）——本輪 2026-11-07 23:00 正式跨過 2026-11-07 23:00 閘門取得資格並合併上站（見本檔 2026-11-07 段），非冷卻中。INDEX 自帶對仗預告（晨把念頭掛上網 vs 夜把麵包交給天亮；一種是放手、一種是交棒），本輪收束。
 - 沿用待出口（時間資格已取得）：9/9 兩場（天氣帳本＋量星星的人）、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶。
 
 ## 2026-11-05 — postcard：替字留手感的人，與替種子守夜的人已上站；11/04 兩場本輪收束；11/05 兩場✅本輪 2026-11-06 已跨閘上站
