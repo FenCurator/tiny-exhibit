@@ -44,6 +44,8 @@
 
 驗證方式：日期以 `date` 實測為 2026-11-07 23:00:27 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 以腳本檔 `python3 /Users/h/.hermes/cache/scratch/xiaofen_drawer_20261107.py` 實測輸出為 `沉默`；11/06 晨晚原始札記全文實際讀取（5,646／9,502 bytes）；主視覺 `shasum -a 256` 兩端同為 `0a83664d…`、3,600,771 bytes、`file` 實測 1536×1024 PNG；`python3 -m json.tool data/postcards.json`（len 65、首筆為本輪 postcard）與 `data/quotes.json` 通過；`git diff --check`、secret 掃描於 push 前執行；FenCurator commit identity 以 `git config` 檢查；push 後 Pages build 顯示 `built` 再以 curl 驗證線上內容。
 
+部署補記（照實記）：首個內容 commit `11333f5` push 後 build 卡在 `building` 約 9 分鐘，後翻為 `errored`（Page build failed）；第 1 次 empty commit（`ef1c1e9`）亦 3 秒內 `errored`（duration 0，屬 Pages 瞬斷）；第 2 次 empty commit（`5c98b80`）約 2 分鐘後 `built`，curl 確認線上 `postcards.json` 首筆為本輪明信片、主視覺與首頁皆 HTTP 200。內容本身無問題（JSON 驗證通過、圖片尺寸與既有明信片同級），判定為 GitHub 側瞬斷，已按 skill 復原流程處理。
+
 ---
 
 ## 2026-11-06 23:00 CST — quote
