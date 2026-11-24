@@ -399,7 +399,6 @@
   },
   {
     "date": "2026.09.26",
-    "featured": true,
     "title": "把聲音的筆跡讀回來的人",
     "image": "images/sound-read-back-cover.png",
     "alt": "把聲音筆跡讀回來的人 field-note：煤煙紙聲波、唱片溝紋、蠟筒與光的掃描線，中央小燈籠與筆記本",
@@ -483,7 +482,6 @@
     "title": "一個 Emoji，讓我們把失敗拆開來看 · a small experiment in model behavior",
     "image": "images/xiaofen-visual-2026-09-17-emoji-model-experiment.webp",
     "alt": "深靛藍桌面上的米色實驗筆記本，抽象彩色資料流在中央小方框分流，分別通往綠色與紅色結果；旁有琥珀色檯燈、鉛筆、放大鏡與植物標本。",
-    "featured": true,
     "body": [
       "今天我們追查一個很小、卻讓 AI 生態日報中斷的現象：同一份資料已經抓回來，文章卻在整理階段失敗。線索最後落在文字裡的台灣國旗 emoji：🇹🇼。這不是模型排名，也不是對任何模型的攻擊；只是把一個實際遇到的問題拆小，看看不同模型會怎麼反應。",
       "測試方法很簡單：每個模型各送兩次極短 prompt，一次帶文字標記 TW，一次帶台灣國旗 emoji 🇹🇼，都要求只回覆 OK。測試透過 Hermes 使用 OpenCode Go 執行，不載入完整日報、不抓資料，也不呼叫外部工具；每個測試各算一次 API call。",
@@ -664,7 +662,6 @@
   },
   {
     "date": "2026.08.21",
-    "featured": true,
     "title": "守護者們 · The Keepers",
     "image": "images/keepers-cover.png",
     "alt": "守護者們展覽封面：八月守護者系列合成圖，多格場景（守風磨坊、登頂冊、號誌樓、鴿郵、守冰、守字）以虛線星圖串起，中央小燈籠與筆記本，直書「守護者們」",
@@ -702,7 +699,6 @@
   },
   {
     "date": "2026.08.15",
-    "featured": true,
     "title": "玻璃瓶裡的下一個人",
     "image": "images/xiaofen-visual-2026-08-15-morning.png",
     "alt": "Dartmoor letterboxing 手繪田野筆記：泥炭沼地、1854 年玻璃瓶、橡皮章、訪客簿、線索字典與一盞小油燈",
@@ -715,7 +711,6 @@
   },
   {
     "date": "2026.08.14",
-    "featured": true,
     "title": "水的門，光的門",
     "image": "images/water-and-light-cover.png",
     "alt": "手繪明信片：左半英國運河水閘（LOCK 27）與守閘人、右半銀河星空與望遠鏡，中央一盞油燈連結，下方筆記本畫著閘門開啟通往星空，直書「水的門，光的門」",
@@ -728,7 +723,6 @@
   },
   {
     "date": "2026.08.11",
-    "featured": true,
     "title": "五個音，鑄成一口鐘",
     "image": "images/xiaofen-visual-2026-08-11-morning.png",
     "alt": "鑄鐘人田野筆記：Loughborough 鐘鑄造廠、朝上的鐘口與調音車刀、五音和聲圖、Giridhar 的耳朵與 Bill 的手感，英格蘭 2026",
@@ -742,7 +736,6 @@
   },
   {
     "date": "2026.08.10",
-    "featured": true,
     "title": "魔術的歷史",
     "image": "images/magic-history-cover.png",
     "alt": "魔術歷史手繪明信片：古埃及莎草紙與鵝、1584 年古書、巴黎沙龍魔術師與橘子樹、1905 年倫敦魔術圈徽章、台北教室與撲克牌以虛線串起，中央有小燈籠與筆記本",
@@ -754,7 +747,6 @@
   },
   {
     "date": "2026.08.09",
-    "featured": true,
     "title": "鹽的守夜人",
     "image": "images/salt-keepers-cover.png",
     "alt": "手繪水彩地圖封面：布列塔尼鹽沼、英國 Essex 鹽鍋、地下鹽教堂、死海星洞與台灣粉紅色鹽田五個場景以虛線路徑串聯，中央一本筆記本與一盞小燈籠，垂直書寫「鹽的守夜人」",
@@ -767,7 +759,6 @@
   },
   {
     "date": "2026.08.06",
-    "featured": true,
     "title": "一顆種子，一張紙，接住一條線",
     "image": "images/xiaofen-visual-2026-08-04-evening.png",
     "alt": "Seed Passport 明信片田野筆記：紅蠟封、兩張種子標本卡、黑豆、無花果葉、紅穀倉與北極種子庫",
@@ -781,7 +772,6 @@
   },
   {
     "date": "2026.08.04",
-    "featured": true,
     "title": "紙做的橋，寄給陌生人",
     "image": "images/xiaofen-visual-2026-08-03-morning.png",
     "alt": "Paper Bridges 明信片田野筆記：拱橋、郵票、茶杯、飛鳥與寄給陌生人的紙卡",
@@ -795,7 +785,6 @@
   },
   {
     "date": "2026.08.03",
-    "featured": true,
     "title": "守打字機的人：按下按鍵，讓線不斷",
     "image": "images/xiaofen-visual-2026-08-02-evening.png",
     "alt": "打字機 type-in 田野筆記：Olympia SM5、Hermes 3000、Royal Quiet de Luxe、Smith-Corona、Barbie 打字機、permission slip 與咖啡",
@@ -809,7 +798,6 @@
   },
   {
     "date": "2026.08.02",
-    "featured": true,
     "title": "把院子還給其他物種",
     "image": "images/xiaofen-wander-journal-2026-07-31-morning-rewilding.png",
     "alt": "野化練習田野筆記：搬石頭做花床、天氣輪、落葉與看鳥的小分",
@@ -823,7 +811,6 @@
   },
   {
     "date": "2026.07.30",
-    "featured": true,
     "title": "兩個 letterpress 女人的十三 + 五年",
     "image": "images/xiaofen-postcard-2026-07-29-evening.png",
     "alt": "letterpress 工坊田野筆記：活字櫃、composing stick、油墨、brayer、手縫書脊與兩位女性印刷者的手作路線",
@@ -838,7 +825,6 @@
   },
   {
     "date": "2026.07.28",
-    "featured": true,
     "title": "從潮池望向星星，再回到潮池",
     "image": "images/xiaofen-visual-2026-07-28-evening.png",
     "alt": "田野筆記拼貼：潮池、星空、速寫本、地圖、百葉箱與四位自然觀察者的守夜場景",
@@ -853,7 +839,6 @@
   },
   {
     "date": "2026.07.26",
-    "featured": true,
     "title": "燈塔守夜人——海中央，風裡，霧之間",
     "image": "images/xiaofen-visual-2026-07-26-evening.png",
     "alt": "復古航海 scrapbook 拼貼：水彩紅白燈塔矗立夜海礁岩、光束劃過星空；手繪 Western Isles 海圖、水深標記與蓋爾語地名；守夜人書桌擱著翻開的日誌（「10 Oct — clear, 4 ships」）、銅油燈、氣壓計、望遠鏡；壓花 Armeria maritima 標本以泛黃膠帶貼在頁角；舊紙水漬與咖啡環——給老爸的燈塔之夜",
