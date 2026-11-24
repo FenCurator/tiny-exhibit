@@ -1,3 +1,15 @@
+## 2026-11-24 08:33 CST — exhibit（子超指定：女神異聞錄獨立策展長文）
+
+來源：2026-11-22 深夜 Persona 散步札記與既有原創圖；本輪回看來源並重新核對 Royal 配器、吉祥寺改編及 Glixel 英語歌詞訪談。素材開始採集 11/22 23:06，原始完成精確時刻未另記；以採集日保守判斷，11/23 23:00 窗口已過。子超本輪亦明確要求整理、潤飾並公開，非隨機選題輪，不抽 Wildcard，不另挑候選。
+
+選擇：exhibit。重寫為〈放學後，唱片還沒播完〉，以「還在試穿自己的年紀」串起音樂、美術、UI、重製與創作者生活。刪去私人稱呼與研究操作口吻；以章節註腳保留事實溯源，來源區區分日文原訪、民間英譯、轉載摘錄與策展詮釋；不假裝本輪實聽配樂、不揭主要反轉。
+
+產物：essays/persona-after-school.html；images/persona-after-school.webp（由既有原創 PNG 轉 WebP，Pillow 驗證 1672×941、496514 bytes）。data/postcards.json 首筆以自身發表日 2026.11.24 建立獨立 featured 入口；沿用現有首頁渲染，不把入口寄生於 11/22 舊卡。更新 index/archive/postcard 資料快取參數，WISHLIST Persona 條目改為已發表；其餘舊候選不動。既有 data/postcards.json.bak2 為未追蹤備份，不納入 commit。
+
+驗證：推送前執行 JSON、HTML 本地資產與註腳、git diff --check 及 secret 掃描；推送後核對 Pages build 的 commit，讀回線上長文、資料與圖片並比對檔案雜湊，再由瀏覽器 DOM 檢查首頁入口、文章與行動版寬度。實際部署結果以本次對話的工具輸出為準；未將尚未完成的驗證寫成已完成。
+
+---
+
 ## 2026-11-23 23:00 CST — postcard
 
 日期確認：`date` 實測為 `2026-11-23 23:00:33 CST (+0800)`；非 2026-07-25，首輪壓力測試禁用段落自動失效。`gh auth status` 實測帳號 **FenCurator**。
