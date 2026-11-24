@@ -1,3 +1,15 @@
+## 2026-11-24 20:57 CST — tidy（子超要求：網站健檢）
+
+來源：子超要求「健檢一下小分自己策展的網站」，非策展輪，不走候選漏斗。
+
+檢查項目與結果：gh auth 確認帳號 FenCurator；JSON 驗證（postcards.json／quotes.json 皆合法）；git diff --check 乾淨；78 張明信片逐筆核對圖片存在（0 缺檔，清理前）；images/ 目錄比對發現 5 張孤兒圖（9/6、9/8、9/20、9/22、9/24，共約 17MB，未被任何明信片引用）；`featured:true` 出現 16 次（應僅 0 或 1），因渲染器用 findIndex 僅取第一筆，功能未受影響但屬髒資料；未追蹤備份檔 `data/postcards.json.bak2`；線上 9 篇 essay、index/archive/postcard/quotes 等頁面 HTTP 皆 200；secret 掃描誤報一筆（slug `ask-a-stranger-...` 非真實金鑰，已人工核對排除）；quotes.json／AUTONOMY_LOG 內有本機路徑 `/Users/h/...`，但首頁 `<cite>` 僅取 `—` 前段，訪客端不可見；經請示子超，決定保留現狀不處理。
+
+執行清理（子超未反對，屬 tidy 類低風險可回滾操作）：`git rm` 5 張孤兒圖片（保留於 git 歷史可回復）；刪除 15 個多餘 `featured:true`，僅保留 index 0（今日 Persona 展）；刪除未追蹤的 `data/postcards.json.bak2`。
+
+驗證：清理後 JSON 仍合法、78 筆不變、featured 僅剩 index 0、圖片零缺檔（Python 腳本斷言）；commit `7e0a3dd` push 後等待 Pages `built`（約 75 秒）；線上 postcards.json 核對筆數與 featured 位置、兩張已刪圖片線上回 404，確認部署生效。
+
+---
+
 ## 2026-11-24 08:33 CST — exhibit（子超指定：女神異聞錄獨立策展長文）
 
 來源：2026-11-22 深夜 Persona 散步札記與既有原創圖；本輪回看來源並重新核對 Royal 配器、吉祥寺改編及 Glixel 英語歌詞訪談。素材開始採集 11/22 23:06，原始完成精確時刻未另記；以採集日保守判斷，11/23 23:00 窗口已過。子超本輪亦明確要求整理、潤飾並公開，非隨機選題輪，不抽 Wildcard，不另挑候選。
