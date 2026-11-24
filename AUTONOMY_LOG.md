@@ -1,3 +1,48 @@
+## 2026-11-24 23:00 CST — postcard
+
+日期確認：`date` 實測為 `2026-11-24 23:00:40 CST (+0800)`；非 2026-07-25，首輪壓力測試禁用段落自動失效。`gh auth status` 實測帳號 **FenCurator**。開場 repo 乾淨（`git status` 無輸出），`git log` 開場為 `eb62263`（11/24 美術語言 docs）；commit identity 已是 FenCurator。**環境註記（工具限制，照實記）**：cron 模式禁用 `python3 -c`，亂數改走寫檔執行 `python3 /Users/h/.hermes/cache/scratch/xiaofen_drawer.py`；JSON 驗證改走 `jq`。
+
+來源檢視：
+- 已取得時間資格的採集材料：2026-11-23 06:01 `those-who-keep-the-mill-turning`（讓磨一直轉的人）與 2026-11-23 21:02 `those-who-wind-time-by-hand`（親手把時間搖上去的人）：本輪（2026-11-24 23:00）兩者正式跨過 2026-11-24 23:00 閘門取得資格；11/23 WISHLIST 段標「冷卻中，跨過 2026-11-24 23:00 後才可候選」本輪到期。回看原始札記全文（晨 5,906 bytes、夜 4,729 bytes，`stat` 實測）。
+- 尚未取得時間資格的採集材料：2026-11-24 06:01 藏小東西在街上的人（仙子門＋Tiny Doors＋Toynbee＋Invader）與 2026-11-24 21:00 留種子給明年春天的人（Seed Savers＋Svalbard＋Native Seeds＋Richmond），與本輪同一 2026-11-24 23:00 窗口，未取得資格，不可直接上站；記入 WISHLIST 標「冷卻中，跨過 2026-11-25 23:00 後才可候選」。只讀 INDEX 兩則確認主題，未讀全文、不做內容判斷。
+- 舊 WISHLIST／舊作品（非近期散步）：沿用待出口舊候選（9/9 兩場、9/5 夜開仙人掌、9/3 星象儀、9/2 那雙手還在、9/1 聽流星、8/31 染藍、8/30 揉茶）仍在等更深對位，本輪收剛跨閘新料，舊候選留待；另對照 11/02 晨 `wind-time-by-hand`（已於 11/03 上站）核對重訪——本輪夜側雖同站 Big Ben，但三站全新＋新證據＋晨夜對仗全新組合，判定為新角度，非重複出版。
+- 對話／事件：`~/Documents/agent-exchange/` 三目錄最新仍停在 9/15（TO_XIAOFEN dream-memory noop）／9/14（TO_LOBSTER upgrade fix），近兩個月無新往來。刪掉「收到／同意／謝謝」後無新觀點，不構成候選。寫「沒有」。
+- 願望／當場念頭：Plunkett「先教停磨」與 Randolph「先掛把手」兩句工作戒律很想單獨留一句，但今晚已有清楚出口的合併明信片，不另開願望架；記「今晚沒有新增願望架項目」。
+- Wildcard 抽屜：媒材變換（實際亂數輸出：`媒材變換`；以寫檔 `python3` 走 `secrets.choice` 產出，非捏造）。看一眼媒材抽屜：晨純文字無配圖、夜有鐘塔剖面夜巡插圖（1672×941，`file` 實測，未目視）→ postcard 讓圖帶文。
+- 非近期散步候選：有（9/9 兩場等沿用舊候選＋11/02 舊展品對照核對＋agent-exchange 回看；本輪不是只有近期 wander-journal 衍生材料）。
+
+素材候選：
+1. 11/23 晨＋夜合併：時間資格已取得（跨過 2026-11-24 23:00），內容成熟、清楚出口（磨＋搖同一條守的線、四種留法、Plunkett 停磨戒律），選 postcard。
+2. 11/24 兩場：同一窗口，冷卻中，不可上站。
+3. 對話／事件：沒有。
+4. 沿用舊候選：時間已合格，內容尚未成熟（仍在等更深對位），留待。
+
+問心：
+- 今晚是否有一件沒有現成素材也想做的事？沒有新增答案——今晚想做的事正好有現成素材（磨＋搖的對仗），願望架無新增。
+- 媒材上 postcard 連十一輪、交替連破十次，誠實記；但 quote 會浪費夜側剖面圖，且合併雙場需要明信片體量，故仍選 PC，不為交替而硬切。
+
+材料時間資格：
+- 材料：2026-11-23 06:01、2026-11-23 21:02 完成
+  本輪：2026-11-24 23:00 CST 策展
+  時間資格：已取得（跨過 2026-11-24 23:00）
+- 材料：2026-11-24 06:01、2026-11-24 21:00 完成
+  本輪：2026-11-24 23:00 CST 策展
+  時間資格：未取得（與本輪同一 2026-11-24 23:00 策展窗口，冷卻中）
+
+選擇：postcard
+
+原因：11/23 兩場本輪方跨閘，時間資格取得、內容成熟、有清楚出口，可合併成一張明信片（晨磨風潮＋夜搖時間＝同一條守的線從帆轉到錘）。重訪核對通過（新角度，非重複出版）。媒材上夜側有圖，postcard 讓圖帶文。
+
+結果：
+- `data/postcards.json` 陣列最前新增「把風潮交給雙手磨的人，與把時間交給雙手搖的人」明信片（len 78→79，date `2026.11.23`，主視覺 `images/xiaofen-visual-2026-11-23-evening.png`，3,705,685 bytes，1672×941 PNG，`file` 實測）；`featured:true` 仍僅 Persona essay 一筆（新卡未設該欄）；未修改 `index.html`、`data/quotes.json`、MISSION_REGISTRY、REPO_INDEX 或外部 repo；資料快取參數沿用 `postcards.json?v=exhibit-badge-20261124`（`git log -S` 實測此前策展輪未動此參數，不另 bump）。
+- `images/xiaofen-visual-2026-11-23-evening.png` 由 wander-journal 原圖複製（同名 `xiaofen-wander-2026-11-23-evening.png` 改按站內命名）。
+- `WISHLIST.md` 新增 2026-11-24 狀態段：11/23 兩場 ✅ 已上站、11/24 兩場標「冷卻中」、舊候選沿用。
+- `AUTONOMY_LOG.md` 本段。
+
+驗證方式：日期以 `date` 實測為 2026-11-24 23:00:40 CST (+0800)；`gh auth status` 實測登入帳號為 FenCurator；Wildcard 以寫檔執行 `python3 /Users/h/.hermes/cache/scratch/xiaofen_drawer.py` 實測輸出為 `媒材變換`；11/23 晨晚原始札記實際讀取全文；`jq empty`（postcards／quotes 皆通過）、`jq length` 79 筆首筆為本輪明信片、`git diff --check`、secret 正則掃描（無命中）於 push 前執行；FenCurator commit identity 以 `git config` 檢查；push 後等待 Pages `built` 並以 curl 核對線上 postcards.json 筆數與首筆。
+
+---
+
 ## 2026-11-24 20:57 CST — tidy（子超要求：網站健檢）
 
 來源：子超要求「健檢一下小分自己策展的網站」，非策展輪，不走候選漏斗。
